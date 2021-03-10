@@ -1,0 +1,649 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ACS712-thmalmeida
+#
+DEF ACS712-thmalmeida IC 0 1 Y Y 1 F N
+F0 "IC" -150 275 30 H V C CNN
+F1 "ACS712-thmalmeida" 100 275 30 H V C CNN
+F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 75 -325 60 H I C CNN
+F3 "" -70 150 60 H V C CNN
+F4 "20" 0 550 60 H I C CNN "Rated Current [A]"
+F5 "ACS712" 0 375 60 H I C CNN "Part Number"
+F6 "Allegro" 0 475 60 H I C CNN "Manufacturer"
+F7 "xx" 0 650 60 H I C CNN "Module"
+F8 "yes" -25 725 60 H I C CNN "Placed Onboard?"
+DRAW
+S -200 -250 -200 -250 0 1 0 N
+S 200 250 -200 -250 0 1 0 f
+X IP+ 1 -300 200 100 R 30 30 1 1 I
+X IP+ 2 -300 100 100 R 30 30 1 1 I
+X IP- 3 -300 -100 100 R 30 30 1 1 I
+X IP- 4 -300 -200 100 R 30 30 1 1 I
+X GND 5 300 -150 100 L 30 30 1 1 W
+X Filter 6 300 -50 100 L 30 30 1 1 I
+X VIOUT 7 300 50 100 L 30 30 1 1 O
+X VCC 8 300 150 100 L 30 30 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Bridge_Rectifier-thmalmeida
+#
+DEF Bridge_Rectifier-thmalmeida Rectifier 0 40 Y N 1 F N
+F0 "Rectifier" -125 175 35 H V L CNN
+F1 "Bridge_Rectifier-thmalmeida" 0 -175 30 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-543" -25 250 60 H I C CNN
+F3 "" 100 150 60 H V C CNN
+F4 "xxxx" 0 325 60 H I C CNN "Part Number"
+F5 "MMMM" 0 375 60 H I C CNN "Manufacturer"
+F6 "yes" 0 475 60 H I C CNN "Placed Onboard?"
+$FPLIST
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$ENDFPLIST
+DRAW
+S -150 150 150 -150 0 1 0 f
+P 2 0 1 0 -25 0 -100 0 N
+P 2 0 1 0 25 -35 25 35 N
+P 2 0 1 0 25 0 100 0 N
+P 4 0 1 0 -25 35 -25 -35 25 0 -25 35 F
+X Positive 1 250 100 100 L 30 40 1 1 w
+X Negative 2 250 -100 100 L 30 40 1 1 w
+X AC_Input 3 -250 -100 100 R 30 40 1 1 W
+X AC_Input 4 -250 100 100 R 30 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# CONN_3X1-thmalmeida
+#
+DEF CONN_3X1-thmalmeida Conn 0 40 Y Y 1 F N
+F0 "Conn" 125 0 35 V V C CNN
+F1 "CONN_3X1-thmalmeida" 75 0 31 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -50 150 50 -150 0 1 0 f
+X 1 1 -150 100 100 R 39 39 1 1 P
+X 2 2 -150 0 100 R 39 39 1 1 P
+X 3 3 -150 -100 100 R 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_4X1-thmalmeida
+#
+DEF CONN_4X1-thmalmeida Conn 0 40 Y Y 1 F N
+F0 "Conn" 175 0 39 V V C CNN
+F1 "CONN_4X1-thmalmeida" 100 0 39 V V C CNN
+F2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" 30 -270 60 H I C CNN
+F3 "" 0 250 60 H V C CNN
+F4 "xxxx" 0 300 60 H I C CNN "Part Number"
+F5 "MM" 0 400 60 H I C CNN "Manufacturer"
+F6 "mm" 0 500 60 H I C CNN "Module"
+F7 "no" 0 600 60 H I C CNN "Placed Onboard?"
+DRAW
+S -50 200 50 -200 0 1 8 f
+X 1 1 -150 150 100 R 39 39 1 1 P
+X 2 2 -150 50 100 R 39 39 1 1 P
+X 3 3 -150 -50 100 R 39 39 1 1 P
+X 4 4 -150 -150 100 R 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_6X1-thmalmeida
+#
+DEF CONN_6X1-thmalmeida Conn 0 40 Y Y 1 F N
+F0 "Conn" 90 200 35 V V C CNN
+F1 "CONN_6X1-thmalmeida" 90 -170 35 V V C CNN
+F2 "Pin_Headers:Pin_Header_Straight_1x06" 90 -360 60 H I C CNN
+F3 "" 50 50 60 H V C CNN
+DRAW
+S -50 300 50 -300 0 1 0 f
+X 1 1 -150 250 100 R 31 31 1 1 P
+X 2 2 -150 150 100 R 31 31 1 1 P
+X 3 3 -150 50 100 R 31 31 1 1 P
+X 4 4 -150 -50 100 R 31 31 1 1 P
+X 5 5 -150 -150 100 R 31 31 1 1 B
+X 6 6 -150 -250 100 R 31 31 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_6X1_DIL-[GenericBoard]-standard-pcb-rescue
+#
+DEF CONN_6X1_DIL-[GenericBoard]-standard-pcb-rescue Conn 0 40 Y Y 1 F N
+F0 "Conn" -50 350 35 H V C CNN
+F1 "CONN_6X1_DIL-[GenericBoard]-standard-pcb-rescue" 75 -100 35 V V C CNN
+F2 "Pin_Headers:Pin_Header_Straight_1x06" 100 -400 60 H I C CNN
+F3 "" 50 50 60 H V C CNN
+DRAW
+S -50 300 50 -300 0 1 0 f
+X 1 1 -200 250 150 R 31 31 1 1 P
+X 2 2 -200 150 150 R 31 31 1 1 P
+X 3 3 -200 50 150 R 31 31 1 1 P
+X 4 4 -200 -50 150 R 31 31 1 1 P
+X 5 5 -200 -150 150 R 31 31 1 1 B
+X 6 6 -200 -250 150 R 31 31 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue
+#
+DEF CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C 0 0 N N 1 F N
+F0 "C" -50 40 30 V V C CNN
+F1 "CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" 50 70 25 V V C CNN
+F2 "Capacitors_SMD:c_elec_5x4.5" 25 -200 60 H I C CNN
+F3 "" -50 40 60 V V C CNN
+F4 "vv" 0 250 60 H I C CNN "Rated Voltage [V]"
+F5 "pppp" 0 -300 60 H I C CNN "Part Number"
+F6 "mmmm" 0 350 60 H I C CNN "Manufacturer"
+F7 "MM" 0 425 60 H I C CNN "Module"
+F8 "yes" 0 550 60 H I C CNN "Placed Onboard?"
+DRAW
+A 75 0 70 1350 -1350 0 1 0 N 25 50 25 -50
+P 3 0 1 0 -50 -30 -50 -10 -50 -10 N
+P 3 0 1 0 -40 -20 -60 -20 -60 -20 N
+P 3 0 1 0 -25 50 -25 -50 -25 -50 N
+X GND 1 100 0 95 L 25 25 1 1 P
+X ~ 2 -100 0 75 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP_Micro-thmalmeida
+#
+DEF CP_Micro-thmalmeida C 0 0 N N 1 F N
+F0 "C" 30 50 30 H V C CNN
+F1 "CP_Micro-thmalmeida" 100 -50 25 H V C CNN
+F2 "Capacitors_SMD:c_elec_5x4.5" 375 -200 60 H I C CNN
+F3 "" 40 50 60 H V C CNN
+F4 "vv" 350 -100 60 H I C CNN "Rated Voltage [V]"
+F5 "10" 350 300 60 H I C CNN "Tolerance [%]"
+F6 "pppp" 350 -300 60 H I C CNN "Part Number"
+F7 "mmmm" 350 0 60 H I C CNN "Manufacturer"
+F8 "MM" 350 75 60 H I C CNN "Module"
+F9 "yes" 350 200 60 H I C CNN "Placed Onboard?"
+DRAW
+A 0 -75 70 450 1350 0 1 0 N 50 -25 -50 -25
+P 3 0 1 0 -30 50 -10 50 -10 50 N
+P 3 0 1 0 -20 40 -20 60 -20 60 N
+P 3 0 1 0 50 25 -50 25 -50 25 N
+X ~ 1 0 100 75 D 25 25 1 1 P
+X GND 2 0 -100 95 U 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue
+#
+DEF C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C 0 0 N N 1 F N
+F0 "C" -50 40 30 V V C CNN
+F1 "C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" 50 70 25 V V C CNN
+F2 "" -150 -60 60 V I C CNN
+F3 "" -50 40 60 V V C CNN
+F4 "xx" -150 250 60 V I C CNN "Rated Voltage [V]"
+F5 "xxxx" -50 250 60 V I C CNN "Part Number"
+F6 "yyyy" 50 250 60 V I C CNN "Manufacture"
+F7 "xxx" 350 440 60 V I C CNN "Module"
+F8 "yes" 450 540 60 V I C CNN "Placed Onboard?"
+DRAW
+P 3 0 1 0 -25 -50 -25 50 -25 50 f
+P 3 0 1 0 25 -50 25 50 25 50 f
+X A 1 -100 0 75 R 25 25 1 1 P
+X B 2 100 0 75 L 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_2_thm-thmalmeida
+#
+DEF Conn_2_thm-thmalmeida Conn 0 40 Y Y 1 F N
+F0 "Conn" 0 -150 39 H V C CNN
+F1 "Conn_2_thm-thmalmeida" 0 200 39 H V C CNN
+F2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" 0 0 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -50 150 100 -100 0 1 0 f
+X S1 1 -150 100 100 R 30 30 1 1 P
+X S2 2 -150 -50 100 R 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_2-thmalmeida
+#
+DEF Connector_2-thmalmeida Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 50 26 V V C CNN
+F1 "Connector_2-thmalmeida" 100 50 26 V V C CNN
+F2 "" 0 25 60 H V C CNN
+F3 "" 0 25 60 H V C CNN
+DRAW
+S -50 150 75 -100 0 1 0 f
+X S1 1 -150 100 100 R 30 30 1 1 B
+X S2 2 -150 -50 100 R 30 30 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Diode-thmalmeida
+#
+DEF Diode-thmalmeida D 0 40 N N 1 F N
+F0 "D" -86 48 39 H V C CNN
+F1 "Diode-thmalmeida" 62 49 31 H V C CNN
+F2 "" -25 -50 60 H I C CNN
+F3 "" 75 50 60 H I C CNN
+F4 "350" 175 150 60 H I C CNN "Reverse voltage [V]"
+F5 "10" 275 250 60 H I C CNN "Rated Current [A]"
+F6 "xxxx" 375 350 60 H I C CNN "Part Number"
+F7 "MM" 475 450 60 H I C CNN "Manufacturer"
+F8 "yes" 575 550 60 H I C CNN "Placed Onboard?"
+F9 "mmmm" 675 650 60 H I C CNN "Module"
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 6 -25 25 -25 -25 N
+P 3 0 1 0 -25 -25 25 0 -25 25 F
+P 2 1 1 6 24 25 24 -25 N
+X +Anode 1 -100 0 75 R 50 50 1 1 P
+X -Cathode 2 100 0 75 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ESP32-thmalmeida
+#
+DEF ESP32-thmalmeida IC 0 40 Y Y 1 F N
+F0 "IC" 50 850 50 H V C CNN
+F1 "ESP32-thmalmeida" 50 1000 50 H V C CNN
+F2 "thmalmeida:ESP32_DEVKIT" 50 1200 60 H I C CNN
+F3 "" -250 -750 60 H I C CNN
+F4 "Espressif" 100 1450 60 H I C CNN "Manufacturer"
+F5 "ESP-WROOM-32" 100 1350 60 H I C CNN "Partnumber"
+F6 "https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf" 0 0 50 H I C CNN "Technical Manual"
+DRAW
+S -1500 1100 1500 -1000 0 1 0 f
+X 3V3 1 -1700 950 197 R 39 39 1 1 W
+X GPIO26/ADC2_9/DAC_2 10 -1700 50 197 R 39 39 1 1 B
+X GPIO27/ADC2_7 11 -1700 -50 197 R 39 39 1 1 B
+X GPIO14/ADC2_6/TMS 12 -1700 -150 197 R 39 39 1 1 B
+X GPIO12/ADC2_5/TDI 13 -1700 -250 197 R 39 39 1 1 B
+X GND 14 -1700 -350 197 R 39 39 1 1 W
+X GPIO13/ADC2_4/TCK 15 -1700 -450 197 R 39 39 1 1 B
+X GPIO09/SD2/U1_RXD/FLASH-D2 16 -1700 -550 197 R 39 39 1 1 B
+X GPIO10/SD3/U1_TXD/FLASH-D3 17 -1700 -650 197 R 39 39 1 1 B
+X GPIO11/SPI_CS0/U1_RTS/HS1_CMD/SD_CMD/FLASH-CMD 18 -1700 -750 197 R 39 39 1 1 B
+X 5V5 19 -1700 -850 197 R 39 39 1 1 W
+X RST/JTAG_RST/CHIP-PU 2 -1700 850 197 R 39 39 1 1 I
+X FLASH-SCK/GPIO06 20 1700 -850 197 L 39 39 1 1 I
+X FLASH-D0/GPIO07 21 1700 -750 197 L 39 39 1 1 B
+X FLASH-D1/GPIO08 22 1700 -650 197 L 39 39 1 1 B
+X TDO/ADC2_3/GPIO15 23 1700 -550 197 L 39 39 1 1 B
+X OnBoard_LED/ADC2_2/GPIO02 24 1700 -450 197 L 39 39 1 1 B
+X ADC2_1/GPIO00 25 1700 -350 197 L 39 39 1 1 B
+X ADC2_0/GPIO04 26 1700 -250 197 L 39 39 1 1 B
+X U2_RXD/GPIO16 27 1700 -150 197 L 39 39 1 1 B
+X U2_TXD/GPIO17 28 1700 -50 197 L 39 39 1 1 B
+X SPI_SS/GPIO05 29 1700 50 197 L 39 39 1 1 B
+X GPIO36/ADC1_0/ADC_PA/RTCIO_0/SensVP 3 -1700 750 197 R 39 39 1 1 B
+X SPI_SCK/GPIO18 32 1700 150 197 L 39 39 1 1 B
+X SPI_MISO/GPIO19 33 1700 250 197 L 39 39 1 1 B
+X GND 34 1700 350 197 L 39 39 1 1 W
+X Wire_SDA/GPIO21 35 1700 450 197 L 39 39 1 1 B
+X PROGRAM-PORT/U0_RXD/GPIO03 36 1700 550 197 L 39 39 1 1 B
+X U0_RTS/WIRE-SDL/GPIO22 36 1700 750 197 L 39 39 1 1 B
+X PROGRAM-PORT/U0_TXD/GPIO01 37 1700 650 197 L 39 39 1 1 B
+X SPI_MOSI/GPIO23 37 1700 850 197 L 39 39 1 1 B
+X GND 38 1700 950 197 L 39 39 1 1 W
+X GPIO39/SensVN/ADC1_3/RTCIO-3/ADC-PA 4 -1700 650 197 R 39 39 1 1 B
+X GPIO34/VDET-1/ADC1_6/RTCIO4 5 -1700 550 197 R 39 39 1 1 B
+X GPIO35/ADC1_7 6 -1700 450 197 R 39 39 1 1 B
+X GPIO32/ADC1_4 7 -1700 350 197 R 39 39 1 1 B
+X GPIO33/ADC1_5/TOUCH8/XTAL32 8 -1700 250 197 R 39 39 1 1 B
+X GPIO25/ADC2_8/DAC_1 9 -1700 150 197 R 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Fuse-thmalmeida
+#
+DEF Fuse-thmalmeida F 0 0 N N 1 F N
+F0 "F" -70 50 25 H V C CNN
+F1 "Fuse-thmalmeida" 70 50 20 H V C CNN
+F2 "Resistors_SMD:R_1812" 0 -100 60 H I C CNN
+F3 "" -70 50 60 H V C CNN
+F4 "6" 0 550 60 H I C CNN "Rated Voltage [V]"
+F5 "0.5" 0 650 60 H I C CNN "Rated Current [A]"
+F6 "MSMD0805-050" 0 150 60 H I C CNN "Part Number"
+F7 "VISHAY" 0 250 60 H I C CNN "Manufacturer"
+F8 "xx" 0 350 60 H I C CNN "Module"
+F9 "yes" 0 450 60 H I C CNN "Placed Onboard?"
+DRAW
+A -37 0 37 1 1799 0 1 0 N 0 0 -75 0
+A 37 5 37 -1723 -75 0 1 0 N 0 0 75 0
+X A 1 100 0 25 L 25 25 1 1 P
+X B 2 -100 0 25 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND0-thmalmeida
+#
+DEF GND0-thmalmeida #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND0-thmalmeida" 75 -50 28 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 0 -25 0 0 N
+P 4 0 1 0 -25 -25 25 -25 0 -50 -25 -25 F
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# JTAG_CONN-20-thmalmeida
+#
+DEF JTAG_CONN-20-thmalmeida Conn 0 40 Y Y 1 F N
+F0 "Conn" 0 350 35 V V C CNN
+F1 "JTAG_CONN-20-thmalmeida" 0 0 35 V V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" 150 600 60 H I C CNN
+F3 "" 0 259 60 H V C CNN
+DRAW
+S -250 500 250 -500 0 1 0 f
+X VTref/3V3 1 -350 450 100 R 31 31 1 1 P
+X GND 10 350 50 100 L 31 31 1 1 P
+X RTCK 11 -350 -50 100 R 31 31 1 1 P
+X GND 12 350 -50 100 L 31 31 1 1 P
+X TDO 13 -350 -150 100 R 31 31 1 1 P
+X GND 14 350 -150 100 L 31 31 1 1 P
+X RESET 15 -350 -250 100 R 31 31 1 1 P
+X GND 16 350 -250 100 L 31 31 1 1 P
+X DBGRQ 17 -350 -350 100 R 31 31 1 1 P
+X GND 18 350 -350 100 L 31 31 1 1 P
+X 5V-Supply 19 -350 -450 100 R 31 31 1 1 P
+X -- 2 350 450 100 L 31 31 1 1 N
+X GND 20 350 -450 100 L 31 31 1 1 P
+X nTRST 3 -350 350 100 R 31 31 1 1 P
+X GND 4 350 350 100 L 31 31 1 1 P
+X TDI 5 -350 250 100 R 31 31 1 1 P
+X GND 6 350 250 100 L 31 31 1 1 P
+X TMS 7 -350 150 100 R 31 31 1 1 P
+X GND 8 350 150 100 L 31 31 1 1 P
+X TCK 9 -350 50 100 R 31 31 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper-thmalmeida
+#
+DEF Jumper-thmalmeida J 0 0 N N 1 F N
+F0 "J" -100 50 25 H V C CNN
+F1 "Jumper-thmalmeida" 75 50 20 H V C CNN
+F2 "thmalmeida:J_0603" 0 125 60 H I C CNN
+F3 "" -25 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -75 0 -100 0 N
+P 2 0 1 0 -75 0 -50 0 N
+P 3 0 1 0 75 0 50 0 0 0 N
+P 5 0 1 0 25 -25 -25 -25 -25 0 -25 25 25 25 N
+X A 1 -100 0 75 R 25 25 1 1 P
+X B 2 100 0 25 L 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LNK306-thmalmeida
+#
+DEF LNK306-thmalmeida U 0 40 Y Y 1 F N
+F0 "U" -150 -150 28 H V C CNN
+F1 "LNK306-thmalmeida" 100 -150 28 H V C CNN
+F2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" 200 300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "600" 0 550 60 H I C CNN "Rated Voltage [V]"
+F5 "pppp" 0 400 60 H I C CNN "Partnumber"
+F6 "M" 0 450 60 H I C CNN "Manufacturer"
+F7 "yes" 0 700 60 H I C CNN "Placed Onboard?"
+$FPLIST
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$ENDFPLIST
+DRAW
+S -200 100 200 -100 0 1 0 f
+X D 1 -300 -50 100 R 24 24 1 1 W
+X S 2 300 -50 100 L 24 24 1 1 w
+X FB 3 -100 200 100 D 24 24 1 1 I
+X BP 4 100 200 100 D 24 24 1 1 W
+ENDDRAW
+ENDDEF
+#
+# L_Micro-thmalmeida
+#
+DEF L_Micro-thmalmeida L 0 0 N N 1 F N
+F0 "L" 25 25 24 H V C CNN
+F1 "L_Micro-thmalmeida" 75 -75 24 H V C CNN
+F2 "Inductors:SELF-WE-PD-XXL" 25 -225 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "I" 0 400 60 H I C CNN "Rated Current [A]"
+F5 "pppp" 0 -125 60 H I C CNN "Part Number"
+F6 "MMMM" 0 25 60 H I C CNN "Manufacturer"
+F7 "MMMM" 0 200 60 H I C CNN "Module"
+F8 "yes" 0 325 60 H I C CNN "Placed Onboard?"
+DRAW
+A 0 -50 25 901 -901 0 1 0 N 0 -25 0 -75
+A 0 0 25 901 -901 0 1 0 N 0 25 0 -25
+A 0 50 25 901 -901 0 1 0 N 0 75 0 25
+X A 1 0 100 25 D 25 25 1 1 P
+X B 2 0 -100 25 U 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue
+#
+DEF Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue D 0 0 N N 1 F N
+F0 "D" -70 50 25 H V C CNN
+F1 "Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" 70 50 20 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -75 0 75 0 N
+P 4 0 1 0 -25 25 -25 -25 25 0 -25 25 F
+P 4 0 1 0 10 -30 30 -20 40 -40 60 -30 N
+P 4 0 1 0 60 -50 40 -60 30 -40 10 -50 N
+P 4 0 1 0 60 -40 60 -60 70 -50 60 -40 F
+P 4 0 1 0 60 -20 60 -40 70 -30 60 -20 F
+X A 1 100 0 25 L 25 25 1 1 P
+X B 2 -100 0 25 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Led_Micro-thmalmeida
+#
+DEF Led_Micro-thmalmeida D 0 0 N N 1 F N
+F0 "D" -70 50 25 H V C CNN
+F1 "Led_Micro-thmalmeida" 70 50 20 H V C CNN
+F2 "LEDs:LED-5MM" -10 -100 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "MM" 0 150 60 H I C CNN "Manufacturer"
+F5 "pppp" 0 250 60 H I C CNN "Part Number"
+F6 "mmmm" 0 350 60 H I C CNN "Module"
+F7 "yes" 0 450 60 H I C CNN "Placed Onboard?"
+F8 "1 m" 0 550 60 H I C CNN "Rated Power  [W]"
+DRAW
+P 2 0 1 0 25 -25 25 25 N
+P 2 0 1 0 75 0 -75 0 N
+P 4 0 1 0 -25 -25 -25 25 25 0 -25 -25 F
+P 4 0 1 0 -7 -31 13 -21 23 -41 43 -31 N
+P 4 0 1 0 43 -51 23 -61 13 -41 -7 -51 N
+P 4 0 1 0 43 -41 43 -61 53 -51 43 -41 F
+P 4 0 1 0 43 -21 43 -41 53 -31 43 -21 F
+X +Anode 1 -100 0 25 R 25 25 1 1 P
+X -Catode 2 100 0 25 L 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NPN-thmalmeida
+#
+DEF NPN-thmalmeida T 0 40 Y Y 1 F N
+F0 "T" -70 90 39 H V C CNN
+F1 "NPN-thmalmeida" -60 -90 39 H I C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" -140 -220 60 H I C CNN
+F3 "" -40 -120 60 H V C CNN
+F4 "pppp" 60 0 60 H I C CNN "Part Number"
+F5 "mmmm" 160 80 60 H I C CNN "Manufacturer"
+F6 "yes" 260 180 60 H I C CNN "Placed Onboard?"
+F7 "MM" 360 280 60 H I C CNN "Module"
+DRAW
+P 2 0 1 0 -40 0 0 0 N
+P 2 0 1 0 0 -75 0 75 N
+P 2 0 1 0 0 -30 100 -100 N
+P 2 0 1 0 0 30 100 100 N
+P 4 0 1 0 60 -100 90 -60 100 -100 60 -100 F
+X B 1 -100 0 63 R 30 30 1 1 I
+X E 2 100 -150 53 U 30 30 1 1 I
+X C 3 100 150 51 D 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Optocoupler-thmalmeida
+#
+DEF Optocoupler-thmalmeida Opto 0 40 Y N 1 F N
+F0 "Opto" 80 240 35 H V C CNN
+F1 "Optocoupler-thmalmeida" 125 -185 30 H V C CNN
+F2 "Housings_DIP:DIP-6_W7.62mm" 50 300 60 H I C CNN
+F3 "" 100 150 60 H V C CNN
+F4 "xxxx" 0 400 60 H I C CNN "Part Number"
+F5 "MMMM" 0 500 60 H I C CNN "Manufacturer"
+F6 "yes" 0 600 60 H I C CNN "Placed Onboard?"
+$FPLIST
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$ENDFPLIST
+DRAW
+S -200 200 200 -150 0 1 0 f
+P 2 0 1 0 -160 0 -90 0 N
+P 2 0 1 0 25 0 175 0 N
+P 2 0 1 0 25 50 175 50 N
+P 3 0 1 0 100 0 100 -100 200 -100 N
+P 3 0 1 0 200 150 100 150 100 50 N
+P 4 0 1 0 -200 150 -125 150 -125 -100 -200 -100 N
+P 4 0 1 0 -90 50 -160 50 -125 0 -90 50 F
+P 4 0 1 0 -75 -15 -55 5 -40 -15 -25 0 N
+P 4 0 1 0 -75 25 -55 45 -40 25 -25 40 N
+P 4 0 1 0 -30 10 -15 -5 -15 10 -30 10 f
+P 4 0 1 0 -30 50 -15 35 -15 50 -30 50 f
+P 4 0 1 0 95 50 25 50 60 0 95 50 F
+P 4 0 1 0 105 0 175 0 140 50 105 0 F
+X Anode 1 -300 150 100 R 30 40 1 1 P
+X Cathode 2 -300 -100 100 R 30 40 1 1 P
+X G 4 300 -100 100 L 30 40 1 1 P
+X G 6 300 150 100 L 30 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PNP-thmalmeida
+#
+DEF PNP-thmalmeida T 0 40 Y Y 1 F N
+F0 "T" -80 90 39 H V C CNN
+F1 "PNP-thmalmeida" -60 -90 39 H I C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" -140 -220 60 H I C CNN
+F3 "" -40 -120 60 H V C CNN
+F4 "xxxx" 60 -20 60 H I C CNN "Part Number"
+F5 "yyyy" 160 80 60 H I C CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -40 0 0 0 N
+P 2 0 1 0 0 -75 0 75 N
+P 2 0 1 0 0 -30 100 -100 N
+P 2 0 1 0 0 30 100 95 N
+P 4 0 1 0 50 35 25 75 10 35 50 35 F
+X B 1 -100 0 63 R 30 30 1 1 O
+X E 2 100 150 53 D 30 30 1 1 I
+X C 3 100 -150 51 U 30 30 1 1 O
+ENDDRAW
+ENDDEF
+#
+# R_Micro-thmalmeida
+#
+DEF R_Micro-thmalmeida R 0 0 N N 1 F N
+F0 "R" 30 60 25 H V C CNN
+F1 "R_Micro-thmalmeida" 70 -50 20 H V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" 75 -125 60 H I C CNN
+F3 "" 50 70 60 V V C CNN
+F4 "0.1" 0 575 60 H I C CNN "Rated Power [W]"
+F5 "5" 0 650 60 H I C CNN "Tolerance [%]"
+F6 "MCT08050F1001C" 0 250 60 H I C CNN "Part Number"
+F7 "VISHAY" 0 350 60 H I C CNN "Manufacturer"
+F8 "xx" 0 450 60 H I C CNN "Module"
+F9 "yes" 0 525 60 H I C CNN "Placed Onboard?"
+DRAW
+P 3 0 1 0 0 -75 -25 -50 -25 -50 N
+P 3 0 1 0 0 75 -25 50 -25 50 N
+P 6 0 1 0 -25 50 25 25 -25 0 25 -25 -25 -50 -25 -50 N
+X A 1 0 100 25 D 25 25 1 1 P
+X B 2 0 -100 25 U 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ScrewHole-thmalmeida
+#
+DEF ScrewHole-thmalmeida E 0 0 N N 1 F N
+F0 "E" 0 -100 60 H V C CNN
+F1 "ScrewHole-thmalmeida" 0 100 60 H I C CNN
+F2 "thmalmeida:ScrewHole_4.2mm" -100 -200 60 H I C CNN
+F3 "" 0 -100 60 H V C CNN
+DRAW
+C 0 0 50 0 1 0 F
+ENDDRAW
+ENDDEF
+#
+# TRIAC_Micro-thmalmeida
+#
+DEF TRIAC_Micro-thmalmeida T 0 40 Y N 1 F N
+F0 "T" 50 150 35 H V C CNN
+F1 "TRIAC_Micro-thmalmeida" 0 0 30 H V C CNN
+F2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical" -50 50 60 H I C CNN
+F3 "" 50 150 60 H V C CNN
+F4 "xxxx" 150 250 60 H I C CNN "Part Number"
+F5 "MMMM" 250 350 60 H I C CNN "Manufacturer"
+F6 "yes" 350 450 60 H I C CNN "Placed Onboard?"
+$FPLIST
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -100 -50 100 -50 100 -50 N
+P 3 0 1 0 100 50 -100 50 -100 50 N
+P 4 0 1 0 -50 -50 -100 -100 -100 -100 -100 -100 N
+P 5 0 1 0 50 50 0 -50 100 -50 50 50 50 50 F
+P 6 0 1 0 -100 50 0 50 -50 -50 -100 50 -100 50 -100 50 F
+X K 1 0 -150 100 U 30 40 1 1 P
+X A 2 0 150 100 D 30 40 1 1 P
+X G 3 -200 -100 100 R 30 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VR_Micro-thmalmeida
+#
+DEF VR_Micro-thmalmeida VR 0 0 N N 1 F N
+F0 "VR" -70 -40 25 H V C CNN
+F1 "VR_Micro-thmalmeida" 70 50 20 H V C CNN
+F2 "Varistors:RV_Disc_D12_W3.9_P7.5" -170 -50 60 H I C CNN
+F3 "" -70 50 60 H I C CNN
+F4 "0.1" 0 150 60 H I C CNN "Rated Power [W]"
+F5 "120" 530 560 60 H I C CNN "Rated Voltage [V]"
+F6 "xxxx" 0 250 60 H I C CNN "Part Number"
+F7 "VISHAY" 0 350 60 H I C CNN "Manufacturer"
+F8 "xx" 330 450 60 H I C CNN "Module"
+F9 "no" 430 550 60 H I C CNN "Placed Onboard?"
+DRAW
+P 2 0 1 0 -70 50 60 -50 N
+P 2 0 1 0 60 -50 100 -50 N
+P 3 0 1 0 -50 25 -75 0 -75 0 N
+P 3 0 1 0 50 25 75 0 75 0 N
+P 6 0 1 0 -50 25 -25 -25 0 25 25 -25 50 25 50 25 N
+X A 1 100 0 25 L 25 25 1 1 P
+X B 2 -100 0 25 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

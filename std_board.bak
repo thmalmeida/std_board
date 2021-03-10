@@ -1,0 +1,3762 @@
+EESchema Schematic File Version 4
+LIBS:std_board-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L thmalmeida:R_Micro R37
+U 1 1 570B1454
+P 8200 650
+F 0 "R37" H 8130 700 25  0000 C CNN
+F 1 "360" H 8270 700 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 8030 600 60  0001 C CNN
+F 3 "" H 8130 700 60  0000 C CNN
+F 4 "0.1" H 8200 800 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 8200 900 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 8200 1000 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 8530 1100 60  0001 C CNN "Module"
+F 8 "yes" H 8630 1200 60  0001 C CNN "Placed Onboard?"
+	1    8200 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:Optocoupler Opto1
+U 1 1 570B1468
+P 7750 800
+F 0 "Opto1" H 7770 955 35  0000 C CNN
+F 1 "Optocoupler" H 7875 615 30  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 7800 1100 60  0001 C CNN
+F 3 "" H 7850 950 60  0000 C CNN
+F 4 "xxxx" H 7750 1200 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 7750 1300 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 7750 1400 60  0001 C CNN "Placed Onboard?"
+	1    7750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR023
+U 1 1 570B148F
+P 7450 1100
+F 0 "#PWR023" H 7450 850 50  0001 C CNN
+F 1 "GND0" H 7525 1050 28  0000 C CNN
+F 2 "" H 7450 1100 60  0000 C CNN
+F 3 "" H 7450 1100 60  0000 C CNN
+	1    7450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR021
+U 1 1 570B1495
+P 7350 1100
+F 0 "#PWR021" H 7350 850 50  0001 C CNN
+F 1 "GND0" H 7425 1050 28  0000 C CNN
+F 2 "" H 7350 1100 60  0000 C CNN
+F 3 "" H 7350 1100 60  0000 C CNN
+	1    7350 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L std_board-rescue:Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue D3
+U 1 1 570B149B
+P 7350 1000
+F 0 "D3" H 7280 1050 25  0000 C CNN
+F 1 "Led_Micro" H 7420 1050 20  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7550 1250 60  0001 C CNN
+F 3 "" H 7350 1000 60  0000 C CNN
+	1    7350 1000
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R33
+U 1 1 570B14A9
+P 7100 650
+F 0 "R33" H 7030 700 25  0000 C CNN
+F 1 "R_Micro" H 7170 700 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6930 600 60  0001 C CNN
+F 3 "" H 7030 700 60  0000 C CNN
+F 4 "0.1" H 7100 800 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 7100 900 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 7100 1000 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 7430 1100 60  0001 C CNN "Module"
+F 8 "yes" H 7530 1200 60  0001 C CNN "Placed Onboard?"
+	1    7100 650 
+	1    0    0    -1  
+$EndComp
+Text Label 8750 1200 0    47   ~ 0
+Load01
+Text Label 7000 4300 2    47   ~ 0
+i02
+Text Label 7000 4400 2    47   ~ 0
+i03
+Text Label 7000 4500 2    47   ~ 0
+i04
+Text Label 7000 4200 2    47   ~ 0
+i01
+$Comp
+L thmalmeida:R_Micro R39
+U 1 1 570D4FDC
+P 8650 700
+F 0 "R39" H 8580 750 25  0000 C CNN
+F 1 "47" H 8720 750 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 8480 650 60  0001 C CNN
+F 3 "" H 8580 750 60  0000 C CNN
+F 4 "0.1" H 8650 850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 8650 950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 8650 1050 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 8980 1150 60  0001 C CNN "Module"
+F 8 "yes" H 9080 1250 60  0001 C CNN "Placed Onboard?"
+	1    8650 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J13
+U 1 1 570D5C24
+P 8800 700
+F 0 "J13" H 8750 750 25  0000 C CNN
+F 1 "Jumper" H 8875 750 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 8825 700 60  0001 C CNN
+F 3 "" H 8825 700 60  0000 C CNN
+	1    8800 700 
+	0    1    1    0   
+$EndComp
+Text Label 8450 500  0    47   ~ 0
+Power_AC_2
+Text Label 7000 4000 2    47   ~ 0
+VDD
+Text Label 7000 4100 2    47   ~ 0
+GND
+Text Notes 2800 6800 0    67   ~ 13
+Power Supply 9 VAC to 5 VDC or 3.3 VDC
+Text Label 1600 7250 2    45   ~ 9
+9VAC
+Text Notes 650  5450 0    60   ~ 12
+NRST
+Text Label 750  6000 2    39   ~ 0
+~RST
+$Comp
+L thmalmeida:SW_Push U1
+U 1 1 5710D500
+P 850 6200
+F 0 "U1" H 825 6150 31  0000 C CNN
+F 1 "SW_Push" H 850 6300 28  0000 C CNN
+F 2 "thmalmeida:J_0603" H 850 6200 60  0001 C CNN
+F 3 "" H 850 6200 60  0000 C CNN
+F 4 "PTS645SK50SMTR92 LFS" H 850 6200 60  0001 C CNN "Part Number"
+F 5 "C&K Components" H 850 6200 60  0001 C CNN "Manufacturer"
+	1    850  6200
+	0    1    1    0   
+$EndComp
+Text Notes 9550 5800 0    60   ~ 12
+JTAG Debugger
+Text GLabel 5750 2300 2    39   Input ~ 8
+R04
+Text GLabel 5750 2200 2    39   Input ~ 8
+R05
+$Comp
+L thmalmeida:GND0 #PWR03
+U 1 1 5710D504
+P 850 6450
+F 0 "#PWR03" H 850 6200 50  0001 C CNN
+F 1 "GND0" H 925 6400 28  0000 C CNN
+F 2 "" H 850 6450 60  0000 C CNN
+F 3 "" H 850 6450 60  0000 C CNN
+	1    850  6450
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5750 2400 2    39   Input ~ 8
+R03
+Text GLabel 5750 2000 2    39   Input ~ 8
+R07
+Text GLabel 5750 1900 2    39   Input ~ 8
+R08
+Text GLabel 5750 2100 2    39   Input ~ 8
+R06
+Text GLabel 5750 2500 2    39   Input ~ 8
+R02
+Text GLabel 5750 2600 2    39   Input ~ 8
+R01
+Text Label 9450 6150 2    39   ~ 0
+ISP_SCK
+Text Label 9450 6050 2    39   ~ 0
+ISP_MISO
+Text Label 10250 6150 0    39   ~ 0
+ISP_MOSI
+Text Label 2700 4850 3    45   ~ 9
+PRess_out
+Text Notes 1150 3200 0    55   ~ 11
+Water Level Sensors
+Text Label 1450 2300 2    39   ~ 0
+iSensor
+Text Label 1450 2100 2    39   ~ 0
+vSensor
+Text Label 2700 3650 2    45   ~ 9
+B1
+Text Label 3900 3650 2    45   ~ 9
+K3
+Text Label 3600 3650 2    45   ~ 9
+K2
+Text Label 3300 3650 2    45   ~ 9
+K1
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C7
+U 1 1 5710D529
+P 2800 5000
+F 0 "C7" V 2750 5040 30  0000 C CNN
+F 1 "10 nF" V 2850 5070 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2650 4940 60  0001 C CNN
+F 3 "" V 2750 5040 60  0000 C CNN
+F 4 "16" V 2650 5250 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 2750 5250 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 2850 5250 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 3150 5440 60  0001 C CNN "Module"
+F 8 "yes" V 3250 5540 60  0001 C CNN "Placed Onboard?"
+	1    2800 5000
+	0    1    -1   0   
+$EndComp
+Text Notes 3150 3200 0    55   ~ 11
+Digital Input
+$Comp
+L thmalmeida:R_Micro R18
+U 1 1 5710D53A
+P 2800 3500
+F 0 "R18" H 2730 3550 25  0000 C CNN
+F 1 "100 k" H 2870 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2630 3450 60  0001 C CNN
+F 3 "" H 2730 3550 60  0000 C CNN
+F 4 "0.1" H 2800 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 2800 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 2800 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 3130 3950 60  0001 C CNN "Module"
+F 8 "yes" H 3230 4050 60  0001 C CNN "Placed Onboard?"
+	1    2800 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C6
+U 1 1 5710D547
+P 2700 3800
+F 0 "C6" V 2650 3840 30  0000 C CNN
+F 1 "100 nF" V 2750 3870 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2550 3740 60  0001 C CNN
+F 3 "" V 2650 3840 60  0000 C CNN
+F 4 "16" V 2550 4050 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 2650 4050 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 2750 4050 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 3050 4240 60  0001 C CNN "Module"
+F 8 "yes" V 3150 4340 60  0001 C CNN "Placed Onboard?"
+	1    2700 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R3
+U 1 1 5710D54B
+P 850 5850
+F 0 "R3" H 780 5900 25  0000 C CNN
+F 1 "100 k" H 920 5900 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 680 5800 60  0001 C CNN
+F 3 "" H 780 5900 60  0000 C CNN
+F 4 "0.1" H 850 6000 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 850 6100 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 850 6200 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1180 6300 60  0001 C CNN "Module"
+F 8 "yes" H 1280 6400 60  0001 C CNN "Placed Onboard?"
+	1    850  5850
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J9
+U 1 1 5710D558
+P 2800 4700
+F 0 "J9" H 2750 4750 25  0000 C CNN
+F 1 "J_PRess" H 2875 4750 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2825 4700 60  0001 C CNN
+F 3 "" H 2825 4700 60  0000 C CNN
+	1    2800 4700
+	0    -1   1    0   
+$EndComp
+Text Label 1650 6150 0    39   ~ 0
+mRef
+$Comp
+L thmalmeida:R_Micro R11
+U 1 1 5710D559
+P 1650 6300
+F 0 "R11" H 1580 6350 25  0000 C CNN
+F 1 "33 k" H 1720 6350 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1480 6250 60  0001 C CNN
+F 3 "" H 1580 6350 60  0000 C CNN
+F 4 "0.1" H 1650 6450 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 1650 6550 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1650 6650 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 1980 6750 60  0001 C CNN "Module"
+F 8 "yes" H 2080 6850 60  0001 C CNN "Placed Onboard?"
+	1    1650 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R10
+U 1 1 5710D55A
+P 1650 6000
+F 0 "R10" H 1580 6050 25  0000 C CNN
+F 1 "33 k" H 1720 6050 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1480 5950 60  0001 C CNN
+F 3 "" H 1580 6050 60  0000 C CNN
+F 4 "0.1" H 1650 6150 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 1650 6250 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1650 6350 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 1980 6450 60  0001 C CNN "Module"
+F 8 "yes" H 2080 6550 60  0001 C CNN "Placed Onboard?"
+	1    1650 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L std_board-rescue:CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C5
+U 1 1 5710D55B
+P 1750 6350
+F 0 "C5" V 1700 6390 30  0000 C CNN
+F 1 "22 uF" V 1800 6420 25  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical" H 1750 6350 60  0001 C CNN
+F 3 "" H 1750 6350 60  0000 C CNN
+	1    1750 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR06
+U 1 1 5710D55C
+P 1650 6450
+F 0 "#PWR06" H 1650 6200 50  0001 C CNN
+F 1 "GND0" H 1725 6400 28  0000 C CNN
+F 2 "" H 1650 6450 60  0000 C CNN
+F 3 "" H 1650 6450 60  0000 C CNN
+	1    1650 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R7
+U 1 1 5710D55D
+P 1200 6300
+F 0 "R7" H 1130 6350 25  0000 C CNN
+F 1 "3.3 k" H 1270 6350 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1030 6250 60  0001 C CNN
+F 3 "" H 1130 6350 60  0000 C CNN
+F 4 "0.1" H 1200 6450 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 1200 6550 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1200 6650 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 1530 6750 60  0001 C CNN "Module"
+F 8 "yes" H 1630 6850 60  0001 C CNN "Placed Onboard?"
+	1    1200 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R6
+U 1 1 5710D55E
+P 1200 5700
+F 0 "R6" H 1130 5750 25  0000 C CNN
+F 1 "500 k" H 1270 5750 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1030 5650 60  0001 C CNN
+F 3 "" H 1130 5750 60  0000 C CNN
+F 4 "0.1" H 1200 5850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 1200 5950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1200 6050 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 1530 6150 60  0001 C CNN "Module"
+F 8 "yes" H 1630 6250 60  0001 C CNN "Placed Onboard?"
+	1    1200 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:CONN_3X1 Conn1
+U 1 1 5710D55F
+P 2400 6350
+F 0 "Conn1" V 2525 6350 35  0000 C CNN
+F 1 "CONN_3X1" V 2475 6350 31  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 6350 60  0001 C CNN
+F 3 "" H 2400 6350 60  0000 C CNN
+	1    2400 6350
+	1    0    0    -1  
+$EndComp
+Text Label 2250 6450 2    39   ~ 0
+PhaseOUT
+$Comp
+L thmalmeida:VR_Micro VR1
+U 1 1 5710D560
+P 1400 7400
+F 0 "VR1" H 1330 7360 25  0000 C CNN
+F 1 "VR_Micro" H 1470 7450 20  0000 C CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" H 1230 7350 60  0001 C CNN
+F 3 "" H 1330 7450 60  0001 C CNN
+F 4 "0.1" H 1400 7550 60  0001 C CNN "Rated Power [W]"
+F 5 "120" H 1930 7960 60  0001 C CNN "Rated Voltage [V]"
+F 6 "xxxx" H 1400 7650 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 1400 7750 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 1730 7850 60  0001 C CNN "Module"
+F 9 "no" H 1830 7950 60  0001 C CNN "Placed Onboard?"
+	1    1400 7400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 950  1100 0    39   Input ~ 8
+L01
+Text GLabel 950  1200 0    39   Input ~ 8
+L02
+Text GLabel 950  1300 0    39   Input ~ 8
+L03
+Text Label 9700 6050 2    39   ~ 0
+TDH
+Text Label 9700 6150 2    39   ~ 0
+TDI
+Text Label 10100 6150 0    39   ~ 0
+TDO
+Text Label 9700 6250 2    39   ~ 0
+NRST
+Text Label 10100 6250 0    39   ~ 0
+GND
+Text Label 10100 6050 0    39   ~ 0
+TCK
+$Comp
+L thmalmeida:ScrewHole E1
+U 1 1 5710D581
+P 650 6700
+F 0 "E1" H 650 6600 60  0000 C CNN
+F 1 "ScrewHole" H 650 6800 60  0001 C CNN
+F 2 "thmalmeida:ScrewHole_4.2mm" H 550 6500 60  0001 C CNN
+F 3 "" H 650 6600 60  0000 C CNN
+	1    650  6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:ScrewHole E2
+U 1 1 5710D582
+P 800 6700
+F 0 "E2" H 800 6600 60  0000 C CNN
+F 1 "ScrewHole" H 800 6800 60  0001 C CNN
+F 2 "thmalmeida:ScrewHole_4.2mm" H 700 6500 60  0001 C CNN
+F 3 "" H 800 6600 60  0000 C CNN
+	1    800  6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:ScrewHole E3
+U 1 1 5710D583
+P 950 6700
+F 0 "E3" H 950 6600 60  0000 C CNN
+F 1 "ScrewHole" H 950 6800 60  0001 C CNN
+F 2 "thmalmeida:ScrewHole_4.2mm" H 850 6500 60  0001 C CNN
+F 3 "" H 950 6600 60  0000 C CNN
+	1    950  6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:ScrewHole E4
+U 1 1 5710D584
+P 1100 6700
+F 0 "E4" H 1100 6600 60  0000 C CNN
+F 1 "ScrewHole" H 1100 6800 60  0001 C CNN
+F 2 "thmalmeida:ScrewHole_4.2mm" H 1000 6500 60  0001 C CNN
+F 3 "" H 1100 6600 60  0000 C CNN
+	1    1100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Connector_2 +12VAC1
+U 1 1 5710D585
+P 700 7500
+F 0 "+12VAC1" V 875 7525 26  0000 C CNN
+F 1 "PowerSupply" V 825 7525 26  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 7500 60  0001 C CNN
+F 3 "" H 700 7500 60  0000 C CNN
+	1    700  7500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 950  1400 0    39   Input ~ 8
+L04
+Text GLabel 950  1500 0    39   Input ~ 8
+L05
+Text GLabel 950  1600 0    39   Input ~ 8
+L06
+Text GLabel 950  1700 0    39   Input ~ 8
+L07
+Text GLabel 950  1800 0    39   Input ~ 8
+L08
+Text GLabel 950  1900 0    39   Input ~ 8
+L09
+Text GLabel 950  2000 0    39   Input ~ 8
+L10
+Text GLabel 950  2100 0    39   Input ~ 8
+L11
+Text GLabel 950  2300 0    39   Input ~ 8
+L12
+Text GLabel 950  2400 0    39   Input ~ 8
+L13
+Text GLabel 950  2500 0    39   Input ~ 8
+L14
+Text GLabel 950  2600 0    39   Input ~ 8
+L15
+Text GLabel 950  1000 0    39   Input ~ 8
+NRST
+Text Label 1600 2200 2    39   ~ 0
+GND
+Text GLabel 5750 1000 2    39   Input ~ 8
+R17
+Text Label 5100 900  0    39   ~ 0
+GND
+Text Label 1600 2700 2    39   ~ 0
++5V
+$Comp
+L thmalmeida:TRIAC_Micro T5
+U 1 1 570B1449
+P 8400 700
+F 0 "T5" H 8450 850 35  0000 C CNN
+F 1 "TRIAC_Micro" H 8400 700 30  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8350 750 60  0001 C CNN
+F 3 "" H 8450 850 60  0000 C CNN
+F 4 "xxxx" H 8550 950 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 8650 1050 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 8750 1150 60  0001 C CNN "Placed Onboard?"
+	1    8400 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper J11
+U 1 1 570F3C14
+P 7350 750
+F 0 "J11" H 7300 800 25  0000 C CNN
+F 1 "Jumper" H 7425 800 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 7375 750 60  0001 C CNN
+F 3 "" H 7375 750 60  0000 C CNN
+	1    7350 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R34
+U 1 1 570F405A
+P 7100 850
+F 0 "R34" H 7030 900 25  0000 C CNN
+F 1 "R_Micro" H 7170 900 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6930 800 60  0001 C CNN
+F 3 "" H 7030 900 60  0000 C CNN
+F 4 "0.1" H 7100 1000 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 7100 1100 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 7100 1200 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 7430 1300 60  0001 C CNN "Module"
+F 8 "yes" H 7530 1400 60  0001 C CNN "Placed Onboard?"
+	1    7100 850 
+	-1   0    0    1   
+$EndComp
+Text Label 6950 650  2    47   ~ 0
+i01
+Text GLabel 5750 1100 2    39   Input ~ 8
+R16
+Text GLabel 5750 1200 2    39   Input ~ 8
+R15
+Text GLabel 5750 1300 2    39   Input ~ 8
+R14
+Text GLabel 5750 1400 2    39   Input ~ 8
+R13
+Text GLabel 5750 1500 2    39   Input ~ 8
+R12
+Text GLabel 5750 1600 2    39   Input ~ 8
+R11
+Text GLabel 5750 1700 2    39   Input ~ 8
+R10
+Text GLabel 5750 1800 2    39   Input ~ 8
+R09
+Text Label 1450 1500 2    45   ~ 9
+K1_in
+Text Label 1250 1700 2    45   ~ 9
+K3_in
+Text Label 1450 1400 2    45   ~ 9
+T1_in
+Text Label 5100 1300 0    39   ~ 0
+uC_TX
+Text Label 1600 1600 2    45   ~ 9
+LL
+Text Label 1600 1700 2    45   ~ 9
+MLL
+Text Label 1600 1800 2    45   ~ 9
+MHL
+Text Label 1450 2000 2    45   ~ 9
+PRess
+Text Label 1650 1000 2    39   ~ 0
+~RST
+Text Label 5100 2600 0    47   Italic 9
+D_K1
+Text Label 5100 2500 0    47   Italic 9
+D_K2
+Text Label 5100 2400 0    47   Italic 9
+D_K3
+Text Label 5100 2300 0    47   Italic 9
+D_01
+Text Label 5100 2200 0    47   Italic 9
+D_02
+Text Label 5100 2000 0    47   Italic 9
+D_04
+Text Label 1250 1900 2    47   Italic 9
+D_07
+Text Label 1250 1800 2    47   Italic 9
+D_08
+Text Label 1250 2600 2    47   Italic 9
+D_05
+Text Label 1250 1200 2    47   Italic 9
+D_10
+Text Label 1250 1600 2    45   ~ 9
+K2_in
+$Comp
+L thmalmeida:GND0 #PWR011
+U 1 1 571A657F
+P 2800 4000
+F 0 "#PWR011" H 2800 3750 50  0001 C CNN
+F 1 "GND0" H 2875 3950 28  0000 C CNN
+F 2 "" H 2800 4000 60  0000 C CNN
+F 3 "" H 2800 4000 60  0000 C CNN
+	1    2800 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR015
+U 1 1 571A680F
+P 3400 4000
+F 0 "#PWR015" H 3400 3750 50  0001 C CNN
+F 1 "GND0" H 3475 3950 28  0000 C CNN
+F 2 "" H 3400 4000 60  0000 C CNN
+F 3 "" H 3400 4000 60  0000 C CNN
+	1    3400 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR016
+U 1 1 571A69C8
+P 3700 4000
+F 0 "#PWR016" H 3700 3750 50  0001 C CNN
+F 1 "GND0" H 3775 3950 28  0000 C CNN
+F 2 "" H 3700 4000 60  0000 C CNN
+F 3 "" H 3700 4000 60  0000 C CNN
+	1    3700 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR017
+U 1 1 571A6C58
+P 4000 4000
+F 0 "#PWR017" H 4000 3750 50  0001 C CNN
+F 1 "GND0" H 4075 3950 28  0000 C CNN
+F 2 "" H 4000 4000 60  0000 C CNN
+F 3 "" H 4000 4000 60  0000 C CNN
+	1    4000 4000
+	-1   0    0    -1  
+$EndComp
+Text Notes 1100 5450 0    60   ~ 12
+Voltage Sensor
+Text Notes 2300 5450 0    60   ~ 12
+Current Sensor
+$Comp
+L thmalmeida:Fuse F2
+U 1 1 57181B6A
+P 1200 7250
+F 0 "F2" H 1130 7300 25  0000 C CNN
+F 1 "Fuse" H 1270 7300 20  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 1200 7150 60  0001 C CNN
+F 3 "" H 1130 7300 60  0000 C CNN
+F 4 "6" H 1200 7800 60  0001 C CNN "Rated Voltage [V]"
+F 5 "0.5" H 1200 7900 60  0001 C CNN "Rated Current [A]"
+F 6 "MSMD0805-050" H 1200 7400 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 1200 7500 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 1200 7600 60  0001 C CNN "Module"
+F 9 "yes" H 1200 7700 60  0001 C CNN "Placed Onboard?"
+	1    1200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Fuse F1
+U 1 1 571828FB
+P 1200 7150
+F 0 "F1" H 1130 7200 25  0000 C CNN
+F 1 "Fuse" H 1270 7200 20  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 1200 7050 60  0001 C CNN
+F 3 "" H 1130 7200 60  0000 C CNN
+F 4 "6" H 1200 7700 60  0001 C CNN "Rated Voltage [V]"
+F 5 "0.5" H 1200 7800 60  0001 C CNN "Rated Current [A]"
+F 6 "MSMD0805-050" H 1200 7300 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 1200 7400 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 1200 7500 60  0001 C CNN "Module"
+F 9 "yes" H 1200 7600 60  0001 C CNN "Placed Onboard?"
+	1    1200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper FuseJump1
+U 1 1 57185A9C
+P 1200 7000
+F 0 "FuseJump1" H 1050 7050 25  0000 C CNN
+F 1 "Jumper" H 1275 7050 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 1225 7000 60  0001 C CNN
+F 3 "" H 1225 7000 60  0000 C CNN
+	1    1200 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Bridge_Rectifier Rectifier1
+U 1 1 571908B1
+P 1850 7450
+F 0 "Rectifier1" H 1725 7625 35  0000 L CNN
+F 1 "Bridge_Rectifier" H 1850 7275 30  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-543" H 1825 7700 60  0001 C CNN
+F 3 "" H 1950 7600 60  0000 C CNN
+F 4 "xxxx" H 1850 7775 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 1850 7825 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 1850 7925 60  0001 C CNN "Placed Onboard?"
+	1    1850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R21
+U 1 1 5720627C
+P 3000 5700
+F 0 "R21" H 2930 5750 25  0000 C CNN
+F 1 "2.2 k" H 3070 5750 20  0000 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric" H 2830 5650 60  0001 C CNN
+F 3 "" H 2930 5750 60  0000 C CNN
+F 4 "0.1" H 3000 5850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 3000 5950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3000 6050 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 3000 6150 60  0001 C CNN "Module"
+F 8 "yes" H 3000 6250 60  0001 C CNN "Placed Onboard?"
+	1    3000 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R22
+U 1 1 57206AAB
+P 3000 5950
+F 0 "R22" H 2930 6000 25  0000 C CNN
+F 1 "3.3 k" H 3070 6000 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2830 5900 60  0001 C CNN
+F 3 "" H 2930 6000 60  0000 C CNN
+F 4 "0.1" H 3000 6100 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 3000 6200 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3000 6300 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 3000 6400 60  0001 C CNN "Module"
+F 8 "yes" H 3000 6500 60  0001 C CNN "Placed Onboard?"
+	1    3000 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:ACS712 IC1
+U 1 1 5720B807
+P 2350 5850
+F 0 "IC1" H 2200 6125 30  0000 C CNN
+F 1 "ACS712" H 2450 6125 30  0000 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2425 5525 60  0001 C CNN
+F 3 "" H 2280 6000 60  0000 C CNN
+F 4 "20" H 2350 6400 60  0001 C CNN "Rated Current [A]"
+F 5 "ACS712" H 2350 6225 60  0001 C CNN "Part Number"
+F 6 "Allegro" H 2350 6325 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 2350 6500 60  0001 C CNN "Module"
+F 8 "yes" H 2325 6575 60  0001 C CNN "Placed Onboard?"
+	1    2350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C8
+U 1 1 5720D846
+P 2800 5950
+F 0 "C8" V 2750 5990 30  0000 C CNN
+F 1 "330 nF" V 2850 6020 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2800 5950 60  0001 C CNN
+F 3 "" H 2800 5950 60  0000 C CNN
+	1    2800 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C11
+U 1 1 5720E720
+P 3200 5850
+F 0 "C11" V 3150 5890 30  0000 C CNN
+F 1 "330 nF" V 3250 5920 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 5850 60  0001 C CNN
+F 3 "" H 3200 5850 60  0000 C CNN
+	1    3200 5850
+	0    1    1    0   
+$EndComp
+Text Label 2000 5650 2    39   ~ 0
+IP+
+Text Label 2000 5950 2    39   ~ 0
+IP-
+Text Label 1250 5550 0    45   ~ 9
+Phase_R
+Text Label 900  7250 0    45   ~ 9
+Ph_R
+Text Label 900  7650 0    45   ~ 9
+Ph_S
+Text Label 1250 6150 0    45   ~ 9
+Phase_S
+Text Label 1200 5850 0    39   ~ 0
+vSensor
+Text Label 2250 6350 2    45   ~ 9
+Phase_S
+Text Label 2250 6250 2    45   ~ 9
+Phase_R
+Text Label 2800 3350 2    45   ~ 9
+VDD
+Text Label 3400 3350 2    45   ~ 9
+VDD
+Text Label 3700 3350 2    45   ~ 9
+VDD
+Text Label 4000 3350 2    45   ~ 9
+VDD
+Text Label 850  5700 2    39   ~ 0
+VDD
+Text Label 1650 5850 0    39   ~ 0
+Vdd
+Text Label 1600 900  2    39   ~ 0
+VDD
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C17
+U 1 1 572C8E4D
+P 4100 7150
+F 0 "C17" V 4050 7190 30  0000 C CNN
+F 1 "100 nF" V 4150 7220 25  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1058_1x2032" V 3950 7090 60  0001 C CNN
+F 3 "" V 4050 7190 60  0000 C CNN
+F 4 "16" V 3950 7400 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 4050 7400 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 4150 7400 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 4450 7590 60  0001 C CNN "Module"
+F 8 "yes" V 4550 7690 60  0001 C CNN "Placed Onboard?"
+	1    4100 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L std_board-rescue:CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C18
+U 1 1 572D42E7
+P 4600 7150
+F 0 "C18" V 4550 7190 30  0000 C CNN
+F 1 "10 uF" V 4650 7220 25  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 4625 6950 60  0001 C CNN
+F 3 "" V 4550 7190 60  0000 C CNN
+F 4 "35" H 4600 7400 60  0001 C CNN "Rated Voltage [V]"
+F 5 "pppp" H 4600 6850 60  0001 C CNN "Part Number"
+F 6 "mmmm" H 4600 7500 60  0001 C CNN "Manufacturer"
+F 7 "MM" H 4600 7575 60  0001 C CNN "Module"
+F 8 "yes" H 4600 7700 60  0001 C CNN "Placed Onboard?"
+	1    4600 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:L_Micro L3
+U 1 1 572E0F4F
+P 4750 7300
+F 0 "L3" H 4675 7275 24  0000 C CNN
+F 1 "1 mH" H 4800 7275 24  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 4775 7075 60  0001 C CNN
+F 3 "" H 4750 7300 60  0000 C CNN
+F 4 "280 m" H 4750 7700 60  0001 C CNN "Rated Current [A]"
+F 5 "pppp" H 4750 7175 60  0001 C CNN "Part Number"
+F 6 "MMMM" H 4750 7400 60  0001 C CNN "Manufacturer"
+F 7 "MMMM" H 4750 7500 60  0001 C CNN "Module"
+F 8 "yes" H 4750 7625 60  0001 C CNN "Placed Onboard?"
+	1    4750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Diode D1
+U 1 1 572E4247
+P 4450 7450
+F 0 "D1" H 4525 7500 39  0000 C CNN
+F 1 "Diode" H 4375 7500 31  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4425 7400 60  0001 C CNN
+F 3 "" H 4525 7500 60  0001 C CNN
+F 4 "350" H 4625 7600 60  0001 C CNN "Reverse voltage [V]"
+F 5 "10" H 4725 7700 60  0001 C CNN "Rated Current [A]"
+F 6 "xxxx" H 4825 7800 60  0001 C CNN "Part Number"
+F 7 "MM" H 4925 7900 60  0001 C CNN "Manufacturer"
+F 8 "yes" H 5025 8000 60  0001 C CNN "Placed Onboard?"
+F 9 "mmmm" H 5125 8100 60  0001 C CNN "Module"
+	1    4450 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR019
+U 1 1 572ED479
+P 4450 7650
+F 0 "#PWR019" H 4450 7400 50  0001 C CNN
+F 1 "GND0" H 4525 7600 28  0000 C CNN
+F 2 "" H 4450 7650 60  0000 C CNN
+F 3 "" H 4450 7650 60  0000 C CNN
+	1    4450 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:LNK306 U2
+U 1 1 572FC821
+P 3750 7250
+F 0 "U2" H 3600 7100 28  0000 C CNN
+F 1 "LNK306" H 3850 7100 28  0000 C CNN
+F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" H 3950 7550 60  0001 C CNN
+F 3 "" H 3750 7250 60  0000 C CNN
+F 4 "600" H 3750 7800 60  0001 C CNN "Rated Voltage [V]"
+F 5 "pppp" H 3750 7650 60  0001 C CNN "Partnumber"
+F 6 "M" H 3750 7700 60  0001 C CNN "Manufacturer"
+F 7 "yes" H 3750 7950 60  0001 C CNN "Placed Onboard?"
+	1    3750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R30
+U 1 1 57301AA0
+P 4300 7150
+F 0 "R30" H 4230 7200 25  0000 C CNN
+F 1 "2.05" H 4370 7200 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4130 7100 60  0001 C CNN
+F 3 "" H 4230 7200 60  0000 C CNN
+F 4 "0.1" H 4300 7300 60  0001 C CNN "Rated Power [W]"
+F 5 "1" H 4830 7800 60  0001 C CNN "Tolerance [%]"
+F 6 "MCT06030F1001C" H 4300 7400 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 4300 7500 60  0001 C CNN "Manufacturer"
+F 8 "powerSupply" H 4300 7600 60  0001 C CNN "Module"
+F 9 "yes" H 4300 7700 60  0001 C CNN "Placed Onboard?"
+	1    4300 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R31
+U 1 1 573027E5
+P 4450 6950
+F 0 "R31" H 4380 7000 25  0000 C CNN
+F 1 "13 k" H 4520 7000 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4280 6900 60  0001 C CNN
+F 3 "" H 4380 7000 60  0000 C CNN
+F 4 "0.1" H 4450 7100 60  0001 C CNN "Rated Power [W]"
+F 5 "1" H 4980 7600 60  0001 C CNN "Tolerance [%]"
+F 6 "MCT06030F1001C" H 4450 7200 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 4450 7300 60  0001 C CNN "Manufacturer"
+F 8 "powerSupply" H 4450 7400 60  0001 C CNN "Module"
+F 9 "yes" H 4450 7500 60  0001 C CNN "Placed Onboard?"
+	1    4450 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R32
+U 1 1 57308DF8
+P 5100 7450
+F 0 "R32" H 5030 7500 25  0000 C CNN
+F 1 "13 k" H 5170 7500 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4930 7400 60  0001 C CNN
+F 3 "" H 5030 7500 60  0000 C CNN
+F 4 "0.1" H 5100 7600 60  0001 C CNN "Rated Power [W]"
+F 5 "1" H 5630 8100 60  0001 C CNN "Tolerance [%]"
+F 6 "MCT06030F1001C" H 5100 7700 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 5100 7800 60  0001 C CNN "Manufacturer"
+F 8 "powerSupply" H 5100 7900 60  0001 C CNN "Module"
+F 9 "yes" H 5100 8000 60  0001 C CNN "Placed Onboard?"
+	1    5100 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:L_Micro L1
+U 1 1 5730C027
+P 3150 7300
+F 0 "L1" H 3075 7275 24  0000 C CNN
+F 1 "1 mH" H 3200 7275 24  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 3175 7075 60  0001 C CNN
+F 3 "" H 3150 7300 60  0000 C CNN
+F 4 "280 m" H 3150 7700 60  0001 C CNN "Rated Current [A]"
+F 5 "pppp" H 3150 7175 60  0001 C CNN "Part Number"
+F 6 "MMMM" H 3150 7400 60  0001 C CNN "Manufacturer"
+F 7 "MMMM" H 3150 7500 60  0001 C CNN "Module"
+F 8 "yes" H 3150 7625 60  0001 C CNN "Placed Onboard?"
+	1    3150 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L std_board-rescue:CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C10
+U 1 1 5730C312
+P 3000 7450
+F 0 "C10" V 2950 7490 30  0000 C CNN
+F 1 "100 uF" V 3050 7520 25  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 3025 7250 60  0001 C CNN
+F 3 "" V 2950 7490 60  0000 C CNN
+F 4 "16" H 3000 7700 60  0001 C CNN "Rated Voltage [V]"
+F 5 "pppp" H 3000 7150 60  0001 C CNN "Part Number"
+F 6 "mmmm" H 3000 7800 60  0001 C CNN "Manufacturer"
+F 7 "MM" H 3000 7875 60  0001 C CNN "Module"
+F 8 "yes" H 3000 8000 60  0001 C CNN "Placed Onboard?"
+	1    3000 7450
+	0    1    1    0   
+$EndComp
+Text Label 3000 7300 2    39   ~ 8
+VCC1
+Text Label 3000 7600 2    39   ~ 8
+GND
+Text Label 2150 7550 0    39   ~ 8
+GND
+Text Label 9600 4050 3    47   ~ 0
+Power_AC_2
+Text Label 9050 4050 3    47   ~ 0
+Power_AC
+Text Label 9400 4550 2    47   ~ 0
+Common
+Text Label 10050 4500 2    47   ~ 0
+Load08
+Text Label 8450 4300 2    47   ~ 0
+i06
+Text Label 8450 4400 2    47   ~ 0
+i07
+Text Label 8450 4500 2    47   ~ 0
+i08
+Text Label 8450 4200 2    47   ~ 0
+i05
+Text Label 8450 4000 2    47   ~ 0
+VDD
+Text Label 8450 4100 2    47   ~ 0
+GND
+Text Label 7200 7100 2    45   ~ 9
+LL
+Text Label 7700 6600 2    45   ~ 9
+MLL
+Text Label 7700 6700 2    45   ~ 9
+MHL
+Text Label 7700 6800 2    45   ~ 9
+HL
+Text Label 7200 6600 2    45   ~ 9
+PRess
+Text Label 2650 5800 0    39   ~ 0
+iSensor
+Text Label 1600 1900 2    45   ~ 9
+HL
+Text Label 1250 1100 2    47   Italic 9
+D_11
+Text Label 5300 1000 0    47   ~ 0
+SDA
+Text Label 5300 1100 0    47   ~ 0
+SCL
+Text Label 1600 2600 2    47   Italic 9
+WiFi_TX
+Text Label 1600 2500 2    47   Italic 9
+WiFi_RX
+Text Label 1450 2400 2    39   ~ 0
+iSensor2
+Text Label 5100 2100 0    47   Italic 9
+D_03
+Text Label 1250 2500 2    47   Italic 9
+D_06
+Text Label 1250 1300 2    47   Italic 9
+D_09
+Text Label 10050 4400 2    47   ~ 0
+Load07
+Text Label 10050 4300 2    47   ~ 0
+Load06
+Text Label 10050 4200 2    47   ~ 0
+Load05
+Text Label 10050 4000 2    47   ~ 0
+Power_AC
+Text Label 10050 4100 2    47   ~ 0
+Common
+Text Label 10800 4500 2    47   ~ 0
+Load04
+Text Label 10800 4400 2    47   ~ 0
+Load03
+Text Label 10800 4300 2    47   ~ 0
+Load02
+Text Label 10800 4200 2    47   ~ 0
+Load01
+Text Label 10800 4000 2    47   ~ 0
+Power_AC
+Text Label 10800 4100 2    47   ~ 0
+Common
+Text Label 7700 7000 2    47   Italic 9
+D_K2
+Text Label 7700 7100 2    47   Italic 9
+D_K3
+Text Label 8200 6800 2    47   Italic 9
+D_03
+Text Label 8200 6900 2    47   Italic 9
+D_04
+Text Label 8200 7000 2    47   Italic 9
+D_05
+Text Label 8700 7000 2    47   Italic 9
+D_11
+Text Label 8700 6900 2    47   Italic 9
+D_10
+Text Label 8700 6800 2    47   Italic 9
+D_09
+Text Label 8700 6700 2    47   Italic 9
+D_08
+Text Label 8700 6600 2    47   Italic 9
+D_07
+Text Label 8200 7100 2    47   Italic 9
+D_06
+Text Label 8200 6700 2    47   Italic 9
+D_02
+Text Label 8200 6600 2    47   Italic 9
+D_01
+Text Label 7200 6800 2    45   ~ 9
+K1_in
+Text Label 7200 7000 2    45   ~ 9
+K3_in
+Text Label 7200 6900 2    45   ~ 9
+K2_in
+Text Label 7200 6700 2    45   ~ 9
+T1_in
+$Comp
+L thmalmeida:L_Micro L2
+U 1 1 57435150
+P 3600 5800
+F 0 "L2" H 3525 5775 24  0000 C CNN
+F 1 "L_Micro" H 3650 5775 24  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 3625 5575 60  0001 C CNN
+F 3 "" H 3600 5800 60  0000 C CNN
+F 4 "I" H 3600 6200 60  0001 C CNN "Rated Current [A]"
+F 5 "pppp" H 3600 5675 60  0001 C CNN "Part Number"
+F 6 "MMMM" H 3600 5900 60  0001 C CNN "Manufacturer"
+F 7 "MMMM" H 3600 6000 60  0001 C CNN "Module"
+F 8 "yes" H 3600 6125 60  0001 C CNN "Placed Onboard?"
+	1    3600 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R26
+U 1 1 5743567B
+P 3750 5800
+F 0 "R26" H 3680 5850 25  0000 C CNN
+F 1 "3.3 k" H 3820 5850 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3580 5750 60  0001 C CNN
+F 3 "" H 3680 5850 60  0000 C CNN
+F 4 "0.1" H 3750 5950 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 3750 6050 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3750 6150 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 3750 6250 60  0001 C CNN "Module"
+F 8 "yes" H 3750 6350 60  0001 C CNN "Placed Onboard?"
+	1    3750 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R29
+U 1 1 574358F7
+P 4050 6100
+F 0 "R29" H 3980 6150 25  0000 C CNN
+F 1 "3.3 k" H 4120 6150 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3880 6050 60  0001 C CNN
+F 3 "" H 3980 6150 60  0000 C CNN
+F 4 "0.1" H 4050 6250 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 4050 6350 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 4050 6450 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 4050 6550 60  0001 C CNN "Module"
+F 8 "yes" H 4050 6650 60  0001 C CNN "Placed Onboard?"
+	1    4050 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R28
+U 1 1 57435B5E
+P 4050 5800
+F 0 "R28" H 3980 5850 25  0000 C CNN
+F 1 "3.3 k" H 4120 5850 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3880 5750 60  0001 C CNN
+F 3 "" H 3980 5850 60  0000 C CNN
+F 4 "0.1" H 4050 5950 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 4050 6050 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 4050 6150 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 4050 6250 60  0001 C CNN "Module"
+F 8 "yes" H 4050 6350 60  0001 C CNN "Placed Onboard?"
+	1    4050 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C16
+U 1 1 574366EA
+P 3900 6100
+F 0 "C16" V 3850 6140 30  0000 C CNN
+F 1 "330 nF" V 3950 6170 25  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_500" H 3900 6100 60  0001 C CNN
+F 3 "" H 3900 6100 60  0000 C CNN
+	1    3900 6100
+	0    -1   1    0   
+$EndComp
+Text Label 3600 5650 0    39   ~ 0
+iSensorV
+Text Label 4050 5650 0    39   ~ 0
++3.3V
+$Comp
+L thmalmeida:GND0 #PWR018
+U 1 1 57441B43
+P 4050 6250
+F 0 "#PWR018" H 4050 6000 50  0001 C CNN
+F 1 "GND0" H 4125 6200 28  0000 C CNN
+F 2 "" H 4050 6250 60  0000 C CNN
+F 3 "" H 4050 6250 60  0000 C CNN
+	1    4050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR014
+U 1 1 57441D8B
+P 3200 6100
+F 0 "#PWR014" H 3200 5850 50  0001 C CNN
+F 1 "GND0" H 3275 6050 28  0000 C CNN
+F 2 "" H 3200 6100 60  0000 C CNN
+F 3 "" H 3200 6100 60  0000 C CNN
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  900  0    39   Input ~ 8
++3.3V
+Text GLabel 5750 900  2    39   Input ~ 8
+GND
+Text GLabel 950  2700 0    39   Input ~ 8
++5V
+Text Label 7700 6900 2    47   Italic 9
+D_K1
+Text Label 3200 5550 2    45   ~ 9
++5V
+$Comp
+L thmalmeida:Jumper IC_REG1
+U 1 1 574B8550
+P 2300 7200
+F 0 "IC_REG1" H 2200 7250 25  0000 C CNN
+F 1 "J_PRess" H 2375 7250 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2325 7200 60  0001 C CNN
+F 3 "" H 2325 7200 60  0000 C CNN
+	1    2300 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper J10
+U 1 1 574B87F6
+P 5250 7100
+F 0 "J10" H 5200 7150 25  0000 C CNN
+F 1 "J_PRess" H 5325 7150 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 5275 7100 60  0001 C CNN
+F 3 "" H 5275 7100 60  0000 C CNN
+	1    5250 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper SMPS1
+U 1 1 574BF7DE
+P 2300 7050
+F 0 "SMPS1" H 2200 7100 25  0000 C CNN
+F 1 "J_PRess" H 2375 7100 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2325 7050 60  0001 C CNN
+F 3 "" H 2325 7050 60  0000 C CNN
+	1    2300 7050
+	-1   0    0    -1  
+$EndComp
+Text Label 2500 7050 0    39   ~ 8
+VCC1
+Text Label 2500 7200 0    39   ~ 8
+VCC2
+$Comp
+L thmalmeida:R_Micro R20
+U 1 1 574CEE6D
+P 3000 5000
+F 0 "R20" H 2930 5050 25  0000 C CNN
+F 1 "220 k" H 3070 5050 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2830 4950 60  0001 C CNN
+F 3 "" H 2930 5050 60  0000 C CNN
+F 4 "0.1" H 3000 5150 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 3000 5250 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3000 5350 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 3330 5450 60  0001 C CNN "Module"
+F 8 "yes" H 3430 5550 60  0001 C CNN "Placed Onboard?"
+	1    3000 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R19
+U 1 1 574CF0F4
+P 3000 4700
+F 0 "R19" H 2930 4750 25  0000 C CNN
+F 1 "120 k" H 3070 4750 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2830 4650 60  0001 C CNN
+F 3 "" H 2930 4750 60  0000 C CNN
+F 4 "0.1" H 3000 4850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 3000 4950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3000 5050 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 3330 5150 60  0001 C CNN "Module"
+F 8 "yes" H 3430 5250 60  0001 C CNN "Placed Onboard?"
+	1    3000 4700
+	0    -1   1    0   
+$EndComp
+Text Label 3000 4550 2    45   ~ 9
+PRess_in
+$Comp
+L thmalmeida:GND0 #PWR012
+U 1 1 574D7000
+P 3000 5150
+F 0 "#PWR012" H 3000 4900 50  0001 C CNN
+F 1 "GND0" H 3075 5100 28  0000 C CNN
+F 2 "" H 3000 5150 60  0000 C CNN
+F 3 "" H 3000 5150 60  0000 C CNN
+	1    3000 5150
+	-1   0    0    -1  
+$EndComp
+Text Label 5100 1200 0    39   ~ 0
+uC_RX
+Text Label 5350 1300 0    39   ~ 0
+BT_RX
+Text Label 5350 1200 0    39   ~ 0
+BT_TX
+Text Label 8100 4050 3    47   ~ 0
+Power_AC_2
+Text Label 7550 4050 3    47   ~ 0
+Power_AC
+Text Label 7900 4550 2    47   ~ 0
+Common
+Text Notes 3600 5450 0    60   ~ 12
+Current Sensor
+$Comp
+L thmalmeida:CONN_6X1 pinout2
+U 1 1 576A4B79
+P 7350 6850
+F 0 "pinout2" V 7440 7050 35  0000 C CNN
+F 1 "CONN_6X1" V 7440 6680 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7440 6490 60  0001 C CNN
+F 3 "" H 7400 6900 60  0000 C CNN
+	1    7350 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 1350 6800 0    67   ~ 13
+Voltage +9V -> +3V3
+Text Label 6050 7100 0    39   ~ 0
++3V3
+$Comp
+L thmalmeida:GND0 #PWR020
+U 1 1 57D33FC8
+P 6150 7650
+F 0 "#PWR020" H 6150 7400 50  0001 C CNN
+F 1 "GND0" H 6225 7600 28  0000 C CNN
+F 2 "" H 6150 7650 60  0000 C CNN
+F 3 "" H 6150 7650 60  0000 C CNN
+	1    6150 7650
+	1    0    0    -1  
+$EndComp
+Text Label 5800 7600 0    39   ~ 0
+GND
+$Comp
+L thmalmeida:AMS1117-V IC3
+U 1 1 57D33FD9
+P 5800 7150
+F 0 "IC3" H 5650 7025 40  0000 C CNN
+F 1 "AMS1117-3.3" H 5800 7295 40  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5800 7400 60  0001 C CNN
+F 3 "" H 5650 7025 60  0000 C CNN
+F 4 "AMS" H 5800 7500 60  0001 C CNN "Manufacturer"
+F 5 "power_source" H 5800 7900 60  0001 C CNN "Module"
+F 6 "yes" H 5800 7600 60  0001 C CNN "Placed Onboard?"
+F 7 "12" H 5800 7800 60  0001 C CNN "Rated Voltage [V]"
+F 8 "AMS1117-3.3" H 5800 7700 60  0001 C CNN "Part Number"
+	1    5800 7150
+	1    0    0    -1  
+$EndComp
+Text Label 5500 7100 2    39   ~ 0
+RAW
+$Comp
+L std_board-rescue:CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C20
+U 1 1 57D33FED
+P 6150 7350
+F 0 "C20" H 6190 7400 30  0000 C CNN
+F 1 "22 uF" H 6220 7300 25  0000 C CNN
+F 2 "Battery:Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles" H 6525 7150 60  0001 C CNN
+F 3 "" H 6190 7400 60  0000 C CNN
+F 4 "vv" H 6500 7250 60  0001 C CNN "Rated Voltage [V]"
+F 5 "10" H 6500 7650 60  0001 C CNN "Tolerance [%]"
+F 6 "pppp" H 6500 7050 60  0001 C CNN "Part Number"
+F 7 "mmmm" H 6500 7350 60  0001 C CNN "Manufacturer"
+F 8 "MM" H 6500 7425 60  0001 C CNN "Module"
+F 9 "yes" H 6500 7550 60  0001 C CNN "Placed Onboard?"
+	1    6150 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper +3V1
+U 1 1 57D33FEE
+P 6400 7100
+F 0 "+3V1" H 6400 7050 25  0000 C CNN
+F 1 "Jumper" H 6400 7150 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 6400 7225 60  0001 C CNN
+F 3 "" H 6425 7100 60  0000 C CNN
+	1    6400 7100
+	-1   0    0    1   
+$EndComp
+Text Label 8700 7100 2    39   ~ 0
+VCC
+Text Label 3000 3650 2    45   ~ 9
+T1
+$Comp
+L thmalmeida:GND0 #PWR013
+U 1 1 57EF6A6F
+P 3100 4000
+F 0 "#PWR013" H 3100 3750 50  0001 C CNN
+F 1 "GND0" H 3175 3950 28  0000 C CNN
+F 2 "" H 3100 4000 60  0000 C CNN
+F 3 "" H 3100 4000 60  0000 C CNN
+	1    3100 4000
+	-1   0    0    -1  
+$EndComp
+Text Label 3100 3350 2    45   ~ 9
+VDD
+Text Label 6600 7100 0    39   ~ 0
++5V
+Wire Wire Line
+	2000 5750 2050 5750
+Wire Wire Line
+	2000 5650 2000 5750
+Wire Wire Line
+	2050 5650 2000 5650
+Connection ~ 1300 7150
+Wire Wire Line
+	1300 7000 1300 7150
+Connection ~ 1100 7150
+Wire Wire Line
+	1100 7000 1100 7150
+Wire Wire Line
+	1600 7650 1600 7550
+Wire Wire Line
+	1600 7250 1600 7350
+Wire Notes Line
+	10100 4700 10100 5600
+Wire Notes Line
+	9150 5700 9150 6450
+Wire Notes Line
+	10550 5750 10550 6500
+Wire Wire Line
+	7200 650  7350 650 
+Wire Wire Line
+	5750 1300 5050 1300
+Wire Wire Line
+	5050 1200 5750 1200
+Wire Wire Line
+	5750 1100 5050 1100
+Wire Wire Line
+	5750 1500 5050 1500
+Wire Wire Line
+	5050 1600 5750 1600
+Wire Wire Line
+	5050 1400 5750 1400
+Wire Wire Line
+	5050 1700 5750 1700
+Wire Wire Line
+	5750 1800 5050 1800
+Wire Wire Line
+	850  7550 850  7650
+Wire Wire Line
+	850  7250 850  7400
+Wire Wire Line
+	7350 850  7350 900 
+Wire Wire Line
+	7200 850  7350 850 
+Wire Wire Line
+	6950 850  7000 850 
+Wire Wire Line
+	6950 650  6950 850 
+Wire Wire Line
+	7000 650  6950 650 
+Wire Wire Line
+	8200 500  8100 500 
+Wire Wire Line
+	8200 550  8200 500 
+Wire Wire Line
+	8100 500  8100 650 
+Wire Wire Line
+	1650 2700 950  2700
+Wire Wire Line
+	5050 1000 5750 1000
+Wire Wire Line
+	5050 900  5750 900 
+Wire Wire Line
+	1650 900  950  900 
+Wire Wire Line
+	1650 2200 1600 2200
+Wire Wire Line
+	1650 1000 950  1000
+Wire Wire Line
+	950  2600 1650 2600
+Wire Wire Line
+	1650 2500 950  2500
+Wire Wire Line
+	1650 2400 950  2400
+Wire Wire Line
+	1650 2300 950  2300
+Wire Wire Line
+	950  2100 1650 2100
+Wire Wire Line
+	1650 2000 950  2000
+Wire Wire Line
+	1650 1900 950  1900
+Wire Wire Line
+	950  1800 1650 1800
+Wire Wire Line
+	1650 1700 950  1700
+Wire Wire Line
+	1650 1600 950  1600
+Wire Wire Line
+	950  1500 1650 1500
+Wire Wire Line
+	1650 1400 950  1400
+Wire Wire Line
+	1650 1300 950  1300
+Wire Wire Line
+	950  1200 1650 1200
+Wire Wire Line
+	1650 1100 950  1100
+Wire Wire Line
+	1100 7250 850  7250
+Connection ~ 1400 7650
+Wire Wire Line
+	1400 7500 1400 7650
+Connection ~ 1400 7250
+Wire Wire Line
+	1400 7300 1400 7250
+Wire Wire Line
+	1200 6450 1200 6400
+Wire Wire Line
+	1650 6450 1200 6450
+Wire Wire Line
+	1200 5600 1200 5550
+Wire Wire Line
+	1200 5800 1200 6150
+Connection ~ 1200 6150
+Wire Wire Line
+	1650 6450 1650 6400
+Connection ~ 1650 6150
+Wire Wire Line
+	1650 6150 1200 6150
+Wire Wire Line
+	1650 6100 1650 6150
+Wire Wire Line
+	2700 3650 2800 3650
+Wire Wire Line
+	2700 3700 2700 3650
+Wire Wire Line
+	2800 3650 2800 3600
+Wire Wire Line
+	2700 3900 2700 3950
+Wire Wire Line
+	2800 3950 2800 4000
+Wire Wire Line
+	2800 3400 2800 3350
+Wire Wire Line
+	2700 3950 2800 3950
+Wire Wire Line
+	3300 3650 3400 3650
+Wire Wire Line
+	3300 3700 3300 3650
+Wire Wire Line
+	3400 3650 3400 3600
+Wire Wire Line
+	3300 3900 3300 3950
+Wire Wire Line
+	3400 3950 3400 4000
+Wire Wire Line
+	3400 3400 3400 3350
+Wire Wire Line
+	3300 3950 3400 3950
+Wire Wire Line
+	3600 3650 3700 3650
+Wire Wire Line
+	3600 3700 3600 3650
+Wire Wire Line
+	3700 3650 3700 3600
+Wire Wire Line
+	3600 3900 3600 3950
+Wire Wire Line
+	3700 3950 3700 4000
+Wire Wire Line
+	3700 3400 3700 3350
+Wire Wire Line
+	3600 3950 3700 3950
+Wire Wire Line
+	3900 3650 4000 3650
+Wire Wire Line
+	3900 3700 3900 3650
+Wire Wire Line
+	4000 3650 4000 3600
+Wire Wire Line
+	3900 3900 3900 3950
+Wire Wire Line
+	4000 3950 4000 4000
+Wire Wire Line
+	4000 3400 4000 3350
+Wire Wire Line
+	3900 3950 4000 3950
+Wire Wire Line
+	5050 2600 5750 2600
+Wire Wire Line
+	5750 2500 5050 2500
+Wire Wire Line
+	5050 2400 5750 2400
+Wire Wire Line
+	5750 2300 5050 2300
+Wire Wire Line
+	5050 2200 5750 2200
+Wire Wire Line
+	5750 2100 5050 2100
+Wire Wire Line
+	5050 2000 5750 2000
+Wire Wire Line
+	5750 1900 5050 1900
+Wire Wire Line
+	850  6000 850  5950
+Wire Wire Line
+	1300 7250 1400 7250
+Wire Wire Line
+	850  7650 1400 7650
+Wire Notes Line
+	550  6600 4350 6600
+Wire Wire Line
+	8800 900  8800 800 
+Wire Wire Line
+	8800 500  8800 600 
+Wire Wire Line
+	7450 900  7450 1100
+Connection ~ 8650 500 
+Wire Wire Line
+	8200 750  8200 800 
+Wire Wire Line
+	8650 500  8650 600 
+Wire Wire Line
+	8400 500  8650 500 
+Wire Wire Line
+	8400 550  8400 500 
+Wire Wire Line
+	8100 650  8050 650 
+Connection ~ 8650 1200
+Wire Wire Line
+	8650 1200 8650 1150
+Wire Wire Line
+	8400 1200 8650 1200
+Wire Wire Line
+	8400 850  8400 1200
+Connection ~ 8650 900 
+Wire Wire Line
+	8650 800  8650 900 
+Wire Wire Line
+	8050 900  8650 900 
+Wire Wire Line
+	2050 5950 2000 5950
+Wire Wire Line
+	2000 5950 2000 6050
+Wire Wire Line
+	2000 6050 2050 6050
+Wire Wire Line
+	2650 5700 2650 5550
+Wire Wire Line
+	2650 6100 2650 6000
+Wire Wire Line
+	2800 6050 2800 6100
+Connection ~ 2800 6100
+Wire Wire Line
+	2650 5900 2700 5900
+Wire Wire Line
+	2700 5900 2700 5850
+Wire Wire Line
+	2700 5850 2800 5850
+Wire Wire Line
+	3000 5800 3000 5850
+Wire Wire Line
+	2650 6100 2800 6100
+Wire Wire Line
+	3000 6100 3000 6050
+Wire Wire Line
+	2650 5800 2900 5800
+Wire Wire Line
+	2900 5800 2900 5600
+Wire Wire Line
+	2900 5600 3000 5600
+Wire Wire Line
+	2650 5550 3200 5550
+Wire Wire Line
+	3200 5550 3200 5750
+Wire Wire Line
+	3200 6100 3200 5950
+Connection ~ 3000 6100
+Wire Notes Line
+	1050 5400 1050 6550
+Wire Notes Line
+	1850 5400 1850 6550
+Wire Notes Line
+	3400 5400 3400 6550
+Wire Wire Line
+	1200 5550 1250 5550
+Wire Wire Line
+	1650 5900 1650 5850
+Wire Wire Line
+	9700 6050 9450 6050
+Wire Wire Line
+	9450 6150 9700 6150
+Wire Wire Line
+	10100 6150 10250 6150
+Wire Wire Line
+	850  5750 850  5700
+Wire Wire Line
+	3850 7050 3850 7000
+Wire Wire Line
+	3850 7000 4100 7000
+Wire Wire Line
+	4100 7000 4100 7050
+Wire Wire Line
+	4050 7300 4100 7300
+Wire Wire Line
+	4100 7300 4100 7250
+Wire Wire Line
+	3650 7050 3650 6950
+Wire Wire Line
+	3650 6950 4300 6950
+Wire Wire Line
+	4300 6950 4300 7050
+Connection ~ 4100 7300
+Wire Wire Line
+	4900 6950 4900 7300
+Wire Wire Line
+	4900 7600 4900 7550
+Wire Wire Line
+	3000 7600 3300 7600
+Connection ~ 4300 6950
+Wire Wire Line
+	4550 6950 4600 6950
+Wire Wire Line
+	4600 6950 4600 7050
+Connection ~ 4600 6950
+Wire Wire Line
+	4850 6950 4900 6950
+Connection ~ 4900 7300
+Wire Wire Line
+	4600 7250 4600 7300
+Connection ~ 4600 7300
+Wire Wire Line
+	4300 7250 4300 7300
+Connection ~ 4300 7300
+Wire Wire Line
+	4450 7350 4450 7300
+Connection ~ 4450 7300
+Wire Wire Line
+	4450 7550 4450 7600
+Connection ~ 4450 7600
+Wire Wire Line
+	3000 7300 3050 7300
+Wire Wire Line
+	3000 7350 3000 7300
+Wire Wire Line
+	3250 7300 3300 7300
+Wire Wire Line
+	3300 7350 3300 7300
+Connection ~ 3300 7300
+Wire Wire Line
+	3300 7550 3300 7600
+Connection ~ 3300 7600
+Wire Wire Line
+	3000 7550 3000 7600
+Wire Wire Line
+	5100 7100 5100 7300
+Wire Wire Line
+	5100 7600 5100 7550
+Connection ~ 4900 7600
+Wire Wire Line
+	4850 7300 4900 7300
+Wire Wire Line
+	2150 7350 2100 7350
+Wire Wire Line
+	2100 7550 2150 7550
+Wire Wire Line
+	9050 4050 9100 4050
+Wire Wire Line
+	9300 4050 9400 4050
+Wire Wire Line
+	9400 4050 9400 4150
+Wire Wire Line
+	9400 4350 9400 4550
+Connection ~ 9400 4050
+Wire Wire Line
+	9300 4050 9300 3950
+Wire Wire Line
+	9100 4050 9100 3950
+Wire Notes Line
+	4350 5400 4350 6550
+Wire Wire Line
+	4050 5900 4050 5950
+Wire Wire Line
+	3600 5900 3600 5950
+Wire Wire Line
+	3600 5950 3750 5950
+Connection ~ 4050 5950
+Wire Wire Line
+	3750 5900 3750 5950
+Connection ~ 3750 5950
+Wire Wire Line
+	3600 5700 3600 5650
+Wire Wire Line
+	3600 5650 3750 5650
+Wire Wire Line
+	3750 5650 3750 5700
+Wire Wire Line
+	3900 6200 3900 6250
+Wire Wire Line
+	3900 6250 4050 6250
+Wire Wire Line
+	4050 6250 4050 6200
+Wire Wire Line
+	3900 6000 3900 5950
+Connection ~ 3900 5950
+Wire Wire Line
+	4050 5700 4050 5650
+Wire Wire Line
+	2150 7050 2150 7200
+Wire Wire Line
+	2150 7200 2200 7200
+Wire Wire Line
+	2150 7050 2200 7050
+Connection ~ 2150 7200
+Wire Wire Line
+	2400 7050 2500 7050
+Wire Wire Line
+	2400 7200 2500 7200
+Wire Wire Line
+	5100 7100 5150 7100
+Connection ~ 5100 7300
+Wire Wire Line
+	3000 4800 3000 4850
+Wire Wire Line
+	3000 5150 3000 5100
+Wire Wire Line
+	2800 4600 2800 4550
+Wire Wire Line
+	2800 4550 3000 4550
+Wire Wire Line
+	3000 4550 3000 4600
+Wire Wire Line
+	2800 4800 2800 4850
+Wire Wire Line
+	2800 5100 2800 5150
+Wire Wire Line
+	2800 5150 3000 5150
+Connection ~ 7350 650 
+Wire Wire Line
+	2700 4850 2800 4850
+Connection ~ 2800 4850
+Connection ~ 3000 4850
+Wire Wire Line
+	7550 4050 7600 4050
+Wire Wire Line
+	7800 4050 7900 4050
+Wire Wire Line
+	7900 4050 7900 4150
+Wire Wire Line
+	7900 4350 7900 4550
+Connection ~ 7900 4050
+Wire Wire Line
+	7800 4050 7800 3950
+Wire Wire Line
+	7600 4050 7600 3950
+Wire Notes Line
+	11150 4650 6800 4650
+Wire Notes Line
+	6700 5350 500  5350
+Wire Wire Line
+	6500 7100 6600 7100
+Connection ~ 6150 7100
+Wire Wire Line
+	5350 7100 5550 7100
+Wire Wire Line
+	6150 7100 6150 7250
+Wire Wire Line
+	5800 7600 5800 7350
+Wire Wire Line
+	6150 7450 6150 7600
+Connection ~ 6150 7600
+Wire Wire Line
+	6050 7100 6150 7100
+Wire Wire Line
+	3000 3650 3100 3650
+Wire Wire Line
+	3000 3700 3000 3650
+Wire Wire Line
+	3100 3650 3100 3600
+Wire Wire Line
+	3000 3900 3000 3950
+Wire Wire Line
+	3100 3950 3100 4000
+Wire Wire Line
+	3100 3400 3100 3350
+Wire Wire Line
+	3000 3950 3100 3950
+Wire Wire Line
+	5800 7600 6150 7600
+Wire Wire Line
+	850  6400 850  6450
+Connection ~ 850  6000
+Wire Wire Line
+	750  6000 800  6000
+Wire Wire Line
+	800  6400 850  6400
+Connection ~ 800  6000
+Wire Notes Line
+	6700 4450 4550 4450
+Wire Notes Line
+	2450 2800 2450 5300
+Text Notes 2700 4400 0    55   ~ 11
+Pressure Sensor
+Wire Wire Line
+	1300 7150 1300 7250
+Wire Wire Line
+	1100 7150 1100 7250
+Wire Wire Line
+	1400 7650 1600 7650
+Wire Wire Line
+	1400 7250 1600 7250
+Wire Wire Line
+	1200 6150 1200 6200
+Wire Wire Line
+	1650 6150 1650 6200
+Wire Wire Line
+	8650 500  8800 500 
+Wire Wire Line
+	8650 1200 8750 1200
+Wire Wire Line
+	8650 900  8650 950 
+Wire Wire Line
+	8650 900  8800 900 
+Wire Wire Line
+	2800 6100 3000 6100
+Wire Wire Line
+	3000 6100 3200 6100
+Wire Wire Line
+	4100 7300 4300 7300
+Wire Wire Line
+	4300 6950 4350 6950
+Wire Wire Line
+	4600 6950 4650 6950
+Wire Wire Line
+	4900 7300 4900 7350
+Wire Wire Line
+	4900 7300 5100 7300
+Wire Wire Line
+	4600 7300 4650 7300
+Wire Wire Line
+	4300 7300 4450 7300
+Wire Wire Line
+	4450 7300 4600 7300
+Wire Wire Line
+	4450 7600 4900 7600
+Wire Wire Line
+	4450 7600 4450 7650
+Wire Wire Line
+	3300 7300 3450 7300
+Wire Wire Line
+	3300 7600 4450 7600
+Wire Wire Line
+	4900 7600 5100 7600
+Wire Wire Line
+	9400 4050 9600 4050
+Wire Wire Line
+	4050 5950 4050 6000
+Wire Wire Line
+	3750 5950 3900 5950
+Wire Wire Line
+	3900 5950 4050 5950
+Wire Wire Line
+	2150 7200 2150 7350
+Wire Wire Line
+	5100 7300 5100 7350
+Wire Wire Line
+	7350 650  7450 650 
+Wire Wire Line
+	2800 4850 2800 4900
+Wire Wire Line
+	2800 4850 3000 4850
+Wire Wire Line
+	3000 4850 3000 4900
+Wire Wire Line
+	7900 4050 8100 4050
+Wire Wire Line
+	6150 7100 6300 7100
+Wire Wire Line
+	6150 7600 6150 7650
+Wire Wire Line
+	800  6000 850  6000
+$Comp
+L thmalmeida:CONN_3X2_DIL SWD1
+U 1 1 5710D57B
+P 9900 6150
+F 0 "SWD1" H 9900 6350 39  0000 C CNN
+F 1 "SWD_Conn" H 9900 5950 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10100 6450 60  0001 C CNN
+F 3 "" H 9900 6150 60  0000 C CNN
+	1    9900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:ESP32 IC2
+U 1 1 5D039963
+P 3350 1850
+F 0 "IC2" H 3350 3115 50  0000 C CNN
+F 1 "ESP32" H 3350 3024 50  0000 C CNN
+F 2 "thmalmeida:ESP32_DEVKIT" H 3400 3050 60  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 3100 1100 60  0001 C CNN
+F 4 "Espressif" H 3450 3300 60  0001 C CNN "Manufacturer"
+F 5 "ESP-WROOM-32" H 3450 3200 60  0001 C CNN "Partnumber"
+F 6 "https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf" H 3350 1850 50  0001 C CNN "Technical Manual"
+	1    3350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C9
+U 1 1 5D0D4EDA
+P 3000 3800
+F 0 "C9" V 2950 3840 30  0000 C CNN
+F 1 "100 nF" V 3050 3870 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2850 3740 60  0001 C CNN
+F 3 "" V 2950 3840 60  0000 C CNN
+F 4 "16" V 2850 4050 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 2950 4050 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 3050 4050 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 3350 4240 60  0001 C CNN "Module"
+F 8 "yes" V 3450 4340 60  0001 C CNN "Placed Onboard?"
+	1    3000 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C12
+U 1 1 5D0D538B
+P 3300 3800
+F 0 "C12" V 3250 3840 30  0000 C CNN
+F 1 "100 nF" V 3350 3870 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3150 3740 60  0001 C CNN
+F 3 "" V 3250 3840 60  0000 C CNN
+F 4 "16" V 3150 4050 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 3250 4050 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 3350 4050 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 3650 4240 60  0001 C CNN "Module"
+F 8 "yes" V 3750 4340 60  0001 C CNN "Placed Onboard?"
+	1    3300 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C14
+U 1 1 5D0D5628
+P 3600 3800
+F 0 "C14" V 3550 3840 30  0000 C CNN
+F 1 "100 nF" V 3650 3870 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3450 3740 60  0001 C CNN
+F 3 "" V 3550 3840 60  0000 C CNN
+F 4 "16" V 3450 4050 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 3550 4050 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 3650 4050 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 3950 4240 60  0001 C CNN "Module"
+F 8 "yes" V 4050 4340 60  0001 C CNN "Placed Onboard?"
+	1    3600 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C15
+U 1 1 5D0D5B53
+P 3900 3800
+F 0 "C15" V 3850 3840 30  0000 C CNN
+F 1 "100 nF" V 3950 3870 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3750 3740 60  0001 C CNN
+F 3 "" V 3850 3840 60  0000 C CNN
+F 4 "16" V 3750 4050 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 3850 4050 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 3950 4050 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 4250 4240 60  0001 C CNN "Module"
+F 8 "yes" V 4350 4340 60  0001 C CNN "Placed Onboard?"
+	1    3900 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R23
+U 1 1 5D0D5F32
+P 3100 3500
+F 0 "R23" H 3030 3550 25  0000 C CNN
+F 1 "100 k" H 3170 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2930 3450 60  0001 C CNN
+F 3 "" H 3030 3550 60  0000 C CNN
+F 4 "0.1" H 3100 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 3100 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3100 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 3430 3950 60  0001 C CNN "Module"
+F 8 "yes" H 3530 4050 60  0001 C CNN "Placed Onboard?"
+	1    3100 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R24
+U 1 1 5D0D6343
+P 3400 3500
+F 0 "R24" H 3330 3550 25  0000 C CNN
+F 1 "100 k" H 3470 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3230 3450 60  0001 C CNN
+F 3 "" H 3330 3550 60  0000 C CNN
+F 4 "0.1" H 3400 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 3400 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3400 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 3730 3950 60  0001 C CNN "Module"
+F 8 "yes" H 3830 4050 60  0001 C CNN "Placed Onboard?"
+	1    3400 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R25
+U 1 1 5D0D6600
+P 3700 3500
+F 0 "R25" H 3630 3550 25  0000 C CNN
+F 1 "100 k" H 3770 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3530 3450 60  0001 C CNN
+F 3 "" H 3630 3550 60  0000 C CNN
+F 4 "0.1" H 3700 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 3700 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 3700 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 4030 3950 60  0001 C CNN "Module"
+F 8 "yes" H 4130 4050 60  0001 C CNN "Placed Onboard?"
+	1    3700 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R27
+U 1 1 5D0D6AC5
+P 4000 3500
+F 0 "R27" H 3930 3550 25  0000 C CNN
+F 1 "100 k" H 4070 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3830 3450 60  0001 C CNN
+F 3 "" H 3930 3550 60  0000 C CNN
+F 4 "0.1" H 4000 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 4000 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 4000 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 4330 3950 60  0001 C CNN "Module"
+F 8 "yes" H 4430 4050 60  0001 C CNN "Placed Onboard?"
+	1    4000 3500
+	0    -1   1    0   
+$EndComp
+Connection ~ 1150 3850
+Connection ~ 950  3850
+$Comp
+L thmalmeida:R_Micro R4
+U 1 1 5D0D7CDD
+P 1050 3850
+F 0 "R4" H 980 3900 25  0000 C CNN
+F 1 "3.3 k" H 1120 3900 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 880 3800 60  0001 C CNN
+F 3 "" H 980 3900 60  0000 C CNN
+F 4 "0.1" H 1050 4000 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 1050 4100 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1050 4200 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1380 4300 60  0001 C CNN "Module"
+F 8 "yes" H 1480 4400 60  0001 C CNN "Placed Onboard?"
+	1    1050 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R8
+U 1 1 5D0D739B
+P 1400 3500
+F 0 "R8" H 1330 3550 25  0000 C CNN
+F 1 "680 k" H 1470 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1230 3450 60  0001 C CNN
+F 3 "" H 1330 3550 60  0000 C CNN
+F 4 "0.1" H 1400 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 1400 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1400 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1730 3950 60  0001 C CNN "Module"
+F 8 "yes" H 1830 4050 60  0001 C CNN "Placed Onboard?"
+	1    1400 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R16
+U 1 1 5D0D6D14
+P 2350 3500
+F 0 "R16" H 2280 3550 25  0000 C CNN
+F 1 "680 k" H 2420 3550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2180 3450 60  0001 C CNN
+F 3 "" H 2280 3550 60  0000 C CNN
+F 4 "0.1" H 2350 3650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 2350 3750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 2350 3850 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 2680 3950 60  0001 C CNN "Module"
+F 8 "yes" H 2780 4050 60  0001 C CNN "Placed Onboard?"
+	1    2350 3500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1400 3650 1400 3700
+Wire Wire Line
+	850  3850 950  3850
+Wire Wire Line
+	850  3850 850  3900
+Wire Wire Line
+	2350 3650 2350 3700
+Wire Wire Line
+	1800 3850 1900 3850
+Wire Wire Line
+	1800 3850 1800 3900
+Wire Wire Line
+	650  4150 850  4150
+Wire Wire Line
+	650  4100 650  4150
+Wire Wire Line
+	650  3900 650  3850
+Wire Wire Line
+	1150 3850 1150 3950
+Wire Wire Line
+	950  3850 950  3950
+Wire Wire Line
+	650  3850 850  3850
+Wire Wire Line
+	1200 3850 1150 3850
+Wire Wire Line
+	950  3650 850  3650
+Connection ~ 1400 3650
+Wire Wire Line
+	1150 3650 1400 3650
+Connection ~ 850  3850
+Wire Wire Line
+	850  3650 850  3850
+Wire Wire Line
+	850  4100 850  4150
+Wire Wire Line
+	1400 4150 1400 4000
+Wire Wire Line
+	1400 3600 1400 3650
+Wire Wire Line
+	1400 3350 1400 3400
+Wire Wire Line
+	1600 4150 1800 4150
+Wire Wire Line
+	1600 4100 1600 4150
+Wire Wire Line
+	1600 3900 1600 3850
+Wire Wire Line
+	2100 3850 2100 3950
+Wire Wire Line
+	1900 3850 1900 3950
+Wire Wire Line
+	1600 3850 1800 3850
+Wire Wire Line
+	2150 3850 2100 3850
+Wire Wire Line
+	1900 3650 1800 3650
+Connection ~ 2350 3650
+Wire Wire Line
+	2100 3650 2350 3650
+Connection ~ 1800 3850
+Wire Wire Line
+	1800 3650 1800 3850
+Wire Wire Line
+	1800 4100 1800 4150
+Wire Wire Line
+	2350 4150 2350 4000
+Wire Wire Line
+	2350 3600 2350 3650
+Wire Wire Line
+	2350 3350 2350 3400
+$Comp
+L thmalmeida:R_Micro R1
+U 1 1 57EBE6EA
+P 850 4000
+F 0 "R1" H 780 4050 25  0000 C CNN
+F 1 "68 k" H 920 4050 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 680 3950 60  0001 C CNN
+F 3 "" H 780 4050 60  0000 C CNN
+F 4 "0.1" H 850 4150 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 850 4250 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 850 4350 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1180 4450 60  0001 C CNN "Module"
+F 8 "yes" H 1280 4550 60  0001 C CNN "Placed Onboard?"
+	1    850  4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J2
+U 1 1 57EBE6D2
+P 1050 3950
+F 0 "J2" H 1000 4000 25  0000 C CNN
+F 1 "Jumper" H 1125 4000 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 1050 4075 60  0001 C CNN
+F 3 "" H 1075 3950 60  0000 C CNN
+	1    1050 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR01
+U 1 1 57EBE6B7
+P 850 4150
+F 0 "#PWR01" H 850 3900 50  0001 C CNN
+F 1 "GND0" H 925 4100 28  0000 C CNN
+F 2 "" H 850 4150 60  0000 C CNN
+F 3 "" H 850 4150 60  0000 C CNN
+	1    850  4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR04
+U 1 1 57EBE6B0
+P 1400 4150
+F 0 "#PWR04" H 1400 3900 50  0001 C CNN
+F 1 "GND0" H 1475 4100 28  0000 C CNN
+F 2 "" H 1400 4150 60  0000 C CNN
+F 3 "" H 1400 4150 60  0000 C CNN
+	1    1400 4150
+	-1   0    0    -1  
+$EndComp
+Text Label 850  3850 2    45   ~ 9
+L4_in
+Text Label 1150 3650 0    45   ~ 9
+L4_out
+Text Label 1400 3350 2    45   ~ 9
+VDD
+$Comp
+L thmalmeida:Jumper J1
+U 1 1 57EBE699
+P 1050 3650
+F 0 "J1" H 1000 3700 25  0000 C CNN
+F 1 "Jumper" H 1125 3700 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 1050 3775 60  0001 C CNN
+F 3 "" H 1075 3650 60  0000 C CNN
+	1    1050 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R12
+U 1 1 57EAF888
+P 1800 4000
+F 0 "R12" H 1730 4050 25  0000 C CNN
+F 1 "68 k" H 1870 4050 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1630 3950 60  0001 C CNN
+F 3 "" H 1730 4050 60  0000 C CNN
+F 4 "0.1" H 1800 4150 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 1800 4250 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1800 4350 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 2130 4450 60  0001 C CNN "Module"
+F 8 "yes" H 2230 4550 60  0001 C CNN "Placed Onboard?"
+	1    1800 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J6
+U 1 1 57EA265E
+P 2000 3950
+F 0 "J6" H 1950 4000 25  0000 C CNN
+F 1 "Jumper" H 2075 4000 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2000 4075 60  0001 C CNN
+F 3 "" H 2025 3950 60  0000 C CNN
+	1    2000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R14
+U 1 1 57EA1A7F
+P 2000 3850
+F 0 "R14" H 1930 3900 25  0000 C CNN
+F 1 "3.3 k" H 2070 3900 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1830 3800 60  0001 C CNN
+F 3 "" H 1930 3900 60  0000 C CNN
+F 4 "0.1" H 2000 4000 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 2000 4100 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 2000 4200 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 2330 4300 60  0001 C CNN "Module"
+F 8 "yes" H 2430 4400 60  0001 C CNN "Placed Onboard?"
+	1    2000 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR07
+U 1 1 57E970BA
+P 1800 4150
+F 0 "#PWR07" H 1800 3900 50  0001 C CNN
+F 1 "GND0" H 1875 4100 28  0000 C CNN
+F 2 "" H 1800 4150 60  0000 C CNN
+F 3 "" H 1800 4150 60  0000 C CNN
+	1    1800 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR09
+U 1 1 57E95585
+P 2350 4150
+F 0 "#PWR09" H 2350 3900 50  0001 C CNN
+F 1 "GND0" H 2425 4100 28  0000 C CNN
+F 2 "" H 2350 4150 60  0000 C CNN
+F 3 "" H 2350 4150 60  0000 C CNN
+	1    2350 4150
+	-1   0    0    -1  
+$EndComp
+Text Label 1800 3850 2    45   ~ 9
+L3_in
+Text Label 2100 3650 0    45   ~ 9
+L3_out
+Text Label 2350 3350 2    45   ~ 9
+VDD
+$Comp
+L thmalmeida:Jumper J5
+U 1 1 57E8B6D5
+P 2000 3650
+F 0 "J5" H 1950 3700 25  0000 C CNN
+F 1 "Jumper" H 2075 3700 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2000 3775 60  0001 C CNN
+F 3 "" H 2025 3650 60  0000 C CNN
+	1    2000 3650
+	-1   0    0    1   
+$EndComp
+Text Label 2100 4700 0    45   ~ 9
+L1_out
+Text Label 1150 4700 0    45   ~ 9
+L2_out
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C1
+U 1 1 57EBE6DD
+P 650 4000
+F 0 "C1" V 600 4040 30  0000 C CNN
+F 1 "47 nF" V 700 4070 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 500 3940 60  0001 C CNN
+F 3 "" V 600 4040 60  0000 C CNN
+F 4 "16" V 500 4250 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 600 4250 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 700 4250 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 1000 4440 60  0001 C CNN "Module"
+F 8 "yes" V 1100 4540 60  0001 C CNN "Placed Onboard?"
+	1    650  4000
+	0    -1   1    0   
+$EndComp
+Connection ~ 1150 4900
+Connection ~ 950  4900
+$Comp
+L thmalmeida:R_Micro R5
+U 1 1 5D1B25AA
+P 1050 4900
+F 0 "R5" H 980 4950 25  0000 C CNN
+F 1 "3.3 k" H 1120 4950 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 880 4850 60  0001 C CNN
+F 3 "" H 980 4950 60  0000 C CNN
+F 4 "0.1" H 1050 5050 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 1050 5150 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1050 5250 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1380 5350 60  0001 C CNN "Module"
+F 8 "yes" H 1480 5450 60  0001 C CNN "Placed Onboard?"
+	1    1050 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R9
+U 1 1 5D1B25B9
+P 1400 4550
+F 0 "R9" H 1330 4600 25  0000 C CNN
+F 1 "680 k" H 1470 4600 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1230 4500 60  0001 C CNN
+F 3 "" H 1330 4600 60  0000 C CNN
+F 4 "0.1" H 1400 4700 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 1400 4800 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1400 4900 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1730 5000 60  0001 C CNN "Module"
+F 8 "yes" H 1830 5100 60  0001 C CNN "Placed Onboard?"
+	1    1400 4550
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R17
+U 1 1 5D1B25C8
+P 2350 4550
+F 0 "R17" H 2280 4600 25  0000 C CNN
+F 1 "680 k" H 2420 4600 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2180 4500 60  0001 C CNN
+F 3 "" H 2280 4600 60  0000 C CNN
+F 4 "0.1" H 2350 4700 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 2350 4800 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 2350 4900 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 2680 5000 60  0001 C CNN "Module"
+F 8 "yes" H 2780 5100 60  0001 C CNN "Placed Onboard?"
+	1    2350 4550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1400 4700 1400 4750
+Wire Wire Line
+	850  4900 950  4900
+Wire Wire Line
+	850  4900 850  4950
+Wire Wire Line
+	2350 4700 2350 4750
+Wire Wire Line
+	1800 4900 1900 4900
+Wire Wire Line
+	1800 4900 1800 4950
+Wire Wire Line
+	650  5200 850  5200
+Wire Wire Line
+	650  5150 650  5200
+Wire Wire Line
+	650  4950 650  4900
+Wire Wire Line
+	1150 4900 1150 5000
+Wire Wire Line
+	950  4900 950  5000
+Wire Wire Line
+	650  4900 850  4900
+Wire Wire Line
+	1200 4900 1150 4900
+Wire Wire Line
+	950  4700 850  4700
+Connection ~ 1400 4700
+Wire Wire Line
+	1150 4700 1400 4700
+Connection ~ 850  4900
+Wire Wire Line
+	850  4700 850  4900
+Wire Wire Line
+	850  5150 850  5200
+Wire Wire Line
+	1400 5200 1400 5050
+Wire Wire Line
+	1400 4650 1400 4700
+Wire Wire Line
+	1400 4400 1400 4450
+Wire Wire Line
+	1600 5200 1800 5200
+Wire Wire Line
+	1600 5150 1600 5200
+Wire Wire Line
+	1600 4950 1600 4900
+Wire Wire Line
+	2100 4900 2100 5000
+Wire Wire Line
+	1900 4900 1900 5000
+Wire Wire Line
+	1600 4900 1800 4900
+Wire Wire Line
+	2150 4900 2100 4900
+Wire Wire Line
+	1900 4700 1800 4700
+Connection ~ 2350 4700
+Wire Wire Line
+	2100 4700 2350 4700
+Connection ~ 1800 4900
+Wire Wire Line
+	1800 4700 1800 4900
+Wire Wire Line
+	1800 5150 1800 5200
+Wire Wire Line
+	2350 5200 2350 5050
+Wire Wire Line
+	2350 4650 2350 4700
+Wire Wire Line
+	2350 4400 2350 4450
+$Comp
+L thmalmeida:R_Micro R2
+U 1 1 5D1B260C
+P 850 5050
+F 0 "R2" H 780 5100 25  0000 C CNN
+F 1 "68 k" H 920 5100 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 680 5000 60  0001 C CNN
+F 3 "" H 780 5100 60  0000 C CNN
+F 4 "0.1" H 850 5200 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 850 5300 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 850 5400 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 1180 5500 60  0001 C CNN "Module"
+F 8 "yes" H 1280 5600 60  0001 C CNN "Placed Onboard?"
+	1    850  5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J4
+U 1 1 5D1B2616
+P 1050 5000
+F 0 "J4" H 1000 5050 25  0000 C CNN
+F 1 "Jumper" H 1125 5050 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 1050 5125 60  0001 C CNN
+F 3 "" H 1075 5000 60  0000 C CNN
+	1    1050 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR02
+U 1 1 5D1B2620
+P 850 5200
+F 0 "#PWR02" H 850 4950 50  0001 C CNN
+F 1 "GND0" H 925 5150 28  0000 C CNN
+F 2 "" H 850 5200 60  0000 C CNN
+F 3 "" H 850 5200 60  0000 C CNN
+	1    850  5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR05
+U 1 1 5D1B262A
+P 1400 5200
+F 0 "#PWR05" H 1400 4950 50  0001 C CNN
+F 1 "GND0" H 1475 5150 28  0000 C CNN
+F 2 "" H 1400 5200 60  0000 C CNN
+F 3 "" H 1400 5200 60  0000 C CNN
+	1    1400 5200
+	-1   0    0    -1  
+$EndComp
+Text Label 850  4900 2    45   ~ 9
+L2_in
+Text Label 1400 4400 2    45   ~ 9
+VDD
+$Comp
+L thmalmeida:Jumper J3
+U 1 1 5D1B2637
+P 1050 4700
+F 0 "J3" H 1000 4750 25  0000 C CNN
+F 1 "Jumper" H 1125 4750 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 1050 4825 60  0001 C CNN
+F 3 "" H 1075 4700 60  0000 C CNN
+	1    1050 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R13
+U 1 1 5D1B2654
+P 1800 5050
+F 0 "R13" H 1730 5100 25  0000 C CNN
+F 1 "68 k" H 1870 5100 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1630 5000 60  0001 C CNN
+F 3 "" H 1730 5100 60  0000 C CNN
+F 4 "0.1" H 1800 5200 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 1800 5300 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 1800 5400 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 2130 5500 60  0001 C CNN "Module"
+F 8 "yes" H 2230 5600 60  0001 C CNN "Placed Onboard?"
+	1    1800 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J8
+U 1 1 5D1B265E
+P 2000 5000
+F 0 "J8" H 1950 5050 25  0000 C CNN
+F 1 "Jumper" H 2075 5050 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2000 5125 60  0001 C CNN
+F 3 "" H 2025 5000 60  0000 C CNN
+	1    2000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R15
+U 1 1 5D1B266D
+P 2000 4900
+F 0 "R15" H 1930 4950 25  0000 C CNN
+F 1 "3.3 k" H 2070 4950 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1830 4850 60  0001 C CNN
+F 3 "" H 1930 4950 60  0000 C CNN
+F 4 "0.1" H 2000 5050 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 2000 5150 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 2000 5250 60  0001 C CNN "Manufacturer"
+F 7 "Water Level Sensor" H 2330 5350 60  0001 C CNN "Module"
+F 8 "yes" H 2430 5450 60  0001 C CNN "Placed Onboard?"
+	1    2000 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR08
+U 1 1 5D1B2677
+P 1800 5200
+F 0 "#PWR08" H 1800 4950 50  0001 C CNN
+F 1 "GND0" H 1875 5150 28  0000 C CNN
+F 2 "" H 1800 5200 60  0000 C CNN
+F 3 "" H 1800 5200 60  0000 C CNN
+	1    1800 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR010
+U 1 1 5D1B2681
+P 2350 5200
+F 0 "#PWR010" H 2350 4950 50  0001 C CNN
+F 1 "GND0" H 2425 5150 28  0000 C CNN
+F 2 "" H 2350 5200 60  0000 C CNN
+F 3 "" H 2350 5200 60  0000 C CNN
+	1    2350 5200
+	-1   0    0    -1  
+$EndComp
+Text Label 1800 4900 2    45   ~ 9
+L1_in
+Text Label 2350 4400 2    45   ~ 9
+VDD
+$Comp
+L thmalmeida:Jumper J7
+U 1 1 5D1B268E
+P 2000 4700
+F 0 "J7" H 1950 4750 25  0000 C CNN
+F 1 "Jumper" H 2075 4750 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 2000 4825 60  0001 C CNN
+F 3 "" H 2025 4700 60  0000 C CNN
+	1    2000 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L thmalmeida:NPN T4
+U 1 1 5D1B269C
+P 2250 4900
+F 0 "T4" H 2210 4780 39  0000 C CNN
+F 1 "NPN" H 2220 5030 39  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23W" H 2110 4680 60  0001 C CNN
+F 3 "" H 2210 4780 60  0000 C CNN
+F 4 "pppp" H 2310 4880 60  0001 C CNN "Part Number"
+F 5 "mmmm" H 2410 4980 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 2510 5080 60  0001 C CNN "Placed Onboard?"
+F 7 "MM" H 2610 5180 60  0001 C CNN "Module"
+	1    2250 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 850  5200
+Connection ~ 1800 5200
+Connection ~ 1900 4900
+Connection ~ 2100 4900
+Wire Wire Line
+	1750 6250 1750 6150
+Wire Wire Line
+	1750 6150 1650 6150
+Wire Wire Line
+	1650 6450 1750 6450
+Connection ~ 1650 6450
+$Comp
+L thmalmeida:R_Micro R38
+U 1 1 5D53DD3D
+P 8200 1500
+F 0 "R38" H 8130 1550 25  0000 C CNN
+F 1 "360" H 8270 1550 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 8030 1450 60  0001 C CNN
+F 3 "" H 8130 1550 60  0000 C CNN
+F 4 "0.1" H 8200 1650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 8200 1750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 8200 1850 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 8530 1950 60  0001 C CNN "Module"
+F 8 "yes" H 8630 2050 60  0001 C CNN "Placed Onboard?"
+	1    8200 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:Optocoupler Opto2
+U 1 1 5D53DD59
+P 7750 1650
+F 0 "Opto2" H 7770 1805 35  0000 C CNN
+F 1 "Optocoupler" H 7875 1465 30  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 7800 1950 60  0001 C CNN
+F 3 "" H 7850 1800 60  0000 C CNN
+F 4 "xxxx" H 7750 2050 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 7750 2150 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 7750 2250 60  0001 C CNN "Placed Onboard?"
+	1    7750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR024
+U 1 1 5D53DD63
+P 7450 1950
+F 0 "#PWR024" H 7450 1700 50  0001 C CNN
+F 1 "GND0" H 7525 1900 28  0000 C CNN
+F 2 "" H 7450 1950 60  0000 C CNN
+F 3 "" H 7450 1950 60  0000 C CNN
+	1    7450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR022
+U 1 1 5D53DD6D
+P 7350 1950
+F 0 "#PWR022" H 7350 1700 50  0001 C CNN
+F 1 "GND0" H 7425 1900 28  0000 C CNN
+F 2 "" H 7350 1950 60  0000 C CNN
+F 3 "" H 7350 1950 60  0000 C CNN
+	1    7350 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R35
+U 1 1 5D53DD86
+P 7100 1500
+F 0 "R35" H 7030 1550 25  0000 C CNN
+F 1 "R_Micro" H 7170 1550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6930 1450 60  0001 C CNN
+F 3 "" H 7030 1550 60  0000 C CNN
+F 4 "0.1" H 7100 1650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 7100 1750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 7100 1850 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 7430 1950 60  0001 C CNN "Module"
+F 8 "yes" H 7530 2050 60  0001 C CNN "Placed Onboard?"
+	1    7100 1500
+	1    0    0    -1  
+$EndComp
+Text Label 8750 2050 0    47   ~ 0
+Load03
+$Comp
+L thmalmeida:R_Micro R40
+U 1 1 5D53DD96
+P 8650 1550
+F 0 "R40" H 8580 1600 25  0000 C CNN
+F 1 "47" H 8720 1600 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 8480 1500 60  0001 C CNN
+F 3 "" H 8580 1600 60  0000 C CNN
+F 4 "0.1" H 8650 1700 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 8650 1800 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 8650 1900 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 8980 2000 60  0001 C CNN "Module"
+F 8 "yes" H 9080 2100 60  0001 C CNN "Placed Onboard?"
+	1    8650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J14
+U 1 1 5D53DDA0
+P 8800 1550
+F 0 "J14" H 8750 1600 25  0000 C CNN
+F 1 "Jumper" H 8875 1600 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 8825 1550 60  0001 C CNN
+F 3 "" H 8825 1550 60  0000 C CNN
+	1    8800 1550
+	0    1    1    0   
+$EndComp
+Text Label 8450 1350 0    47   ~ 0
+Power_AC_2
+$Comp
+L thmalmeida:TRIAC_Micro T6
+U 1 1 5D53DDAE
+P 8400 1550
+F 0 "T6" H 8450 1700 35  0000 C CNN
+F 1 "TRIAC_Micro" H 8400 1550 30  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8350 1600 60  0001 C CNN
+F 3 "" H 8450 1700 60  0000 C CNN
+F 4 "xxxx" H 8550 1800 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 8650 1900 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 8750 2000 60  0001 C CNN "Placed Onboard?"
+	1    8400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper J12
+U 1 1 5D53DDB8
+P 7350 1600
+F 0 "J12" H 7300 1650 25  0000 C CNN
+F 1 "Jumper" H 7425 1650 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 7375 1600 60  0001 C CNN
+F 3 "" H 7375 1600 60  0000 C CNN
+	1    7350 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R36
+U 1 1 5D53DDC7
+P 7100 1700
+F 0 "R36" H 7030 1750 25  0000 C CNN
+F 1 "R_Micro" H 7170 1750 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6930 1650 60  0001 C CNN
+F 3 "" H 7030 1750 60  0000 C CNN
+F 4 "0.1" H 7100 1850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 7100 1950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 7100 2050 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 7430 2150 60  0001 C CNN "Module"
+F 8 "yes" H 7530 2250 60  0001 C CNN "Placed Onboard?"
+	1    7100 1700
+	-1   0    0    1   
+$EndComp
+Text Label 6950 1500 2    47   ~ 0
+i03
+Wire Wire Line
+	7200 1500 7350 1500
+Wire Wire Line
+	7350 1700 7350 1750
+Wire Wire Line
+	7200 1700 7350 1700
+Wire Wire Line
+	6950 1700 7000 1700
+Wire Wire Line
+	6950 1500 6950 1700
+Wire Wire Line
+	7000 1500 6950 1500
+Wire Wire Line
+	8200 1350 8100 1350
+Wire Wire Line
+	8200 1400 8200 1350
+Wire Wire Line
+	8100 1350 8100 1500
+Wire Wire Line
+	8800 1750 8800 1650
+Wire Wire Line
+	8800 1350 8800 1450
+Wire Wire Line
+	7450 1750 7450 1950
+Connection ~ 8650 1350
+Wire Wire Line
+	8200 1600 8200 1650
+Wire Wire Line
+	8650 1350 8650 1450
+Wire Wire Line
+	8400 1350 8650 1350
+Wire Wire Line
+	8400 1400 8400 1350
+Wire Wire Line
+	8100 1500 8050 1500
+Connection ~ 8650 2050
+Wire Wire Line
+	8650 2050 8650 2000
+Wire Wire Line
+	8400 2050 8650 2050
+Wire Wire Line
+	8400 1700 8400 2050
+Connection ~ 8650 1750
+Wire Wire Line
+	8650 1650 8650 1750
+Wire Wire Line
+	8050 1750 8650 1750
+Connection ~ 7350 1500
+Wire Wire Line
+	8650 1350 8800 1350
+Wire Wire Line
+	8650 2050 8750 2050
+Wire Wire Line
+	8650 1750 8650 1800
+Wire Wire Line
+	8650 1750 8800 1750
+Wire Wire Line
+	7350 1500 7450 1500
+Connection ~ 7350 1700
+$Comp
+L thmalmeida:R_Micro R45
+U 1 1 5D5FE13C
+P 10400 650
+F 0 "R45" H 10330 700 25  0000 C CNN
+F 1 "360" H 10470 700 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 10230 600 60  0001 C CNN
+F 3 "" H 10330 700 60  0000 C CNN
+F 4 "0.1" H 10400 800 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 10400 900 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 10400 1000 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 10730 1100 60  0001 C CNN "Module"
+F 8 "yes" H 10830 1200 60  0001 C CNN "Placed Onboard?"
+	1    10400 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:Optocoupler Opto3
+U 1 1 5D5FE158
+P 9950 800
+F 0 "Opto3" H 9970 955 35  0000 C CNN
+F 1 "Optocoupler" H 10075 615 30  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 10000 1100 60  0001 C CNN
+F 3 "" H 10050 950 60  0000 C CNN
+F 4 "xxxx" H 9950 1200 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 9950 1300 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 9950 1400 60  0001 C CNN "Placed Onboard?"
+	1    9950 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR027
+U 1 1 5D5FE162
+P 9650 1100
+F 0 "#PWR027" H 9650 850 50  0001 C CNN
+F 1 "GND0" H 9725 1050 28  0000 C CNN
+F 2 "" H 9650 1100 60  0000 C CNN
+F 3 "" H 9650 1100 60  0000 C CNN
+	1    9650 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR025
+U 1 1 5D5FE16C
+P 9550 1100
+F 0 "#PWR025" H 9550 850 50  0001 C CNN
+F 1 "GND0" H 9625 1050 28  0000 C CNN
+F 2 "" H 9550 1100 60  0000 C CNN
+F 3 "" H 9550 1100 60  0000 C CNN
+	1    9550 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R41
+U 1 1 5D5FE185
+P 9300 650
+F 0 "R41" H 9230 700 25  0000 C CNN
+F 1 "R_Micro" H 9370 700 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9130 600 60  0001 C CNN
+F 3 "" H 9230 700 60  0000 C CNN
+F 4 "0.1" H 9300 800 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 9300 900 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 9300 1000 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 9630 1100 60  0001 C CNN "Module"
+F 8 "yes" H 9730 1200 60  0001 C CNN "Placed Onboard?"
+	1    9300 650 
+	1    0    0    -1  
+$EndComp
+Text Label 10950 1200 0    47   ~ 0
+Load02
+$Comp
+L thmalmeida:R_Micro R48
+U 1 1 5D5FE195
+P 10850 700
+F 0 "R48" H 10780 750 25  0000 C CNN
+F 1 "47" H 10920 750 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 10680 650 60  0001 C CNN
+F 3 "" H 10780 750 60  0000 C CNN
+F 4 "0.1" H 10850 850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 10850 950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 10850 1050 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 11180 1150 60  0001 C CNN "Module"
+F 8 "yes" H 11280 1250 60  0001 C CNN "Placed Onboard?"
+	1    10850 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J17
+U 1 1 5D5FE19F
+P 11000 700
+F 0 "J17" H 10950 750 25  0000 C CNN
+F 1 "Jumper" H 11075 750 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 11025 700 60  0001 C CNN
+F 3 "" H 11025 700 60  0000 C CNN
+	1    11000 700 
+	0    1    1    0   
+$EndComp
+Text Label 10650 500  0    47   ~ 0
+Power_AC_2
+$Comp
+L thmalmeida:TRIAC_Micro T7
+U 1 1 5D5FE1AD
+P 10600 700
+F 0 "T7" H 10650 850 35  0000 C CNN
+F 1 "TRIAC_Micro" H 10600 700 30  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10550 750 60  0001 C CNN
+F 3 "" H 10650 850 60  0000 C CNN
+F 4 "xxxx" H 10750 950 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 10850 1050 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 10950 1150 60  0001 C CNN "Placed Onboard?"
+	1    10600 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper J15
+U 1 1 5D5FE1B7
+P 9550 750
+F 0 "J15" H 9500 800 25  0000 C CNN
+F 1 "Jumper" H 9625 800 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 9575 750 60  0001 C CNN
+F 3 "" H 9575 750 60  0000 C CNN
+	1    9550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R42
+U 1 1 5D5FE1C6
+P 9300 850
+F 0 "R42" H 9230 900 25  0000 C CNN
+F 1 "R_Micro" H 9370 900 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9130 800 60  0001 C CNN
+F 3 "" H 9230 900 60  0000 C CNN
+F 4 "0.1" H 9300 1000 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 9300 1100 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 9300 1200 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 9630 1300 60  0001 C CNN "Module"
+F 8 "yes" H 9730 1400 60  0001 C CNN "Placed Onboard?"
+	1    9300 850 
+	-1   0    0    1   
+$EndComp
+Text Label 9150 650  2    47   ~ 0
+i02
+Wire Wire Line
+	9400 650  9550 650 
+Wire Wire Line
+	9550 850  9550 900 
+Wire Wire Line
+	9400 850  9550 850 
+Wire Wire Line
+	9150 850  9200 850 
+Wire Wire Line
+	9150 650  9150 850 
+Wire Wire Line
+	9200 650  9150 650 
+Wire Wire Line
+	10400 500  10300 500 
+Wire Wire Line
+	10400 550  10400 500 
+Wire Wire Line
+	10300 500  10300 650 
+Wire Wire Line
+	11000 900  11000 800 
+Wire Wire Line
+	11000 500  11000 600 
+Wire Wire Line
+	9650 900  9650 1100
+Connection ~ 10850 500 
+Wire Wire Line
+	10400 750  10400 800 
+Wire Wire Line
+	10850 500  10850 600 
+Wire Wire Line
+	10600 500  10850 500 
+Wire Wire Line
+	10600 550  10600 500 
+Wire Wire Line
+	10300 650  10250 650 
+Connection ~ 10850 1200
+Wire Wire Line
+	10850 1200 10850 1150
+Wire Wire Line
+	10600 1200 10850 1200
+Wire Wire Line
+	10600 850  10600 1200
+Connection ~ 10850 900 
+Wire Wire Line
+	10850 800  10850 900 
+Wire Wire Line
+	10250 900  10850 900 
+Connection ~ 9550 650 
+Wire Wire Line
+	10850 500  11000 500 
+Wire Wire Line
+	10850 1200 10950 1200
+Wire Wire Line
+	10850 900  10850 950 
+Wire Wire Line
+	10850 900  11000 900 
+Wire Wire Line
+	9550 650  9650 650 
+$Comp
+L thmalmeida:R_Micro R46
+U 1 1 5D5FE1F5
+P 10400 1500
+F 0 "R46" H 10330 1550 25  0000 C CNN
+F 1 "360" H 10470 1550 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 10230 1450 60  0001 C CNN
+F 3 "" H 10330 1550 60  0000 C CNN
+F 4 "0.1" H 10400 1650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 10400 1750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 10400 1850 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 10730 1950 60  0001 C CNN "Module"
+F 8 "yes" H 10830 2050 60  0001 C CNN "Placed Onboard?"
+	1    10400 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C24
+U 1 1 5D5FE204
+P 10850 1900
+F 0 "C24" V 10800 1940 30  0000 C CNN
+F 1 "0.01 uF" V 10900 1970 25  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02" V 10700 1840 60  0001 C CNN
+F 3 "" V 10800 1940 60  0000 C CNN
+F 4 "xx" V 10700 2150 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 10800 2150 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 10900 2150 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 11200 2340 60  0001 C CNN "Module"
+F 8 "yes" V 11300 2440 60  0001 C CNN "Placed Onboard?"
+	1    10850 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Optocoupler Opto4
+U 1 1 5D5FE211
+P 9950 1650
+F 0 "Opto4" H 9970 1805 35  0000 C CNN
+F 1 "Optocoupler" H 10075 1465 30  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 10000 1950 60  0001 C CNN
+F 3 "" H 10050 1800 60  0000 C CNN
+F 4 "xxxx" H 9950 2050 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 9950 2150 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 9950 2250 60  0001 C CNN "Placed Onboard?"
+	1    9950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR028
+U 1 1 5D5FE21B
+P 9650 1950
+F 0 "#PWR028" H 9650 1700 50  0001 C CNN
+F 1 "GND0" H 9725 1900 28  0000 C CNN
+F 2 "" H 9650 1950 60  0000 C CNN
+F 3 "" H 9650 1950 60  0000 C CNN
+	1    9650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR026
+U 1 1 5D5FE225
+P 9550 1950
+F 0 "#PWR026" H 9550 1700 50  0001 C CNN
+F 1 "GND0" H 9625 1900 28  0000 C CNN
+F 2 "" H 9550 1950 60  0000 C CNN
+F 3 "" H 9550 1950 60  0000 C CNN
+	1    9550 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:R_Micro R43
+U 1 1 5D5FE23E
+P 9300 1500
+F 0 "R43" H 9230 1550 25  0000 C CNN
+F 1 "R_Micro" H 9370 1550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9130 1450 60  0001 C CNN
+F 3 "" H 9230 1550 60  0000 C CNN
+F 4 "0.1" H 9300 1650 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 9300 1750 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 9300 1850 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 9630 1950 60  0001 C CNN "Module"
+F 8 "yes" H 9730 2050 60  0001 C CNN "Placed Onboard?"
+	1    9300 1500
+	1    0    0    -1  
+$EndComp
+Text Label 10950 2050 0    47   ~ 0
+Load04
+$Comp
+L thmalmeida:R_Micro R49
+U 1 1 5D5FE24E
+P 10850 1550
+F 0 "R49" H 10780 1600 25  0000 C CNN
+F 1 "47" H 10920 1600 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 10680 1500 60  0001 C CNN
+F 3 "" H 10780 1600 60  0000 C CNN
+F 4 "0.1" H 10850 1700 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 10850 1800 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 10850 1900 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 11180 2000 60  0001 C CNN "Module"
+F 8 "yes" H 11280 2100 60  0001 C CNN "Placed Onboard?"
+	1    10850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Jumper J18
+U 1 1 5D5FE258
+P 11000 1550
+F 0 "J18" H 10950 1600 25  0000 C CNN
+F 1 "Jumper" H 11075 1600 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 11025 1550 60  0001 C CNN
+F 3 "" H 11025 1550 60  0000 C CNN
+	1    11000 1550
+	0    1    1    0   
+$EndComp
+Text Label 10650 1350 0    47   ~ 0
+Power_AC_2
+$Comp
+L thmalmeida:TRIAC_Micro T8
+U 1 1 5D5FE266
+P 10600 1550
+F 0 "T8" H 10650 1700 35  0000 C CNN
+F 1 "TRIAC_Micro" H 10600 1550 30  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10550 1600 60  0001 C CNN
+F 3 "" H 10650 1700 60  0000 C CNN
+F 4 "xxxx" H 10750 1800 60  0001 C CNN "Part Number"
+F 5 "MMMM" H 10850 1900 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 10950 2000 60  0001 C CNN "Placed Onboard?"
+	1    10600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Jumper J16
+U 1 1 5D5FE270
+P 9550 1600
+F 0 "J16" H 9500 1650 25  0000 C CNN
+F 1 "Jumper" H 9625 1650 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 9575 1600 60  0001 C CNN
+F 3 "" H 9575 1600 60  0000 C CNN
+	1    9550 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:R_Micro R44
+U 1 1 5D5FE27F
+P 9300 1700
+F 0 "R44" H 9230 1750 25  0000 C CNN
+F 1 "R_Micro" H 9370 1750 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9130 1650 60  0001 C CNN
+F 3 "" H 9230 1750 60  0000 C CNN
+F 4 "0.1" H 9300 1850 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1001C" H 9300 1950 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 9300 2050 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 9630 2150 60  0001 C CNN "Module"
+F 8 "yes" H 9730 2250 60  0001 C CNN "Placed Onboard?"
+	1    9300 1700
+	-1   0    0    1   
+$EndComp
+Text Label 9150 1500 2    47   ~ 0
+i04
+Wire Wire Line
+	9400 1500 9550 1500
+Wire Wire Line
+	9550 1700 9550 1750
+Wire Wire Line
+	9400 1700 9550 1700
+Wire Wire Line
+	9150 1700 9200 1700
+Wire Wire Line
+	9150 1500 9150 1700
+Wire Wire Line
+	9200 1500 9150 1500
+Wire Wire Line
+	10400 1350 10300 1350
+Wire Wire Line
+	10400 1400 10400 1350
+Wire Wire Line
+	10300 1350 10300 1500
+Wire Wire Line
+	11000 1750 11000 1650
+Wire Wire Line
+	11000 1350 11000 1450
+Wire Wire Line
+	9650 1750 9650 1950
+Connection ~ 10850 1350
+Wire Wire Line
+	10400 1600 10400 1650
+Wire Wire Line
+	10850 1350 10850 1450
+Wire Wire Line
+	10600 1350 10850 1350
+Wire Wire Line
+	10600 1400 10600 1350
+Wire Wire Line
+	10300 1500 10250 1500
+Connection ~ 10850 2050
+Wire Wire Line
+	10850 2050 10850 2000
+Wire Wire Line
+	10600 2050 10850 2050
+Wire Wire Line
+	10600 1700 10600 2050
+Connection ~ 10850 1750
+Wire Wire Line
+	10850 1650 10850 1750
+Wire Wire Line
+	10250 1750 10850 1750
+Connection ~ 9550 1500
+Wire Wire Line
+	10850 1350 11000 1350
+Wire Wire Line
+	10850 2050 10950 2050
+Wire Wire Line
+	10850 1750 10850 1800
+Wire Wire Line
+	10850 1750 11000 1750
+Wire Wire Line
+	9550 1500 9650 1500
+Connection ~ 9550 1700
+Connection ~ 9550 850 
+Wire Wire Line
+	10800 5850 10750 5850
+Wire Wire Line
+	10800 6100 10800 6150
+Wire Wire Line
+	10800 6400 10800 6350
+Wire Wire Line
+	10800 5900 10800 5850
+$Comp
+L thmalmeida:R_Micro R47
+U 1 1 57EF12B9
+P 10800 6000
+F 0 "R47" H 10730 6050 25  0000 C CNN
+F 1 "510" H 10870 6050 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10630 5950 60  0001 C CNN
+F 3 "" H 10730 6050 60  0000 C CNN
+F 4 "0.1" H 10800 6150 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT06030F1003C" H 10800 6250 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 10800 6350 60  0001 C CNN "Manufacturer"
+F 7 "LED" H 11130 6450 60  0001 C CNN "Module"
+F 8 "yes" H 11230 6550 60  0001 C CNN "Placed Onboard?"
+	1    10800 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Led_Micro D7
+U 1 1 57EF12AE
+P 10800 6250
+F 0 "D7" H 10700 6300 25  0000 C CNN
+F 1 "Led_Micro" H 10850 6300 20  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 10800 6150 60  0001 C CNN
+F 3 "" H 10800 6250 60  0000 C CNN
+F 4 "MM" H 10800 6400 60  0001 C CNN "Manufacturer"
+F 5 "pppp" H 10800 6500 60  0001 C CNN "Part Number"
+F 6 "LED" H 10800 6600 60  0001 C CNN "Module"
+F 7 "yes" H 10800 6700 60  0001 C CNN "Placed Onboard?"
+F 8 "1 m" H 10800 6800 60  0001 C CNN "Rated Power  [W]"
+	1    10800 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:GND0 #PWR029
+U 1 1 57EF12A3
+P 10800 6400
+F 0 "#PWR029" H 10800 6150 50  0001 C CNN
+F 1 "GND0" H 10875 6350 28  0000 C CNN
+F 2 "" H 10800 6400 60  0000 C CNN
+F 3 "" H 10800 6400 60  0000 C CNN
+	1    10800 6400
+	-1   0    0    -1  
+$EndComp
+Text Label 10750 5850 3    39   ~ 0
+LED_GREEN
+Text Notes 10600 5800 0    59   ~ 12
+onboard LED
+$Comp
+L thmalmeida:CONN_6X1 pinout3
+U 1 1 5D8F1FCE
+P 7850 6850
+F 0 "pinout3" V 7940 7050 35  0000 C CNN
+F 1 "CONN_6X1" V 7940 6680 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7940 6490 60  0001 C CNN
+F 3 "" H 7900 6900 60  0000 C CNN
+	1    7850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:CONN_6X1 pinout4
+U 1 1 5D8F2346
+P 8350 6850
+F 0 "pinout4" V 8440 7050 35  0000 C CNN
+F 1 "CONN_6X1" V 8440 6680 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8440 6490 60  0001 C CNN
+F 3 "" H 8400 6900 60  0000 C CNN
+	1    8350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:CONN_6X1 pinout6
+U 1 1 5D8F2986
+P 8850 6850
+F 0 "pinout6" V 8940 7050 35  0000 C CNN
+F 1 "CONN_6X1" V 8940 6680 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8940 6490 60  0001 C CNN
+F 3 "" H 8900 6900 60  0000 C CNN
+	1    8850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:NPN T1
+U 1 1 5D8F9297
+P 1300 3850
+F 0 "T1" H 1260 3730 39  0000 C CNN
+F 1 "NPN" H 1270 3980 39  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23W" H 1160 3630 60  0001 C CNN
+F 3 "" H 1260 3730 60  0000 C CNN
+F 4 "pppp" H 1360 3830 60  0001 C CNN "Part Number"
+F 5 "mmmm" H 1460 3930 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 1560 4030 60  0001 C CNN "Placed Onboard?"
+F 7 "MM" H 1660 4130 60  0001 C CNN "Module"
+	1    1300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:NPN T3
+U 1 1 5D8F99F5
+P 2250 3850
+F 0 "T3" H 2210 3730 39  0000 C CNN
+F 1 "NPN" H 2220 3980 39  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23W" H 2110 3630 60  0001 C CNN
+F 3 "" H 2210 3730 60  0000 C CNN
+F 4 "pppp" H 2310 3830 60  0001 C CNN "Part Number"
+F 5 "mmmm" H 2410 3930 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 2510 4030 60  0001 C CNN "Placed Onboard?"
+F 7 "MM" H 2610 4130 60  0001 C CNN "Module"
+	1    2250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:NPN T2
+U 1 1 5D8FA0D2
+P 1300 4900
+F 0 "T2" H 1260 4780 39  0000 C CNN
+F 1 "NPN" H 1270 5030 39  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23W" H 1160 4680 60  0001 C CNN
+F 3 "" H 1260 4780 60  0000 C CNN
+F 4 "pppp" H 1360 4880 60  0001 C CNN "Part Number"
+F 5 "mmmm" H 1460 4980 60  0001 C CNN "Manufacturer"
+F 6 "yes" H 1560 5080 60  0001 C CNN "Placed Onboard?"
+F 7 "MM" H 1660 5180 60  0001 C CNN "Module"
+	1    1300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Fuse F3
+U 1 1 5D8FB00F
+P 7700 3950
+F 0 "F3" H 7630 4000 25  0000 C CNN
+F 1 "Fuse" H 7770 4000 20  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 7700 3850 60  0001 C CNN
+F 3 "" H 7630 4000 60  0000 C CNN
+F 4 "6" H 7700 4500 60  0001 C CNN "Rated Voltage [V]"
+F 5 "0.5" H 7700 4600 60  0001 C CNN "Rated Current [A]"
+F 6 "MSMD0805-050" H 7700 4100 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 7700 4200 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 7700 4300 60  0001 C CNN "Module"
+F 9 "yes" H 7700 4400 60  0001 C CNN "Placed Onboard?"
+	1    7700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:Fuse F4
+U 1 1 5D8FB769
+P 9200 3950
+F 0 "F4" H 9130 4000 25  0000 C CNN
+F 1 "Fuse" H 9270 4000 20  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 9200 3850 60  0001 C CNN
+F 3 "" H 9130 4000 60  0000 C CNN
+F 4 "6" H 9200 4500 60  0001 C CNN "Rated Voltage [V]"
+F 5 "0.5" H 9200 4600 60  0001 C CNN "Rated Current [A]"
+F 6 "MSMD0805-050" H 9200 4100 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 9200 4200 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 9200 4300 60  0001 C CNN "Module"
+F 9 "yes" H 9200 4400 60  0001 C CNN "Placed Onboard?"
+	1    9200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:VR_Micro VR3
+U 1 1 5D8FBF70
+P 9400 4250
+F 0 "VR3" H 9330 4210 25  0000 C CNN
+F 1 "VR_Micro" H 9470 4300 20  0000 C CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" H 9230 4200 60  0001 C CNN
+F 3 "" H 9330 4300 60  0001 C CNN
+F 4 "0.1" H 9400 4400 60  0001 C CNN "Rated Power [W]"
+F 5 "120" H 9930 4810 60  0001 C CNN "Rated Voltage [V]"
+F 6 "xxxx" H 9400 4500 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 9400 4600 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 9730 4700 60  0001 C CNN "Module"
+F 9 "no" H 9830 4800 60  0001 C CNN "Placed Onboard?"
+	1    9400 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:VR_Micro VR2
+U 1 1 5D8FCFCA
+P 7900 4250
+F 0 "VR2" H 7830 4210 25  0000 C CNN
+F 1 "VR_Micro" H 7970 4300 20  0000 C CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" H 7730 4200 60  0001 C CNN
+F 3 "" H 7830 4300 60  0001 C CNN
+F 4 "0.1" H 7900 4400 60  0001 C CNN "Rated Power [W]"
+F 5 "120" H 8430 4810 60  0001 C CNN "Rated Voltage [V]"
+F 6 "xxxx" H 7900 4500 60  0001 C CNN "Part Number"
+F 7 "VISHAY" H 7900 4600 60  0001 C CNN "Manufacturer"
+F 8 "xx" H 8230 4700 60  0001 C CNN "Module"
+F 9 "no" H 8330 4800 60  0001 C CNN "Placed Onboard?"
+	1    7900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L thmalmeida:CONN_6X1 pinout1
+U 1 1 5D8FD749
+P 7150 4250
+F 0 "pinout1" V 7240 4450 35  0000 C CNN
+F 1 "CONN_6X1" V 7240 4080 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7240 3890 60  0001 C CNN
+F 3 "" H 7200 4300 60  0000 C CNN
+	1    7150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:CONN_6X1 pinout5
+U 1 1 5D8FDCFF
+P 8600 4250
+F 0 "pinout5" V 8690 4450 35  0000 C CNN
+F 1 "CONN_6X1" V 8690 4080 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8690 3890 60  0001 C CNN
+F 3 "" H 8650 4300 60  0000 C CNN
+	1    8600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:CONN_6X1 pinout7
+U 1 1 5D8FE25F
+P 10200 4250
+F 0 "pinout7" V 10290 4450 35  0000 C CNN
+F 1 "CONN_6X1" V 10290 4080 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10290 3890 60  0001 C CNN
+F 3 "" H 10250 4300 60  0000 C CNN
+	1    10200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L thmalmeida:CONN_6X1 pinout8
+U 1 1 5D8FE754
+P 10950 4250
+F 0 "pinout8" V 11040 4450 35  0000 C CNN
+F 1 "CONN_6X1" V 11040 4080 35  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 11040 3890 60  0001 C CNN
+F 3 "" H 11000 4300 60  0000 C CNN
+	1    10950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C3
+U 1 1 5D93FBD5
+P 1600 4000
+F 0 "C3" V 1550 4040 30  0000 C CNN
+F 1 "47 nF" V 1650 4070 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1450 3940 60  0001 C CNN
+F 3 "" V 1550 4040 60  0000 C CNN
+F 4 "16" V 1450 4250 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 1550 4250 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 1650 4250 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 1950 4440 60  0001 C CNN "Module"
+F 8 "yes" V 2050 4540 60  0001 C CNN "Placed Onboard?"
+	1    1600 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C4
+U 1 1 5D9400FE
+P 1600 5050
+F 0 "C4" V 1550 5090 30  0000 C CNN
+F 1 "47 nF" V 1650 5120 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1450 4990 60  0001 C CNN
+F 3 "" V 1550 5090 60  0000 C CNN
+F 4 "16" V 1450 5300 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 1550 5300 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 1650 5300 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 1950 5490 60  0001 C CNN "Module"
+F 8 "yes" V 2050 5590 60  0001 C CNN "Placed Onboard?"
+	1    1600 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C2
+U 1 1 5D94055F
+P 650 5050
+F 0 "C2" V 600 5090 30  0000 C CNN
+F 1 "47 nF" V 700 5120 25  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 500 4990 60  0001 C CNN
+F 3 "" V 600 5090 60  0000 C CNN
+F 4 "16" V 500 5300 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 600 5300 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 700 5300 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 1000 5490 60  0001 C CNN "Module"
+F 8 "yes" V 1100 5590 60  0001 C CNN "Placed Onboard?"
+	1    650  5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C13
+U 1 1 5D970CB4
+P 3300 7450
+F 0 "C13" V 3250 7490 30  0000 C CNN
+F 1 "100 uF" V 3350 7520 25  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 3325 7250 60  0001 C CNN
+F 3 "" V 3250 7490 60  0000 C CNN
+F 4 "16" H 3300 7700 60  0001 C CNN "Rated Voltage [V]"
+F 5 "pppp" H 3300 7150 60  0001 C CNN "Part Number"
+F 6 "mmmm" H 3300 7800 60  0001 C CNN "Manufacturer"
+F 7 "MM" H 3300 7875 60  0001 C CNN "Module"
+F 8 "yes" H 3300 8000 60  0001 C CNN "Placed Onboard?"
+	1    3300 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L thmalmeida:Diode D2
+U 1 1 5D9717D7
+P 4750 6950
+F 0 "D2" H 4825 7000 39  0000 C CNN
+F 1 "Diode" H 4675 7000 31  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4725 6900 60  0001 C CNN
+F 3 "" H 4825 7000 60  0001 C CNN
+F 4 "350" H 4925 7100 60  0001 C CNN "Reverse voltage [V]"
+F 5 "10" H 5025 7200 60  0001 C CNN "Rated Current [A]"
+F 6 "xxxx" H 5125 7300 60  0001 C CNN "Part Number"
+F 7 "MM" H 5225 7400 60  0001 C CNN "Manufacturer"
+F 8 "yes" H 5325 7500 60  0001 C CNN "Placed Onboard?"
+F 9 "mmmm" H 5425 7600 60  0001 C CNN "Module"
+	1    4750 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L std_board-rescue:Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue D4
+U 1 1 5D993352
+P 7350 1850
+F 0 "D4" H 7280 1900 25  0000 C CNN
+F 1 "Led_Micro" H 7420 1900 20  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7550 2100 60  0001 C CNN
+F 3 "" H 7350 1850 60  0000 C CNN
+	1    7350 1850
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue D6
+U 1 1 5D9937DF
+P 9550 1850
+F 0 "D6" H 9480 1900 25  0000 C CNN
+F 1 "Led_Micro" H 9620 1900 20  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 9750 2100 60  0001 C CNN
+F 3 "" H 9550 1850 60  0000 C CNN
+	1    9550 1850
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:Led_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue D5
+U 1 1 5D993C6D
+P 9550 1000
+F 0 "D5" H 9480 1050 25  0000 C CNN
+F 1 "Led_Micro" H 9620 1050 20  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 9750 1250 60  0001 C CNN
+F 3 "" H 9550 1000 60  0000 C CNN
+	1    9550 1000
+	0    -1   1    0   
+$EndComp
+$Comp
+L std_board-rescue:CP_Micro-RESCUE-[GenericBoard]_standard_pcb-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C19
+U 1 1 5D9E7A82
+P 4900 7450
+F 0 "C19" V 4850 7490 30  0000 C CNN
+F 1 "100 uF" V 4950 7520 25  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 4925 7250 60  0001 C CNN
+F 3 "" V 4850 7490 60  0000 C CNN
+F 4 "16" H 4900 7700 60  0001 C CNN "Rated Voltage [V]"
+F 5 "pppp" H 4900 7150 60  0001 C CNN "Part Number"
+F 6 "mmmm" H 4900 7800 60  0001 C CNN "Manufacturer"
+F 7 "MM" H 4900 7875 60  0001 C CNN "Module"
+F 8 "yes" H 4900 8000 60  0001 C CNN "Placed Onboard?"
+	1    4900 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C?
+U 1 1 5D9F7E0F
+P 8650 1900
+F 0 "C?" V 8600 1940 30  0000 C CNN
+F 1 "0.01 uF" V 8700 1970 25  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02" V 8500 1840 60  0001 C CNN
+F 3 "" V 8600 1940 60  0000 C CNN
+F 4 "xx" V 8500 2150 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 8600 2150 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 8700 2150 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 9000 2340 60  0001 C CNN "Module"
+F 8 "yes" V 9100 2440 60  0001 C CNN "Placed Onboard?"
+	1    8650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C?
+U 1 1 5D9F8396
+P 8650 1050
+F 0 "C?" V 8600 1090 30  0000 C CNN
+F 1 "0.01 uF" V 8700 1120 25  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02" V 8500 990 60  0001 C CNN
+F 3 "" V 8600 1090 60  0000 C CNN
+F 4 "xx" V 8500 1300 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 8600 1300 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 8700 1300 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 9000 1490 60  0001 C CNN "Module"
+F 8 "yes" V 9100 1590 60  0001 C CNN "Placed Onboard?"
+	1    8650 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue C?
+U 1 1 5D9F884D
+P 10850 1050
+F 0 "C?" V 10800 1090 30  0000 C CNN
+F 1 "0.01 uF" V 10900 1120 25  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02" V 10700 990 60  0001 C CNN
+F 3 "" V 10800 1090 60  0000 C CNN
+F 4 "xx" V 10700 1300 60  0001 C CNN "Rated Voltage [V]"
+F 5 "xxxx" V 10800 1300 60  0001 C CNN "Part Number"
+F 6 "yyyy" V 10900 1300 60  0001 C CNN "Manufacture"
+F 7 "xxx" V 11200 1490 60  0001 C CNN "Module"
+F 8 "yes" V 11300 1590 60  0001 C CNN "Placed Onboard?"
+	1    10850 1050
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

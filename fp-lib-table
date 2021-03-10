@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name thmalmeida)(type KiCad)(uri "/home/thmalmeida/Dropbox/Circuits/[KiCad] Libraries/lib/thmalmeida.pretty")(options "")(descr ""))
+  (lib (name modules)(type KiCad)(uri /usr/share/kicad/modules)(options "")(descr ""))
+)

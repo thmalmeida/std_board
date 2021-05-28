@@ -1,4 +1,4 @@
-18870709050629197
+18996996906369197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81866,6 +81866,13 @@ C
 2
 thmalmeida
 C3_elec_5x4.5_pth
+SMT capacitor, aluminium electrolytic, 5x4.5
+
+0
+4
+2
+thmalmeida
+C4_elec_7x6.7_pth
 SMT capacitor, aluminium electrolytic, 5x4.5
 
 0

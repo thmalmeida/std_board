@@ -16,7 +16,7 @@ Renderized PCB with electrical components and modules are showed on the followin
   + [Mode 1: 120-240 VAC input](#mode-1-120-240-vac-input)
   + [Mode 2: 24 VAC input](#mode-2-24-vac-input)
 * [Current controller](#current-controller)
-
+* [AC load drive](#ac-load-drive)
 ## About std_board
 
 The main idea of std_board is help farmers to optimize production and monitoring some variables. Even this hardware is a little bit generic pplication that can control water pumps, valves, solenoids and any AC load. For this, it needs some feedback o real world physical variables like water weel level, time, water pressure inside pumps, ac voltage, ac current, thermal relay, and any digital input. The general purpose is optimize the production controlling the water flux.
@@ -36,7 +36,7 @@ This board has some that interfaces the ESP32 with real world variables.
 * Protection circuit;
 * AC voltage sensor;
 * AC current sensor;
-* AC load driver;
+* AC load drive;
 * JTAG connector - for debbugger (e.g. FT2232H);
 * I2C connection for RTC module (e.g. DS3231);
 * I2C connection for barometric sensor (e.g. BMP280);
@@ -75,14 +75,11 @@ to 12VDC and 120 mA;
 
 ## Current controller
 
-## AC Voltage sensor
+## AC load drive
 
-## AC current sensor
+This boards has three circuits to drive AC voltage from source to the load using TRIAC and optocoupler components. Some filters to avoid unexpected shots are implemented on the power side. The Figure bellow shows the drive where one high logic digital signal from +3,3 V to +5 V can be applied on <em>K1_out</em> point and shotting the TRIAC. The <em>Power_AC_2</em> is the main phase that drives throug the TRIAC to de <em>Load1</em> node. This load must be connected to another phase or to neutro to make a close circuit.
 
-### SoC
-
-### Faraday law 
-
+![AC_load_drive](docs/img/AC_load_drive.png "AC Load drive")
 
 # Example application
 
@@ -92,9 +89,9 @@ L1: put jump J22 closed;
 L4: put jump J7 closed;
 
 
-# Assembly of some boards;
+%# Assembly of some boards;
 
-## Board N
+%## Board N
 
 
 

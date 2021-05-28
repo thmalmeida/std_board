@@ -4735,7 +4735,7 @@ Connection ~ 800  3550
 Wire Wire Line
 	800  3550 850  3550
 Text Notes 8950 700  0    60   ~ 12
-AC load driver
+AC load drive
 Wire Wire Line
 	1750 7150 1750 7250
 Wire Wire Line

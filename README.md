@@ -18,6 +18,7 @@ Renderized PCB with electrical components and modules are showed on the followin
 * [Peripherals mapping](#peripherals-mapping)
 * [Digital inputs](#digital-inputs)
 * [Level sensor](#level-sensor)
+* [Voltage sensor]#(voltage-sensor)
 * [Power input modes](#power_input_modes)
   + [Mode 1: 120-240 VAC input](#mode-1-120-240-vac-input)
   + [Mode 2: 24 VAC input](#mode-2-24-vac-input)
@@ -71,6 +72,11 @@ This board has four independent water level sensor circuit. Each circuit uses on
 Some simulation has been done 
 
 ![Level_Sensors_img02](docs/img/level_sensor_graph.png "Time domain input and output voltage level")
+
+## Voltage sensor
+The voltage sensor can measure four different source os voltages and one select soldering jump. The following Figure shows the schematic of voltage sensor circuit.
+
+![std_board_img01](docs/img/voltage_sensor.png)
 
 ## Power input modes
 

@@ -1,9 +1,15 @@
 # std_board
-
+Teste
 std_board is an open hardware project that aims to bring the connectivity capacity of a microcontroller joining with sensors and actuators to a remote monitoring and control.
 
 Renderized PCB with electrical components and modules are showed on the following picture.
 ![std_board_img03](docs/img/board_rend.png)
+
+# TODO list
+
+- 20210719
+ - Fix voltage measure circuit on R58;
+ - Modify voltage measure input borne to left side board avoid AC DC short circuits
 
 ## Content
 

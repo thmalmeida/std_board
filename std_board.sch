@@ -220,7 +220,7 @@ F 3 "" H 3550 4300 60  0000 C CNN
 	1    3550 4300
 	-1   0    0    -1  
 $EndComp
-Text Notes 6400 5550 0    60   ~ 12
+Text Notes 6500 5550 0    60   ~ 12
 Voltage Sensor
 Text Notes 9750 5600 0    60   ~ 12
 Current Sensor
@@ -432,7 +432,7 @@ F 3 "" H 3950 4300 60  0000 C CNN
 	1    3950 4300
 	-1   0    0    -1  
 $EndComp
-Text Label 5050 6100 2    39   ~ 0
+Text Label 4950 6100 2    39   ~ 0
 +5V
 Wire Wire Line
 	9100 6050 9150 6050
@@ -538,7 +538,7 @@ Connection ~ 10350 6400
 Wire Notes Line
 	0    4550 0    5700
 Wire Notes Line
-	6000 5500 6000 6450
+	5850 5500 5850 6600
 Wire Wire Line
 	8000 6000 8000 6050
 Wire Wire Line
@@ -611,7 +611,7 @@ L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-sta
 U 1 1 5D0D4EDA
 P 3850 4100
 F 0 "C8" V 3800 4140 30  0000 C CNN
-F 1 "100 nF" V 3900 4170 25  0000 C CNN
+F 1 "47 nF" V 3900 4170 25  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 3700 4040 60  0001 C CNN
 F 3 "" V 3800 4140 60  0000 C CNN
 F 4 "xx" V 3700 4350 60  0001 C CNN "Rated Voltage [V]"
@@ -627,7 +627,7 @@ L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-sta
 U 1 1 5D0D538B
 P 2650 4100
 F 0 "C9" V 2600 4140 30  0000 C CNN
-F 1 "100 nF" V 2700 4170 25  0000 C CNN
+F 1 "47 nF" V 2700 4170 25  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 2500 4040 60  0001 C CNN
 F 3 "" V 2600 4140 60  0000 C CNN
 F 4 "xx" V 2500 4350 60  0001 C CNN "Rated Voltage [V]"
@@ -643,7 +643,7 @@ L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-sta
 U 1 1 5D0D5628
 P 3050 4100
 F 0 "C10" V 3000 4140 30  0000 C CNN
-F 1 "100 nF" V 3100 4170 25  0000 C CNN
+F 1 "47 nF" V 3100 4170 25  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 2900 4040 60  0001 C CNN
 F 3 "" V 3000 4140 60  0000 C CNN
 F 4 "xx" V 2900 4350 60  0001 C CNN "Rated Voltage [V]"
@@ -659,7 +659,7 @@ L std_board-rescue:C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-sta
 U 1 1 5D0D5B53
 P 3450 4100
 F 0 "C11" V 3400 4140 30  0000 C CNN
-F 1 "100 nF" V 3500 4170 25  0000 C CNN
+F 1 "47 nF" V 3500 4170 25  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" V 3300 4040 60  0001 C CNN
 F 3 "" V 3400 4140 60  0000 C CNN
 F 4 "xx" V 3300 4350 60  0001 C CNN "Rated Voltage [V]"
@@ -675,7 +675,7 @@ L std_board-rescue:R_Micro-thmalmeida R20
 U 1 1 5D0D5F32
 P 3950 3800
 F 0 "R20" H 4000 3850 25  0000 C CNN
-F 1 "100 k" H 4000 3750 20  0000 C CNN
+F 1 "56 k" H 4000 3750 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3780 3750 60  0001 C CNN
 F 3 "" H 3880 3850 60  0000 C CNN
 F 4 "0.1" H 3950 3950 60  0001 C CNN "Rated Power [W]"
@@ -692,7 +692,7 @@ L std_board-rescue:R_Micro-thmalmeida R21
 U 1 1 5D0D6343
 P 2750 3800
 F 0 "R21" H 2800 3850 25  0000 C CNN
-F 1 "100 k" H 2800 3750 20  0000 C CNN
+F 1 "56 k" H 2800 3750 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2580 3750 60  0001 C CNN
 F 3 "" H 2680 3850 60  0000 C CNN
 F 4 "0.1" H 2750 3950 60  0001 C CNN "Rated Power [W]"
@@ -709,7 +709,7 @@ L std_board-rescue:R_Micro-thmalmeida R22
 U 1 1 5D0D6600
 P 3150 3800
 F 0 "R22" H 3200 3875 25  0000 C CNN
-F 1 "100 k" H 3200 3750 20  0000 C CNN
+F 1 "56 k" H 3200 3750 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2980 3750 60  0001 C CNN
 F 3 "" H 3080 3850 60  0000 C CNN
 F 4 "0.1" H 3150 3950 60  0001 C CNN "Rated Power [W]"
@@ -726,7 +726,7 @@ L std_board-rescue:R_Micro-thmalmeida R23
 U 1 1 5D0D6AC5
 P 3550 3800
 F 0 "R23" H 3600 3875 25  0000 C CNN
-F 1 "100 k" H 3600 3750 20  0000 C CNN
+F 1 "56 k" H 3600 3750 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3380 3750 60  0001 C CNN
 F 3 "" H 3480 3850 60  0000 C CNN
 F 4 "0.1" H 3550 3950 60  0001 C CNN "Rated Power [W]"
@@ -1651,62 +1651,62 @@ F 8 "yes" V 11300 3540 60  0001 C CNN "Placed Onboard?"
 	1    10850 3000
 	0    1    1    0   
 $EndComp
-Text Label 5050 6300 2    39   ~ 0
+Text Label 4950 6300 2    39   ~ 0
 GND
 Wire Wire Line
-	5400 6300 5050 6300
+	5300 6300 4950 6300
 $Comp
 L std_board-rescue:Jumper-thmalmeida J16
 U 1 1 5DD3C702
-P 5200 6000
-F 0 "J16" H 5150 6050 25  0000 C CNN
-F 1 "J_PRess" H 5275 6050 20  0000 C CNN
-F 2 "thmalmeida:J_0603" H 5225 6000 60  0001 C CNN
-F 3 "" H 5225 6000 60  0000 C CNN
-	1    5200 6000
+P 5100 6000
+F 0 "J16" H 5050 6050 25  0000 C CNN
+F 1 "J_PRess" H 5175 6050 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 5125 6000 60  0001 C CNN
+F 3 "" H 5125 6000 60  0000 C CNN
+	1    5100 6000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5400 6150 5350 6150
+	5300 6150 5250 6150
 $Comp
 L std_board-rescue:Diode-thmalmeida D4
 U 1 1 5D9717D7
-P 5200 6150
-F 0 "D4" H 5275 6200 39  0000 C CNN
-F 1 "Diode" H 5125 6200 31  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5175 6100 60  0001 C CNN
-F 3 "" H 5275 6200 60  0001 C CNN
-F 4 "350" H 5375 6300 60  0001 C CNN "Reverse voltage [V]"
-F 5 "10" H 5475 6400 60  0001 C CNN "Rated Current [A]"
-F 6 "xxxx" H 5575 6500 60  0001 C CNN "Part Number"
-F 7 "MM" H 5675 6600 60  0001 C CNN "Manufacturer"
-F 8 "yes" H 5775 6700 60  0001 C CNN "Placed Onboard?"
-F 9 "mmmm" H 5875 6800 60  0001 C CNN "Module"
-	1    5200 6150
+P 5100 6150
+F 0 "D4" H 5175 6200 39  0000 C CNN
+F 1 "Diode" H 5025 6200 31  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5075 6100 60  0001 C CNN
+F 3 "" H 5175 6200 60  0001 C CNN
+F 4 "350" H 5275 6300 60  0001 C CNN "Reverse voltage [V]"
+F 5 "10" H 5375 6400 60  0001 C CNN "Rated Current [A]"
+F 6 "xxxx" H 5475 6500 60  0001 C CNN "Part Number"
+F 7 "MM" H 5575 6600 60  0001 C CNN "Manufacturer"
+F 8 "yes" H 5675 6700 60  0001 C CNN "Placed Onboard?"
+F 9 "mmmm" H 5775 6800 60  0001 C CNN "Module"
+	1    5100 6150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5300 6000 5350 6000
+	5200 6000 5250 6000
 Wire Wire Line
-	5350 6000 5350 6150
-Connection ~ 5350 6150
+	5250 6000 5250 6150
+Connection ~ 5250 6150
 Wire Wire Line
-	5350 6150 5300 6150
+	5250 6150 5200 6150
 Wire Wire Line
-	5050 6150 5100 6150
+	4950 6150 5000 6150
 Wire Wire Line
-	5100 6000 5050 6000
+	5000 6000 4950 6000
 Wire Wire Line
-	5050 6000 5050 6150
+	4950 6000 4950 6150
 $Comp
 L std_board-rescue:Conn_2_thm-thmalmeida +5V_In2
 U 1 1 5DF67572
-P 5550 6250
-F 0 "+5V_In2" H 5678 6313 39  0000 L CNN
-F 1 "+5V" H 5678 6238 39  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5550 6250 60  0001 C CNN
-F 3 "" H 5550 6250 60  0000 C CNN
-	1    5550 6250
+P 5450 6250
+F 0 "+5V_In2" H 5578 6313 39  0000 L CNN
+F 1 "+5V" H 5578 6238 39  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5450 6250 60  0001 C CNN
+F 3 "" H 5450 6250 60  0000 C CNN
+	1    5450 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1807,15 +1807,15 @@ Connection ~ 10600 6400
 $Comp
 L std_board-rescue:GND0-thmalmeida #PWR026
 U 1 1 5DEF36F9
-P 6400 6350
-F 0 "#PWR026" H 6400 6100 50  0001 C CNN
-F 1 "GND0" H 6475 6300 28  0000 C CNN
-F 2 "" H 6400 6350 60  0000 C CNN
-F 3 "" H 6400 6350 60  0000 C CNN
-	1    6400 6350
+P 6500 6350
+F 0 "#PWR026" H 6500 6100 50  0001 C CNN
+F 1 "GND0" H 6575 6300 28  0000 C CNN
+F 2 "" H 6500 6350 60  0000 C CNN
+F 3 "" H 6500 6350 60  0000 C CNN
+	1    6500 6350
 	-1   0    0    -1  
 $EndComp
-Text Label 7000 5650 2    45   ~ 9
+Text Label 7100 5650 2    45   ~ 9
 Phase_R
 Wire Notes Line
 	7450 5500 7450 6500
@@ -2358,7 +2358,7 @@ Connection ~ 1400 3550
 Wire Wire Line
 	1400 3550 1400 3600
 $Comp
-L thmalmeida:CONN_5X1 LevelSens_1
+L std_board-rescue:CONN_5X1-thmalmeida LevelSens_1
 U 1 1 6060D2B3
 P 600 3350
 F 0 "LevelSens_1" V 100 3450 39  0000 C CNN
@@ -2395,8 +2395,8 @@ $EndComp
 Wire Notes Line
 	8950 5500 8950 6500
 Wire Notes Line
-	4900 5500 4900 6500
-Text Notes 4950 5900 0    67   ~ 13
+	4800 5500 4800 6500
+Text Notes 4850 5900 0    67   ~ 13
 +5V Power Supply\n     Connector
 Wire Wire Line
 	2800 4950 2800 4750
@@ -2433,18 +2433,18 @@ GND
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R59
 U 1 1 5EB23E80
-P 6650 6200
-F 0 "R59" H 6700 6150 25  0000 C CNN
-F 1 "220 k" H 6700 6250 20  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6480 6150 60  0001 C CNN
-F 3 "" H 6580 6250 60  0000 C CNN
-F 4 "0.1" H 6650 6350 60  0001 C CNN "Rated Power [W]"
-F 5 "MCT08050F1001C" H 6650 6450 60  0001 C CNN "Part Number"
-F 6 "VISHAY" H 6650 6550 60  0001 C CNN "Manufacturer"
-F 7 "xx" H 6980 6650 60  0001 C CNN "Module"
-F 8 "yes" H 7080 6750 60  0001 C CNN "Placed Onboard?"
-F 9 "5" H 5800 -250 50  0001 C CNN "Tolerance [%]"
-	1    6650 6200
+P 6750 6200
+F 0 "R59" H 6800 6150 25  0000 C CNN
+F 1 "220 k" H 6800 6250 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6580 6150 60  0001 C CNN
+F 3 "" H 6680 6250 60  0000 C CNN
+F 4 "0.1" H 6750 6350 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT08050F1001C" H 6750 6450 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 6750 6550 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 7080 6650 60  0001 C CNN "Module"
+F 8 "yes" H 7180 6750 60  0001 C CNN "Placed Onboard?"
+F 9 "5" H 5900 -250 50  0001 C CNN "Tolerance [%]"
+	1    6750 6200
 	1    0    0    -1  
 $EndComp
 Text Label 8950 850  3    47   Italic 9
@@ -2710,18 +2710,18 @@ Wire Notes Line
 Text Notes 5350 4650 0    60   ~ 12
 RTC DS3231
 $Comp
-L thmalmeida:Connector_2 Voltimeter_DSO1
+L std_board-rescue:Connector_2-thmalmeida Voltimeter_DSO1
 U 1 1 5F7376F8
-P 7150 5750
-F 0 "Voltimeter_DSO1" H 7200 5550 35  0000 C CNN
-F 1 "Voltimeter" H 7150 5600 31  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7150 5750 60  0001 C CNN
-F 3 "" H 7150 5750 60  0000 C CNN
-	1    7150 5750
+P 7250 5750
+F 0 "Voltimeter_DSO1" V 7350 5700 35  0000 C CNN
+F 1 "Voltimeter" V 7300 5500 31  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7250 5750 60  0001 C CNN
+F 3 "" H 7250 5750 60  0000 C CNN
+	1    7250 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L thmalmeida:I_sens LS1
+L std_board-rescue:I_sens-thmalmeida LS1
 U 1 1 5F858CBB
 P 7550 5900
 F 0 "LS1" H 7603 5925 24  0000 L CNN
@@ -2737,7 +2737,7 @@ F 8 "yes" H 7550 6225 60  0001 C CNN "Placed Onboard?"
 	1    0    0    -1  
 $EndComp
 $Comp
-L thmalmeida:I_sens LS2
+L std_board-rescue:I_sens-thmalmeida LS2
 U 1 1 5F85948C
 P 8300 5900
 F 0 "LS2" H 8353 5925 24  0000 L CNN
@@ -2756,7 +2756,7 @@ Wire Wire Line
 	7550 5750 7750 5750
 Wire Wire Line
 	8300 5750 8500 5750
-Text Label 6950 5800 3    45   ~ 9
+Text Label 7050 5800 3    45   ~ 9
 Neutro
 Wire Notes Line
 	5150 4500 2500 4500
@@ -2791,7 +2791,7 @@ Text Label 4300 7200 2    39   ~ 0
 Wire Wire Line
 	3550 7450 3550 7550
 $Comp
-L thmalmeida:AMS1117-V IC4
+L std_board-rescue:AMS1117-V-thmalmeida IC4
 U 1 1 6084374A
 P 4750 7250
 F 0 "IC4" H 4750 7492 40  0000 C CNN
@@ -2807,7 +2807,7 @@ F 8 "AMS1117-V" H 4750 7800 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L thmalmeida:L78L05 IC3
+L std_board-rescue:L78L05-thmalmeida IC3
 U 1 1 60845C13
 P 3550 7250
 F 0 "IC3" H 3550 7492 40  0000 C CNN
@@ -2900,7 +2900,7 @@ Wire Wire Line
 Text Label 8950 4750 0    45   ~ 9
 +3.3V
 $Comp
-L std_board-rescue:CONN_6X1-thmalmeida DS3231_1
+L std_board-rescue:CONN_6X1-thmalmeida-std_board-rescue DS3231_1
 U 1 1 5F2D9A19
 P 5950 5050
 F 0 "DS3231_1" V 6040 5250 35  0000 C CNN
@@ -2931,7 +2931,7 @@ Wire Wire Line
 Wire Wire Line
 	900  7450 900  7550
 $Comp
-L thmalmeida:L_Micro L1
+L std_board-rescue:L_Micro-thmalmeida L1
 U 1 1 5F8613BC
 P 1450 7150
 F 0 "L1" V 1324 7150 30  0000 C CNN
@@ -3406,7 +3406,7 @@ Load01
 Text Label 10850 3900 2    47   ~ 0
 Power_AC
 $Comp
-L thmalmeida:CONN_5X1 AC_Output1
+L std_board-rescue:CONN_5X1-thmalmeida AC_Output1
 U 1 1 5D8FE754
 P 11000 4000
 F 0 "AC_Output1" V 11090 4200 35  0000 C CNN
@@ -3471,18 +3471,18 @@ Wire Wire Line
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R45
 U 1 1 5EB23190
-P 6650 5900
-F 0 "R45" H 6700 5850 25  0000 C CNN
-F 1 "220 k" H 6700 5950 20  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6480 5850 60  0001 C CNN
-F 3 "" H 6580 5950 60  0000 C CNN
-F 4 "0.1" H 6650 6050 60  0001 C CNN "Rated Power [W]"
-F 5 "MCT08050F1001C" H 6650 6150 60  0001 C CNN "Part Number"
-F 6 "VISHAY" H 6650 6250 60  0001 C CNN "Manufacturer"
-F 7 "xx" H 6980 6350 60  0001 C CNN "Module"
-F 8 "yes" H 7080 6450 60  0001 C CNN "Placed Onboard?"
-F 9 "5" H 5800 -250 50  0001 C CNN "Tolerance [%]"
-	1    6650 5900
+P 6750 5900
+F 0 "R45" H 6800 5850 25  0000 C CNN
+F 1 "220 k" H 6800 5950 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6580 5850 60  0001 C CNN
+F 3 "" H 6680 5950 60  0000 C CNN
+F 4 "0.1" H 6750 6050 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT08050F1001C" H 6750 6150 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 6750 6250 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 7080 6350 60  0001 C CNN "Module"
+F 8 "yes" H 7180 6450 60  0001 C CNN "Placed Onboard?"
+F 9 "5" H 5900 -250 50  0001 C CNN "Tolerance [%]"
+	1    6750 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3761,7 +3761,7 @@ $EndComp
 Text Label 6450 3200 0    45   ~ 9
 +5V
 $Comp
-L thmalmeida:PNP T8
+L std_board-rescue:PNP-thmalmeida T8
 U 1 1 6066A37F
 P 5950 3500
 F 0 "T8" H 6097 3500 39  0000 L CNN
@@ -3776,7 +3776,7 @@ $EndComp
 Text Label 6500 3950 0    45   ~ 9
 ADC_1
 $Comp
-L thmalmeida:Connector_2 currentSource_1
+L std_board-rescue:Connector_2-thmalmeida currentSource_1
 U 1 1 60720437
 P 6200 3800
 F 0 "currentSource_1" H 6302 3852 26  0000 L CNN
@@ -3789,24 +3789,24 @@ $EndComp
 Wire Wire Line
 	6050 3850 6050 3950
 $Comp
-L thmalmeida:CP_Micro C24
+L std_board-rescue:CP_Micro-thmalmeida C24
 U 1 1 5FD53AEC
-P 6950 6200
-F 0 "C24" H 7028 6226 30  0000 L CNN
-F 1 "22 uF" H 7028 6170 25  0000 L CNN
-F 2 "thmalmeida:C3_elec_5x4.5_pth" H 7325 6000 60  0001 C CNN
-F 3 "" H 6990 6250 60  0000 C CNN
-F 4 "vv" H 7300 6100 60  0001 C CNN "Rated Voltage [V]"
-F 5 "10" H 7300 6500 60  0001 C CNN "Tolerance [%]"
-F 6 "pppp" H 7300 5900 60  0001 C CNN "Part Number"
-F 7 "mmmm" H 7300 6200 60  0001 C CNN "Manufacturer"
-F 8 "MM" H 7300 6275 60  0001 C CNN "Module"
-F 9 "yes" H 7300 6400 60  0001 C CNN "Placed Onboard?"
-	1    6950 6200
+P 7050 6200
+F 0 "C24" H 7128 6226 30  0000 L CNN
+F 1 "22 uF" H 7128 6170 25  0000 L CNN
+F 2 "thmalmeida:C3_elec_5x4.5_pth" H 7425 6000 60  0001 C CNN
+F 3 "" H 7090 6250 60  0000 C CNN
+F 4 "vv" H 7400 6100 60  0001 C CNN "Rated Voltage [V]"
+F 5 "10" H 7400 6500 60  0001 C CNN "Tolerance [%]"
+F 6 "pppp" H 7400 5900 60  0001 C CNN "Part Number"
+F 7 "mmmm" H 7400 6200 60  0001 C CNN "Manufacturer"
+F 8 "MM" H 7400 6275 60  0001 C CNN "Module"
+F 9 "yes" H 7400 6400 60  0001 C CNN "Placed Onboard?"
+	1    7050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L thmalmeida:CP_Micro C7
+L std_board-rescue:CP_Micro-thmalmeida C7
 U 1 1 5FD5FFD2
 P 2650 7350
 F 0 "C7" H 2728 7376 30  0000 L CNN
@@ -3863,7 +3863,7 @@ $EndComp
 Connection ~ 9450 3850
 Connection ~ 9650 3850
 $Comp
-L thmalmeida:CP_Micro C23
+L std_board-rescue:CP_Micro-thmalmeida C23
 U 1 1 600412B1
 P 5050 7350
 F 0 "C23" H 5128 7376 30  0000 L CNN
@@ -3887,7 +3887,7 @@ Connection ~ 5050 7550
 Wire Wire Line
 	5050 7550 5200 7550
 $Comp
-L thmalmeida:CP_Micro C22
+L std_board-rescue:CP_Micro-thmalmeida C22
 U 1 1 60153018
 P 4450 7350
 F 0 "C22" H 4528 7376 30  0000 L CNN
@@ -3925,7 +3925,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7550 4100 7550
 $Comp
-L thmalmeida:CP_Micro C26
+L std_board-rescue:CP_Micro-thmalmeida C26
 U 1 1 600ADC51
 P 2200 6000
 F 0 "C26" H 2278 6026 30  0000 L CNN
@@ -3942,7 +3942,7 @@ F 9 "yes" H 2550 6200 60  0001 C CNN "Placed Onboard?"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L thmalmeida:CP_Micro C29
+L std_board-rescue:CP_Micro-thmalmeida C29
 U 1 1 600AE3F8
 P 2500 6300
 F 0 "C29" H 2578 6326 30  0000 L CNN
@@ -4155,7 +4155,7 @@ Wire Wire Line
 	2800 6450 3100 6450
 Connection ~ 2800 6450
 $Comp
-L thmalmeida:L_Micro L4
+L std_board-rescue:L_Micro-thmalmeida L4
 U 1 1 6003EB59
 P 2350 6150
 F 0 "L4" V 2224 6150 30  0000 C CNN
@@ -4250,7 +4250,7 @@ Connection ~ 1550 6150
 Wire Wire Line
 	1550 6150 1650 6150
 $Comp
-L thmalmeida:CP_Micro C27
+L std_board-rescue:CP_Micro-thmalmeida C27
 U 1 1 60A79792
 P 2350 7350
 F 0 "C27" H 2428 7376 30  0000 L CNN
@@ -4267,7 +4267,7 @@ F 9 "yes" H 2700 7550 60  0001 C CNN "Placed Onboard?"
 	1    0    0    -1  
 $EndComp
 $Comp
-L thmalmeida:L_Micro L2
+L std_board-rescue:L_Micro-thmalmeida L2
 U 1 1 5F6DA497
 P 2500 7200
 F 0 "L2" V 2374 7200 30  0000 C CNN
@@ -4378,7 +4378,7 @@ Connection ~ 1200 6400
 Wire Wire Line
 	1200 6400 1300 6400
 $Comp
-L thmalmeida:LNK306 U1
+L std_board-rescue:LNK306-thmalmeida U1
 U 1 1 619C1952
 P 1200 6150
 F 0 "U1" H 1450 6050 28  0000 L CNN
@@ -4459,7 +4459,7 @@ Text Label 2350 4550 2    45   ~ 9
 Text Label 1400 4550 2    45   ~ 9
 +3.3V
 $Comp
-L thmalmeida:JTAG_CONN-06_adapted JTAG1
+L std_board-rescue:JTAG_CONN-06_adapted-thmalmeida JTAG1
 U 1 1 606DF9E6
 P 10650 5100
 F 0 "JTAG1" H 10650 5482 35  0000 C CNN
@@ -4480,7 +4480,7 @@ DHT11_data
 Text Label 7550 1900 0    47   Italic 9
 LED_2
 $Comp
-L thmalmeida:CONN_6X1 Inputs1
+L std_board-rescue:CONN_6X1-thmalmeida Inputs1
 U 1 1 60507AF3
 P 4600 4050
 F 0 "Inputs1" V 4700 4150 35  0000 L CNN
@@ -4493,131 +4493,131 @@ $EndComp
 Text Label 4450 4300 2    45   ~ 9
 T2_in
 Wire Wire Line
-	6650 6000 6650 6050
+	6750 6000 6750 6050
 Wire Wire Line
-	6400 5900 6400 5950
+	6500 5900 6500 5950
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R58
 U 1 1 5EB22108
-P 6400 6200
-F 0 "R58" H 6450 6150 25  0000 C CNN
-F 1 "3.3 k" H 6450 6250 20  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6230 6150 60  0001 C CNN
-F 3 "" H 6330 6250 60  0000 C CNN
-F 4 "0.1" H 6400 6350 60  0001 C CNN "Rated Power [W]"
-F 5 "MCT08050F1001C" H 6400 6450 60  0001 C CNN "Part Number"
-F 6 "VISHAY" H 6400 6550 60  0001 C CNN "Manufacturer"
-F 7 "xx" H 6730 6650 60  0001 C CNN "Module"
-F 8 "yes" H 6830 6750 60  0001 C CNN "Placed Onboard?"
-F 9 "5" H 5800 -250 50  0001 C CNN "Tolerance [%]"
-	1    6400 6200
+P 6500 6200
+F 0 "R58" H 6550 6150 25  0000 C CNN
+F 1 "3.9 k" H 6550 6250 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6330 6150 60  0001 C CNN
+F 3 "" H 6430 6250 60  0000 C CNN
+F 4 "0.1" H 6500 6350 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT08050F1001C" H 6500 6450 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 6500 6550 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 6830 6650 60  0001 C CNN "Module"
+F 8 "yes" H 6930 6750 60  0001 C CNN "Placed Onboard?"
+F 9 "5" H 5900 -250 50  0001 C CNN "Tolerance [%]"
+	1    6500 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R42
 U 1 1 5EB214E0
-P 6400 5800
-F 0 "R42" H 6450 5750 25  0000 C CNN
-F 1 "500 k" H 6470 5850 20  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6230 5750 60  0001 C CNN
-F 3 "" H 6330 5850 60  0000 C CNN
-F 4 "0.1" H 6400 5950 60  0001 C CNN "Rated Power [W]"
-F 5 "MCT08050F1001C" H 6400 6050 60  0001 C CNN "Part Number"
-F 6 "VISHAY" H 6400 6150 60  0001 C CNN "Manufacturer"
-F 7 "xx" H 6730 6250 60  0001 C CNN "Module"
-F 8 "yes" H 6830 6350 60  0001 C CNN "Placed Onboard?"
-F 9 "5" H 5800 -300 50  0001 C CNN "Tolerance [%]"
-	1    6400 5800
+P 6500 5800
+F 0 "R42" H 6550 5750 25  0000 C CNN
+F 1 "470 k" H 6570 5850 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6330 5750 60  0001 C CNN
+F 3 "" H 6430 5850 60  0000 C CNN
+F 4 "0.1" H 6500 5950 60  0001 C CNN "Rated Power [W]"
+F 5 "MCT08050F1001C" H 6500 6050 60  0001 C CNN "Part Number"
+F 6 "VISHAY" H 6500 6150 60  0001 C CNN "Manufacturer"
+F 7 "xx" H 6830 6250 60  0001 C CNN "Module"
+F 8 "yes" H 6930 6350 60  0001 C CNN "Placed Onboard?"
+F 9 "5" H 5900 -300 50  0001 C CNN "Tolerance [%]"
+	1    6500 5800
 	1    0    0    -1  
 $EndComp
-Text Label 6350 5950 3    39   ~ 8
+Text Label 6450 5950 3    39   ~ 8
 vSensorR
 Wire Wire Line
-	6400 5700 6400 5650
+	6500 5700 6500 5650
 Wire Wire Line
-	6950 6100 6950 6050
+	7050 6100 7050 6050
 Wire Wire Line
-	6400 6300 6400 6350
-Text Label 6200 5950 3    45   ~ 9
+	6500 6300 6500 6350
+Text Label 6300 5950 3    45   ~ 9
 V_input
-Text Label 6650 5750 0    45   ~ 9
+Text Label 6750 5750 0    45   ~ 9
 +3.3V
 $Comp
 L std_board-rescue:Jumper-thmalmeida J45
 U 1 1 61F219DE
-P 6200 5800
-F 0 "J45" H 6150 5850 25  0000 C CNN
-F 1 "Jumper" H 6275 5850 20  0000 C CNN
-F 2 "thmalmeida:J_0603" H 6200 5925 60  0001 C CNN
-F 3 "" H 6225 5800 60  0000 C CNN
-	1    6200 5800
+P 6300 5800
+F 0 "J45" H 6250 5850 25  0000 C CNN
+F 1 "Jumper" H 6375 5850 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 6300 5925 60  0001 C CNN
+F 3 "" H 6325 5800 60  0000 C CNN
+	1    6300 5800
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6350 5950 6400 5950
-Connection ~ 6400 5950
+	6450 5950 6500 5950
+Connection ~ 6500 5950
 Wire Wire Line
-	6400 5950 6400 6100
+	6500 5950 6500 6100
 Wire Wire Line
-	6950 5800 7000 5800
+	7050 5800 7100 5800
 $Comp
 L std_board-rescue:GND0-thmalmeida #PWR024
 U 1 1 610E9DE1
-P 6650 6350
-F 0 "#PWR024" H 6650 6100 50  0001 C CNN
-F 1 "GND0" H 6725 6300 28  0000 C CNN
-F 2 "" H 6650 6350 60  0000 C CNN
-F 3 "" H 6650 6350 60  0000 C CNN
-	1    6650 6350
+P 6750 6350
+F 0 "#PWR024" H 6750 6100 50  0001 C CNN
+F 1 "GND0" H 6825 6300 28  0000 C CNN
+F 2 "" H 6750 6350 60  0000 C CNN
+F 3 "" H 6750 6350 60  0000 C CNN
+	1    6750 6350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L std_board-rescue:GND0-thmalmeida #PWR025
 U 1 1 610EA23A
-P 6950 6350
-F 0 "#PWR025" H 6950 6100 50  0001 C CNN
-F 1 "GND0" H 7025 6300 28  0000 C CNN
-F 2 "" H 6950 6350 60  0000 C CNN
-F 3 "" H 6950 6350 60  0000 C CNN
-	1    6950 6350
+P 7050 6350
+F 0 "#PWR025" H 7050 6100 50  0001 C CNN
+F 1 "GND0" H 7125 6300 28  0000 C CNN
+F 2 "" H 7050 6350 60  0000 C CNN
+F 3 "" H 7050 6350 60  0000 C CNN
+	1    7050 6350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 6300 6650 6350
+	6750 6300 6750 6350
 Wire Wire Line
-	6950 6300 6950 6350
+	7050 6300 7050 6350
 Wire Wire Line
-	6650 5750 6650 5800
+	6750 5750 6750 5800
 Wire Wire Line
-	6650 6050 6950 6050
-Connection ~ 6650 6050
+	6750 6050 7050 6050
+Connection ~ 6750 6050
 Wire Wire Line
-	6650 6050 6650 6100
-Connection ~ 6950 6050
+	6750 6050 6750 6100
+Connection ~ 7050 6050
 Wire Wire Line
-	6950 6050 6950 5800
+	7050 6050 7050 5800
 Wire Wire Line
-	6200 5700 6200 5650
+	6300 5700 6300 5650
 Wire Wire Line
-	6200 5650 6400 5650
+	6300 5650 6500 5650
 Wire Wire Line
-	6200 5950 6200 5900
+	6300 5950 6300 5900
 $Comp
 L std_board-rescue:Jumper-thmalmeida J15
 U 1 1 6161FE71
-P 6550 5650
-F 0 "J15" H 6500 5700 25  0000 C CNN
-F 1 "Jumper" H 6625 5700 20  0000 C CNN
-F 2 "thmalmeida:J_0603" H 6550 5775 60  0001 C CNN
-F 3 "" H 6575 5650 60  0000 C CNN
-	1    6550 5650
+P 6650 5650
+F 0 "J15" H 6600 5700 25  0000 C CNN
+F 1 "Jumper" H 6725 5700 20  0000 C CNN
+F 2 "thmalmeida:J_0603" H 6650 5775 60  0001 C CNN
+F 3 "" H 6675 5650 60  0000 C CNN
+	1    6650 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 5650 7000 5650
+	6750 5650 7100 5650
 Wire Wire Line
-	6450 5650 6400 5650
-Connection ~ 6400 5650
+	6550 5650 6500 5650
+Connection ~ 6500 5650
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R63
 U 1 1 61C44322
@@ -4824,7 +4824,7 @@ K1_in
 Wire Wire Line
 	6850 900  7100 900 
 $Comp
-L thmalmeida:ESP32 IC1
+L std_board-rescue:ESP32-thmalmeida IC1
 U 1 1 60F625F1
 P 5150 1750
 F 0 "IC1" H 6300 700 50  0000 C CNN
@@ -4850,7 +4850,7 @@ USB_RX
 Text GLabel 3250 2200 0    39   Input ~ 8
 P15
 $Comp
-L thmalmeida:Bridge_Rectifier Rectifier1
+L std_board-rescue:Bridge_Rectifier-thmalmeida Rectifier1
 U 1 1 60AD3EDD
 P 2000 7350
 F 0 "Rectifier1" H 2000 7622 35  0000 C CNN
@@ -4864,5 +4864,9 @@ F 6 "yes" H 2000 7825 60  0001 C CNN "Placed Onboard?"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	6950 6500 6050 6500
+	6900 6650 5900 6650
+Text Notes 6900 6600 2    28   ~ 6
+Vrms = 220 V: R42 = 460 k and R58 = 3.9 k
+Text Notes 6900 6528 2    28   ~ 6
+Vrms = 127 V: R42 = 460 k and R58 = 3.9 k
 $EndSCHEMATC

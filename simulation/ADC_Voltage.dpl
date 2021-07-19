@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=0,0,941,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=ADC_Voltage.dat>
+  <DataDisplay=ADC_Voltage.sch>
+  <OpenDisplay=1>
+  <Script=ADC_Voltage.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 122 551 779 444 3 #c0c0c0 1 00 1 0 0.002 0.033 1 -3 1 5.36974 1 -1 0.2 1 315 0 225 "" "" "" "">
+	<"Vout.Vt" #0000ff 0 3 0 0 0>
+	  <Mkr 0.00403407 95 -477 3 0 0>
+	  <Mkr 0.0124329 293 -253 3 0 0>
+	<"Vref.Vt" #ff0000 0 3 0 0 0>
+	<"VoutB.Vt" #00ff00 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

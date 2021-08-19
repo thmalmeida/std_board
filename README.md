@@ -1,6 +1,5 @@
 # std_board
-Teste
-std_board is an open hardware project that aims to bring the connectivity capacity of a microcontroller joining with sensors and actuators to a remote monitoring and control.
+_std_board_ is an open hardware project that aims to bring the connectivity capacity of a microcontroller joining with sensors and actuators to a remote monitoring and control.
 
 Renderized PCB with electrical components and modules are showed on the following picture.
 ![std_board_img03](docs/img/board_rend.png)

@@ -23,6 +23,7 @@ Renderized PCB with electrical components and modules are showed on the followin
   + [Mode 2: 24 VAC input](#mode-2-24-vac-input)
 * [Current controller](#current-controller)
 * [AC load drive](#ac-load-drive)
+* [Erros fixed on v0.1.0](#erros)
 ## About std_board
 
 The main idea of std_board is help farmers to optimize production and monitoring some variables. Even this hardware is a little bit generic pplication that can control water pumps, valves, solenoids and any AC load. For this, it needs some feedback o real world physical variables like water weel level, time, water pressure inside pumps, ac voltage, ac current, thermal relay, and any digital input. The general purpose is optimize the production controlling the water flux.
@@ -104,9 +105,9 @@ L4: put jump J7 closed;
 
 %## Board N
 
+# Errors
 
-
-
+- Voltage sensor
 
 
 

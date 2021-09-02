@@ -1,0 +1,16 @@
+Logs update changes
+
+# 20210822
+
+Schematic
+
+- T8 PNP transistor was fixed your pinout EBC;
+
+- Inputs1 connector changed from 6 to 5 pins;
+	- now it has real four inputs, k1, k2, k3 and t1;
+
+- deleted Voltimeter_DSO1 connector;
+
+Board
+
+- deleted Voltimeter_DSO1 connector

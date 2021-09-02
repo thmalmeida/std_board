@@ -591,27 +591,6 @@ X G 6 300 150 100 L 30 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# std_board-rescue_PNP-thmalmeida
-#
-DEF std_board-rescue_PNP-thmalmeida T 0 40 Y Y 1 F N
-F0 "T" -80 90 39 H V C CNN
-F1 "std_board-rescue_PNP-thmalmeida" -60 -90 39 H I C CNN
-F2 "Package_TO_SOT_THT:TO-92" -140 -220 60 H I C CNN
-F3 "" -40 -120 60 H V C CNN
-F4 "xxxx" 60 -20 60 H I C CNN "Part Number"
-F5 "yyyy" 160 80 60 H I C CNN "Manufacturer"
-DRAW
-P 2 0 1 0 -40 0 0 0 N
-P 2 0 1 0 0 -75 0 75 N
-P 2 0 1 0 0 -30 100 -100 N
-P 2 0 1 0 0 30 100 95 N
-P 4 0 1 0 50 35 25 75 10 35 50 35 F
-X B 1 -100 0 63 R 30 30 1 1 O
-X E 2 100 150 53 D 30 30 1 1 I
-X C 3 100 -150 51 U 30 30 1 1 O
-ENDDRAW
-ENDDEF
-#
 # std_board-rescue_R_Micro-thmalmeida
 #
 DEF std_board-rescue_R_Micro-thmalmeida R 0 0 N N 1 F N
@@ -695,6 +674,27 @@ P 3 0 1 0 50 25 75 0 75 0 N
 P 6 0 1 0 -50 25 -25 -25 0 25 25 -25 50 25 50 25 N
 X A 1 100 0 25 L 25 25 1 1 P
 X B 2 -100 0 25 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# thmalmeida_PNP_TO-92
+#
+DEF thmalmeida_PNP_TO-92 T 0 40 Y Y 1 F N
+F0 "T" -80 90 39 H V C CNN
+F1 "thmalmeida_PNP_TO-92" -60 -90 39 H I C CNN
+F2 "Package_TO_SOT_THT:TO-92" -140 -220 60 H I C CNN
+F3 "" -40 -120 60 H V C CNN
+F4 "xxxx" 60 -20 60 H I C CNN "Part Number"
+F5 "yyyy" 160 80 60 H I C CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -40 0 0 0 N
+P 2 0 1 0 0 -75 0 75 N
+P 2 0 1 0 0 -30 100 -100 N
+P 2 0 1 0 0 30 100 95 N
+P 4 0 1 0 50 35 25 75 10 35 50 35 F
+X E 1 100 150 53 D 30 30 1 1 I
+X B 2 -100 0 63 R 30 30 1 1 O
+X C 3 100 -150 51 U 30 30 1 1 O
 ENDDRAW
 ENDDEF
 #

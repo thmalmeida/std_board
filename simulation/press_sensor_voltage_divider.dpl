@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=0,-540,972,1022,1,0,540>
+  <Grid=10,10,0>
+  <DataSet=press_sensor_voltage_divider.dat>
+  <DataDisplay=press_sensor_voltage_divider.sch>
+  <OpenDisplay=1>
+  <Script=press_sensor_voltage_divider.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 100 505 795 475 3 #c0c0c0 1 00 1 0 0.5 5 1 -1 0.2 1 1 -1 0.2 1 315 0 225 "" "" "" "">
+	<"Vout.Vt" #0000ff 0 3 0 0 0>
+	  <Mkr 0.00035 86 -477 3 0 0>
+  </Rect>
+  <Rect 100 -55 795 475 3 #c0c0c0 1 00 1 0 0.5 5 1 -1 0.2 1 1 -1 0.2 1 315 0 225 "" "" "" "">
+	<"Vout.V" #ff0000 0 3 0 0 0>
+	  <Mkr 5 586 -476 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

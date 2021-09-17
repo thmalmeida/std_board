@@ -26,6 +26,7 @@ Renderized PCB with electrical components and modules are showed on the followin
 * [Power input modes](#power_input_modes)
   + [Mode 1: 120-240 VAC input](#mode-1-120-240-vac-input)
   + [Mode 2: 24 VAC input](#mode-2-24-vac-input)
+  + [Mode 3: 5 Vdc (external power supply)](#mode-3-5V)
 * [Current controller](#current-controller)
 * [AC load drive](#ac-load-drive)
 * [Erros fixed on v0.1.0](#erros)
@@ -93,6 +94,19 @@ This mode
 to 12VDC and 120 mA;
 ### Mode 2: 24 VAC to 5 VDC;
 
+### Mode 3: 5 Vdc (external power supply)
+
+If the system is powered with external 5 V power supply on Pwr_in_1 (0V) and Pwr_in_2 (+5V), it needs to solder some following jumps:
+
+- J31: to jump F3 fuse;
+- J32: to jump L1 protection inductor;
+- J33 and J43: to jump rectifer 1;
+- J40: to jump L2 filter;
+- J41: link node A with node B;
+- J44: link node B to node C;
+- J42: jump 5 V regulation because it's powered directly with external 5 V;
+- J35: to link the 5 V with whole system;
+
 ## Current controller
 
 ## AC load drive
@@ -108,7 +122,6 @@ This first setup
 
 * Pressure circuit bias 1;
 * Pressure circuit bias 2;
-
 
 Abstract diode protection soldering J16;
 

@@ -24,6 +24,20 @@
 ## Created: 2021-09-16
 clc
 
+##     ___ V12 = 220 V rms       ___ Vmax = 1.1 V
+##      |                         |
+##      |                         |
+##     | |
+##     | | R1
+##     | |
+##      |___ V2
+##      |
+##     | |
+##     | | R2
+##     | |
+##      |  
+##     _|____ Vref
+
 R1 = 180.0*10^3;
 V12 = 3.28;
 V2 = 1.31;
@@ -44,7 +58,7 @@ fprintf('\nUsing defined R1 = %.1f Ohms and R2 = %.1f\n',R1,R2);
 fprintf('V2 = %.2f V\n',(R2)/(R1+R2)*V12);
 
 
-% Vac divisor
+% Vac divisor for Vrms = 220 V
 R3 = 680*10^3;
 Vrms = 220;
 Vp = Vrms*sqrt(2);

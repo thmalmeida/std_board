@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=0,0,1370,1221,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=ADC_current_2.dat>
+  <DataDisplay=ADC_current_2.sch>
+  <OpenDisplay=1>
+  <Script=ADC_current_2.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 240 627 1083 517 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "" "">
+	<"I_out.Vt" #0000ff 0 3 0 0 0>
+	  <Mkr 0.00403407 199 -534 3 0 0>
+	  <Mkr 0.012499 479 -104 3 0 0>
+	<"Vref_I.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.00218236 103 -229 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

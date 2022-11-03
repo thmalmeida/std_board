@@ -93,6 +93,14 @@ The voltage sensor can measure four different source of voltages into one select
 This mode
 to 12VDC and 120 mA;
 ### Mode 2: 24 VAC to 5 VDC;
+20211012 - This mode should be defined, calculated e design in a future moment. Linear regulation has a big waste on drop difference voltage when the input is ~40 V. Bests solutions were found using switching regulators. LNK30x series has bigger input AC voltage. Some candidates with low voltages are:
+
+- LM2576
+- LM2596
+- DPA422GN
+- XL7015
+
+Switches regulators has best efficiency when drop difference voltage are considerable.
 
 ### Mode 3: 5 Vdc (external power supply)
 
@@ -115,22 +123,29 @@ This boards has three circuits to drive AC voltage from source to the load using
 
 ![AC_load_drive](docs/img/AC_load_drive.png "AC Load drive")
 
-# Setup #1:
-This first setup
+It needs to put a F1 fuse or solder J36 jump.
+
+# Setup #1 on 0.1.0 version (20210310):
+
+This part guide to build one setup to common use. The nexts steps should be followed to connect jumps to link electrical parts.
+
+- J9: connect the common pad wire to 3.3V on water level circuits;
+- R73: can be short circuited
+- J27: exclude the first pad and connect T1 input to fifth pad;
+- J16: substitute abstract diode D4 protection;
+- J25: solder jump to connect L3 water level using GPIO14;
+- J26: solder jump to connect L2 water level using GPIO12;
+- J19: connect umidity sensor on GPIO13;
+
+- Current source drive circuit
+Should solder J24 to use ADC read on GPIO26 into ADC2_9;
+
 
 ## Hardware mounted onboard
 
 * Pressure circuit bias 1;
 * Pressure circuit bias 2;
 
-Abstract diode protection soldering J16;
-
-- water Level sensor circuit with L2 and L3.
-L2: put solder jump on J25;
-L3: put solder jump on J26;
-
-- Current source drive circuit
-Should solder J24 to use ADC read on GPIO26 into ADC2_9;
 # Setup #2
 
 # Setup #3

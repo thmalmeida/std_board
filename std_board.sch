@@ -39,8 +39,7 @@ F 1 "Optocoupler" H 9775 815 30  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 9700 1300 60  0001 C CNN
 F 3 "" H 9750 1150 60  0000 C CNN
 F 4 "xxxx" H 9650 1400 60  0001 C CNN "Part Number"
-F 5 "MMMM" H 9650 1500 60  0001 C CNN "Manufacturer"
-F 6 "yes" H 9650 1600 60  0001 C CNN "Placed Onboard?"
+F 5 "yes" H 9650 1600 60  0001 C CNN "Placed Onboard?"
 	1    9650 1000
 	1    0    0    -1  
 $EndComp
@@ -71,7 +70,7 @@ L std_board-rescue:R_Micro-thmalmeida R3
 U 1 1 570B14A9
 P 9100 850
 F 0 "R3" H 9150 900 25  0000 C CNN
-F 1 "470" H 9150 800 20  0000 C CNN
+F 1 "680" H 9150 800 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8930 800 60  0001 C CNN
 F 3 "" H 9030 900 60  0000 C CNN
 F 4 "0.1" H 9100 1000 60  0001 C CNN "Rated Power [W]"
@@ -171,7 +170,7 @@ F 1 "TRIAC_Micro" H 10600 950 30  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10550 1000 60  0001 C CNN
 F 3 "" H 10650 1100 60  0000 C CNN
 F 4 "xxxx" H 10750 1200 60  0001 C CNN "Part Number"
-F 5 "MMMM" H 10850 1300 60  0001 C CNN "Manufacturer"
+F 5 "BT136" H 10850 1300 60  0001 C CNN "Manufacturer"
 F 6 "yes" H 10950 1400 60  0001 C CNN "Placed Onboard?"
 	1    10600 950 
 	1    0    0    -1  
@@ -1235,8 +1234,8 @@ F 1 "Optocoupler" H 9775 1715 30  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 9700 2200 60  0001 C CNN
 F 3 "" H 9750 2050 60  0000 C CNN
 F 4 "xxxx" H 9650 2300 60  0001 C CNN "Part Number"
-F 5 "MMMM" H 9650 2400 60  0001 C CNN "Manufacturer"
-F 6 "yes" H 9650 2500 60  0001 C CNN "Placed Onboard?"
+F 5 "yes" H 9650 2500 60  0001 C CNN "Placed Onboard?"
+F 6 "MOC3021M" H 9650 1900 50  0001 C CNN "manf#"
 	1    9650 1900
 	1    0    0    -1  
 $EndComp
@@ -1266,8 +1265,8 @@ $Comp
 L std_board-rescue:R_Micro-thmalmeida R8
 U 1 1 5D53DD86
 P 9100 1750
-F 0 "R8" H 9030 1800 25  0000 C CNN
-F 1 "R_Micro" H 9170 1800 20  0000 C CNN
+F 0 "R8" H 9150 1700 25  0000 C CNN
+F 1 "680" H 9150 1800 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8930 1700 60  0001 C CNN
 F 3 "" H 9030 1800 60  0000 C CNN
 F 4 "0.1" H 9100 1900 60  0001 C CNN "Rated Power [W]"
@@ -1277,7 +1276,7 @@ F 7 "xx" H 9430 2200 60  0001 C CNN "Module"
 F 8 "yes" H 9530 2300 60  0001 C CNN "Placed Onboard?"
 F 9 "5" H 100 200 50  0001 C CNN "Tolerance [%]"
 	1    9100 1750
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R9
@@ -1314,19 +1313,19 @@ $Comp
 L std_board-rescue:Jumper-thmalmeida J2
 U 1 1 5D53DDB8
 P 9250 1850
-F 0 "J2" H 9200 1900 25  0000 C CNN
-F 1 "Jumper" H 9325 1900 20  0000 C CNN
+F 0 "J2" H 9200 1800 25  0000 C CNN
+F 1 "Jumper" H 9300 1800 20  0000 C CNN
 F 2 "thmalmeida:J_0603" H 9275 1850 60  0001 C CNN
 F 3 "" H 9275 1850 60  0000 C CNN
 	1    9250 1850
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R10
 U 1 1 5D53DDC7
 P 9100 1950
-F 0 "R10" H 9030 2000 25  0000 C CNN
-F 1 "R_Micro" H 9170 2000 20  0000 C CNN
+F 0 "R10" H 9150 2000 25  0000 C CNN
+F 1 "1 k" H 9150 1900 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8930 1900 60  0001 C CNN
 F 3 "" H 9030 2000 60  0000 C CNN
 F 4 "0.1" H 9100 2100 60  0001 C CNN "Rated Power [W]"
@@ -1371,8 +1370,8 @@ F 1 "Optocoupler" H 9775 2615 30  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 9700 3100 60  0001 C CNN
 F 3 "" H 9750 2950 60  0000 C CNN
 F 4 "xxxx" H 9650 3200 60  0001 C CNN "Part Number"
-F 5 "MMMM" H 9650 3300 60  0001 C CNN "Manufacturer"
-F 6 "yes" H 9650 3400 60  0001 C CNN "Placed Onboard?"
+F 5 "yes" H 9650 3400 60  0001 C CNN "Placed Onboard?"
+F 6 "MOC3021M" H 9650 2800 50  0001 C CNN "manf#"
 	1    9650 2800
 	1    0    0    -1  
 $EndComp
@@ -1402,8 +1401,8 @@ $Comp
 L std_board-rescue:R_Micro-thmalmeida R13
 U 1 1 5D5FE185
 P 9100 2650
-F 0 "R13" H 9030 2700 25  0000 C CNN
-F 1 "R_Micro" H 9170 2700 20  0000 C CNN
+F 0 "R13" H 9150 2700 25  0000 C CNN
+F 1 "680" H 9150 2600 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8930 2600 60  0001 C CNN
 F 3 "" H 9030 2700 60  0000 C CNN
 F 4 "0.1" H 9100 2800 60  0001 C CNN "Rated Power [W]"
@@ -1443,14 +1442,14 @@ F 1 "Jumper" H 9325 2800 20  0000 C CNN
 F 2 "thmalmeida:J_0603" H 9275 2750 60  0001 C CNN
 F 3 "" H 9275 2750 60  0000 C CNN
 	1    9250 2750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L std_board-rescue:R_Micro-thmalmeida R15
 U 1 1 5D5FE1C6
 P 9100 2850
-F 0 "R15" H 9030 2900 25  0000 C CNN
-F 1 "R_Micro" H 9170 2900 20  0000 C CNN
+F 0 "R15" H 9150 2900 25  0000 C CNN
+F 1 "1 k" H 9150 2800 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8930 2800 60  0001 C CNN
 F 3 "" H 9030 2900 60  0000 C CNN
 F 4 "0.1" H 9100 3000 60  0001 C CNN "Rated Power [W]"
@@ -1842,7 +1841,7 @@ $Comp
 L std_board-rescue:Led_Micro-thmalmeida D3
 U 1 1 63A66F3B
 P 9250 3000
-F 0 "D3" V 9229 3053 25  0000 L CNN
+F 0 "D3" V 9200 2950 25  0000 L CNN
 F 1 "Led_Micro" V 9276 3053 20  0000 L CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9240 2900 60  0001 C CNN
 F 3 "" H 9250 3000 60  0000 C CNN
@@ -2073,7 +2072,7 @@ L std_board-rescue:R_Micro-thmalmeida R5
 U 1 1 5EF94A3F
 P 9100 1050
 F 0 "R5" H 9150 1100 25  0000 C CNN
-F 1 "470" H 9150 1000 20  0000 C CNN
+F 1 "1 k" H 9150 1000 20  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8930 1000 60  0001 C CNN
 F 3 "" H 9030 1100 60  0000 C CNN
 F 4 "0.1" H 9100 1200 60  0001 C CNN "Rated Power [W]"
@@ -4750,15 +4749,15 @@ T1_in
 $Comp
 L thmalmeida:ESP32 IC1
 U 1 1 6140C67D
-P 5150 1750
-F 0 "IC1" H 5150 3015 50  0000 C CNN
-F 1 "ESP32" H 5150 2924 50  0000 C CNN
-F 2 "thmalmeida:ESP32_DEVKIT" H 5200 2950 60  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 4900 1000 60  0001 C CNN
-F 4 "Espressif" H 5250 3200 60  0001 C CNN "Manufacturer"
-F 5 "ESP-WROOM-32" H 5250 3100 60  0001 C CNN "Partnumber"
-F 6 "https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf" H 5150 1750 50  0001 C CNN "Technical Manual"
-	1    5150 1750
+P 5150 1800
+F 0 "IC1" H 5150 3065 50  0000 C CNN
+F 1 "ESP32" H 5150 2974 50  0000 C CNN
+F 2 "thmalmeida:ESP32_DEVKIT" H 5200 3000 60  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 4900 1050 60  0001 C CNN
+F 4 "Espressif" H 5250 3250 60  0001 C CNN "Manufacturer"
+F 5 "ESP-WROOM-32" H 5250 3150 60  0001 C CNN "Partnumber"
+F 6 "https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf" H 5150 1800 50  0001 C CNN "Technical Manual"
+	1    5150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4885,4 +4884,38 @@ Text GLabel 1200 900  2    39   Input ~ 8
 P03
 Text GLabel 3250 1100 0    39   Input ~ 8
 P03
+Text Label 7800 3250 2    39   ~ 0
++5V
+Wire Wire Line
+	7800 3300 7800 3250
+Wire Wire Line
+	7800 4100 7800 4150
+$Comp
+L std_board-rescue:GND0-thmalmeida #PWR026
+U 1 1 61A8D185
+P 7800 4150
+F 0 "#PWR026" H 7800 3900 50  0001 C CNN
+F 1 "GND0" H 7875 4100 28  0000 C CNN
+F 2 "" H 7800 4150 60  0000 C CNN
+F 3 "" H 7800 4150 60  0000 C CNN
+	1    7800 4150
+	-1   0    0    -1  
+$EndComp
+Text Label 8200 3600 0    45   ~ 9
+SDA
+Text Label 8200 3500 0    45   ~ 9
+SCL
+Wire Wire Line
+	7500 3600 7450 3600
+$Comp
+L thmalmeida:ADS1x15_module M1
+U 1 1 616C1D9A
+P 7800 3700
+F 0 "M1" H 7600 4050 40  0000 C CNN
+F 1 "ADS1x15_module" H 8100 4050 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8300 4350 40  0001 C CNN
+F 3 "" H 8300 4350 40  0001 C CNN
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

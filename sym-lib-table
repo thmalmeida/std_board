@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name std_board-rescue)(type Legacy)(uri ${KIPRJMOD}/std_board-rescue.lib)(options "")(descr ""))
+  (lib (name "std_board-rescue")(type "KiCad")(uri "${KIPRJMOD}/std_board-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "thmalmeida")(type "KiCad")(uri "/home/thmalmeida/Acervo/Dropbox/Circuits/KiCad-lib/thmalmeida.kicad_sym")(options "")(descr ""))
 )

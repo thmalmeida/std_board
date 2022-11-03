@@ -1,0 +1,3653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/thmalmeida/Acervo/Dropbox/Circuits/ESP32/design/std_board/std_board.sch</source>
+    <date>sex 12 nov 2021 16:19:44</date>
+    <tool>Eeschema 5.99.0+really5.1.10+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>std_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570B1454</tstamp>
+    </comp>
+    <comp ref="Opto1">
+      <value>Optocoupler</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <fields>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Optocoupler-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570B1468</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570B14A9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>39</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570D4FDC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D529</tstamp>
+    </comp>
+    <comp ref="VR3">
+      <value>VR_Micro</value>
+      <footprint>Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">no</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Rated Voltage [V]">120</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="VR_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D560</tstamp>
+    </comp>
+    <comp ref="24Vac_In1">
+      <value>PowerSupply</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="Connector_2-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D585</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TRIAC_Micro</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">BT136</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="TRIAC_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570B1449</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MSMD0805-050</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">0.5</field>
+        <field name="Rated Voltage [V]">6</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Fuse-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571828FB</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57185A9C</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>3.3 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57206AAB</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>ACS712</value>
+      <footprint>Package_SO:SO-8_5.3x6.2mm_P1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer">Allegro</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">ACS712</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">20</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="ACS712-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5720B807</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5743567B</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>120 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574358F7</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>180 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57435B5E</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>6.8 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574CEE6D</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>47 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D4EDA</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D538B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>47 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D5628</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>47 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D5B53</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>56 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D5F32</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>56 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D6343</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>56 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D6600</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>56 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D6AC5</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>33 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D7CDD</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>560 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D739B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>560 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D6D14</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>220 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EBE6EA</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EBE699</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>220 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EAF888</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>33 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EA1A7F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E8B6D5</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EBE6DD</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>33 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B25AA</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>560 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B25B9</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>560 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B25C8</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>220 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B260C</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B2637</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>220 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B2654</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>33 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B266D</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B268E</tstamp>
+    </comp>
+    <comp ref="T7">
+      <value>NPN_MMBT222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="NPN-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B269C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>360</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DD3D</tstamp>
+    </comp>
+    <comp ref="Opto2">
+      <value>Optocoupler</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <fields>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="manf#">MOC3021M</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Optocoupler-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DD59</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DD86</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DD96</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>TRIAC_Micro</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="TRIAC_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DDAE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DDB8</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53DDC7</tstamp>
+    </comp>
+    <comp ref="Opto3">
+      <value>Optocoupler</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <fields>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="manf#">MOC3021M</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Optocoupler-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE158</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE185</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE195</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE1B7</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE1C6</tstamp>
+    </comp>
+    <comp ref="T4">
+      <value>NPN_MMBT222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="NPN-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8F9297</tstamp>
+    </comp>
+    <comp ref="T5">
+      <value>NPN_MMBT222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="NPN-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8F99F5</tstamp>
+    </comp>
+    <comp ref="T6">
+      <value>NPN_MMBT222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="NPN-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8FA0D2</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9400FE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D94055F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10 nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.5mm_W4.3mm_P10.00mm_MKT</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9F7E0F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10 nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.5mm_W4.3mm_P10.00mm_MKT</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9F8396</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10 nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.5mm_W4.3mm_P10.00mm_MKT</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9F884D</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>J_PRess</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD3C702</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Diode</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">10</field>
+        <field name="Reverse voltage [V]">350</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Diode-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9717D7</tstamp>
+    </comp>
+    <comp ref="+5V_In2">
+      <value>+5V</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="Conn_2_thm-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF67572</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>120 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC7E39</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>180 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC7E48</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC7E52</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5720D846</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5720E720</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574366EA</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>2.2 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5720627C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Led_Micro</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power  [W]">1 m</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Led_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A66F3B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Led_Micro</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power  [W]">1 m</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Led_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A6766C</tstamp>
+    </comp>
+    <comp ref="BMP280_1">
+      <value>BMP280</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">no</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CONN_4X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC159CA</tstamp>
+    </comp>
+    <comp ref="DHT11_1">
+      <value>DHT11</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">no</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CONN_4X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC50763</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>J_DHT11</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC8AD71</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>R_Micro</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE26DD8</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R_Micro</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE26FF4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Led_Micro</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power  [W]">1 m</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Led_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>637DD3E3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570F3C14</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570F405A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47 nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6BD288</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF94A3F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBAE004</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47 nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F052EE4</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>360</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE13C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F868404</tstamp>
+    </comp>
+    <comp ref="T3">
+      <value>TRIAC_Micro</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="TRIAC_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5FE1AD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>47 nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A227C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Diode</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">10</field>
+        <field name="Reverse voltage [V]">350</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Diode-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604A4A54</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>70 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604A6903</tstamp>
+    </comp>
+    <comp ref="LevelSens_1">
+      <value>levelSensors</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-5_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="CONN_5X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6060D2B3</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D93FBD5</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>120 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB23E80</tstamp>
+    </comp>
+    <comp ref="Temp1">
+      <value>DS18B20</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="std_board-rescue" part="CONN_3X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4429FA</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>4.7 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D802F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Led_Micro</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power  [W]">1 m</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Led_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A68A37</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EF12B9</tstamp>
+    </comp>
+    <comp ref="PRess1">
+      <value>pressureSensor</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="std_board-rescue" part="CONN_3X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA96D4</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C864E</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>12 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C866A</tstamp>
+    </comp>
+    <comp ref="PRess2">
+      <value>pressureSensor</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="std_board-rescue" part="CONN_3X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C868F</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>I_sens</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Module">MMMM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">I</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="I_sens-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F858CBB</tstamp>
+    </comp>
+    <comp ref="LS2">
+      <value>I_sens</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Module">MMMM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">I</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="I_sens-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F85948C</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604BD3F5</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>AMS1117-V</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <fields>
+        <field name="Manufacturer">AMS</field>
+        <field name="Module">power_source</field>
+        <field name="Part Number">AMS1117-V</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">12</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="AMS1117-V-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084374A</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>L78L05</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <fields>
+        <field name="Dropout Voltage [V]">1.7</field>
+        <field name="Manufacturer">ST</field>
+        <field name="Module">power_source</field>
+        <field name="Part Number">L78L05ACU</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">100 mA</field>
+        <field name="Rated Voltage [V]">30</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="L78L05-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60845C13</tstamp>
+    </comp>
+    <comp ref="E4">
+      <value>ScrewHole</value>
+      <footprint>thmalmeida:ScrewHole_4.2mm</footprint>
+      <libsource lib="std_board-rescue" part="ScrewHole-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D584</tstamp>
+    </comp>
+    <comp ref="E3">
+      <value>ScrewHole</value>
+      <footprint>thmalmeida:ScrewHole_4.2mm</footprint>
+      <libsource lib="std_board-rescue" part="ScrewHole-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D583</tstamp>
+    </comp>
+    <comp ref="E2">
+      <value>ScrewHole</value>
+      <footprint>thmalmeida:ScrewHole_4.2mm</footprint>
+      <libsource lib="std_board-rescue" part="ScrewHole-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D582</tstamp>
+    </comp>
+    <comp ref="E1">
+      <value>ScrewHole</value>
+      <footprint>thmalmeida:ScrewHole_4.2mm</footprint>
+      <libsource lib="std_board-rescue" part="ScrewHole-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5710D581</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4.7 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60926F32</tstamp>
+    </comp>
+    <comp ref="DS3231_1">
+      <value>DS3231_1</value>
+      <footprint>thmalmeida:DS3231_module_vertical</footprint>
+      <libsource lib="std_board-rescue" part="CONN_6X1-thmalmeida-std_board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D9A19</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L_Micro</value>
+      <footprint>Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+        <field name="Tolerance [%]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="L_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8613BC</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861C44</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F85A4F6</tstamp>
+    </comp>
+    <comp ref="ACS712_1">
+      <value>ACS712_Module</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="std_board-rescue" part="CONN_3X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F768506</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAAC269</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FED663D</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF048F2</tstamp>
+    </comp>
+    <comp ref="iSensConn_0">
+      <value>sensConn</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="Connector_2-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B39DB</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605D8BF6</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605D8BFF</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60640B30</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60640B36</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>VR_Micro</value>
+      <footprint>Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">no</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Rated Voltage [V]">120</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="VR_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8FCFCA</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MSMD0805-050</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">0.5</field>
+        <field name="Rated Voltage [V]">6</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Fuse-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8FB00F</tstamp>
+    </comp>
+    <comp ref="AC_Output1">
+      <value>Driver_AC_1</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-6_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="CONN_6X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8FE754</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>180 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB23190</tstamp>
+    </comp>
+    <comp ref="T9">
+      <value>NPN_MMBT222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="NPN-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE99580</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2.2 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA569F</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>47 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC5E73</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC8488</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC8AD0</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC9023</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC94F4</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC998C</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC9DF6</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>100 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FECCC39</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60530C98</tstamp>
+    </comp>
+    <comp ref="currentSource_1">
+      <value>Connector_2</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="Connector_2-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60720437</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>22 uF</value>
+      <footprint>thmalmeida:C3_elec_5x4.5_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">vv</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD53AEC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47 uF</value>
+      <footprint>thmalmeida:C4_elec_7x6.7_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">vv</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD5FFD2</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDA69B8</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FBC2F</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>22 uF</value>
+      <footprint>thmalmeida:C4_elec_7x6.7_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">vv</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600412B1</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>2.2 uF</value>
+      <footprint>thmalmeida:C4_elec_7x6.7_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">vv</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60153018</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10 uF</value>
+      <footprint>thmalmeida:C4_elec_7x6.7_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">35 V</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600ADC51</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100 uF</value>
+      <footprint>thmalmeida:C4_elec_7x6.7_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">16 V</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600AE3F8</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC7E2A</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>13 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">1</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F42C9</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>2.05 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">1</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F6B44</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>3.3 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F75B6</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>UF4005</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">10</field>
+        <field name="Reverse voltage [V]">350</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Diode-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FAC18</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4005GP</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mmmm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Current [A]">10</field>
+        <field name="Reverse voltage [V]">350</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Diode-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FB9AA</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FC4EB</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>1 mH</value>
+      <footprint>Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+        <field name="Tolerance [%]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="L_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6003EB59</tstamp>
+    </comp>
+    <comp ref="J43">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004C283</tstamp>
+    </comp>
+    <comp ref="J38">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <fields>
+        <field name="Spice_Model">Jumper</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60316B2E</tstamp>
+    </comp>
+    <comp ref="J42">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604564FB</tstamp>
+    </comp>
+    <comp ref="J39">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6051D19B</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>4.7 uF</value>
+      <footprint>thmalmeida:C3_elec_5x4.5_pth</footprint>
+      <fields>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">400 V</field>
+        <field name="Tolerance [%]">10</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="CP_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A79792</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L_Micro</value>
+      <footprint>Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P</footprint>
+      <fields>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">xx</field>
+        <field name="Tolerance [%]">xx</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="L_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6DA497</tstamp>
+    </comp>
+    <comp ref="J40">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61214B79</tstamp>
+    </comp>
+    <comp ref="J37">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614277DE</tstamp>
+    </comp>
+    <comp ref="J41">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6166A574</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LNK306</value>
+      <footprint>Package_DIP:PowerIntegrations_SMD-8B</footprint>
+      <fields>
+        <field name="Manufacturer">M</field>
+        <field name="Partnumber">pppp</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">600</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="LNK306-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619C1952</tstamp>
+    </comp>
+    <comp ref="J44">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ABE573</tstamp>
+    </comp>
+    <comp ref="JTAG1">
+      <value>JTAG_CONN-06_adapted</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="std_board-rescue" part="JTAG_CONN-06_adapted-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606DF9E6</tstamp>
+    </comp>
+    <comp ref="Inputs1">
+      <value>CONN_5X1</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-5_P5.08mm</footprint>
+      <libsource lib="std_board-rescue" part="CONN_5X1-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60507AF3</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>3.3 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB22108</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>1 M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB214E0</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>10 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C44322</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>10 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C4F128</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F856A</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6149165D</tstamp>
+    </comp>
+    <comp ref="Rectifier1">
+      <value>DF10S</value>
+      <footprint>Package_TO_SOT_SMD:TO-269AA</footprint>
+      <fields>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Part Number">DF10S</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="Bridge_Rectifier-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AD3EDD</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>220 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F147A4</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F16956</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62F4E866</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DB663E</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6161FE71</tstamp>
+    </comp>
+    <comp ref="J45">
+      <value>Jumper</value>
+      <footprint>thmalmeida:J_0603</footprint>
+      <libsource lib="std_board-rescue" part="Jumper-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F219DE</tstamp>
+    </comp>
+    <comp ref="T8">
+      <value>PNP_2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <fields>
+        <field name="Manufacturer">yyyy</field>
+        <field name="Part Number">xxxx</field>
+      </fields>
+      <libsource lib="thmalmeida" part="PNP_TO-92" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612DC525</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ESP32</value>
+      <footprint>thmalmeida:ESP32_DEVKIT</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Espressif</field>
+        <field name="Partnumber">ESP-WROOM-32</field>
+        <field name="Technical Manual">https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf</field>
+      </fields>
+      <libsource lib="thmalmeida" part="ESP32" description="ESP32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6140C67D</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>6.8 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB847F</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>6.8 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C865F</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>6.8 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620BF2BE</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>12 k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+      </fields>
+      <libsource lib="std_board-rescue" part="R_Micro-thmalmeida" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574CF0F4</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>ADS1x15_module</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="thmalmeida" part="ADS1x15_module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616C1D9A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="std_board-rescue" part="ACS712-thmalmeida">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ACS712-thmalmeida</field>
+        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+        <field name="Rated Current [A]">20</field>
+        <field name="Part Number">ACS712</field>
+        <field name="Manufacturer">Allegro</field>
+        <field name="Module">xx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="input"/>
+        <pin num="2" name="IP+" type="input"/>
+        <pin num="3" name="IP-" type="input"/>
+        <pin num="4" name="IP-" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Filter" type="input"/>
+        <pin num="7" name="VIOUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="AMS1117-V-thmalmeida">
+      <footprints>
+        <fp>SOT23</fp>
+        <fp>SOT23-5</fp>
+        <fp>SOT23-6</fp>
+        <fp>SOT223</fp>
+        <fp>SON8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AMS1117-V-thmalmeida</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223</field>
+        <field name="Manufacturer">AMS</field>
+        <field name="Module">power_source</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">12</field>
+        <field name="Part Number">AMS1117-V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="OUT" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Bridge_Rectifier-thmalmeida">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+        <fp>SLP1006P2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Rectifier</field>
+        <field name="Value">Bridge_Rectifier-thmalmeida</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-269AA</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Positive" type="power_out"/>
+        <pin num="2" name="Negative" type="power_out"/>
+        <pin num="3" name="AC_Input" type="input"/>
+        <pin num="4" name="AC_Input" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="CONN_3X1-thmalmeida">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">CONN_3X1-thmalmeida</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="CONN_4X1-thmalmeida">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">CONN_4X1-thmalmeida</field>
+        <field name="Footprint">Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">MM</field>
+        <field name="Module">mm</field>
+        <field name="Placed Onboard?">no</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="CONN_5X1-thmalmeida">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">CONN_5X1-thmalmeida</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-5_P5.08mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="CONN_6X1-thmalmeida">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">CONN_6X1-thmalmeida</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-6_P5.08mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="CONN_6X1-thmalmeida-std_board-rescue">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">CONN_6X1-thmalmeida-std_board-rescue</field>
+        <field name="Footprint">Pin_Headers:Pin_Header_Straight_1x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="CP_Micro-thmalmeida">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Micro-thmalmeida</field>
+        <field name="Footprint">thmalmeida:C3_elec_5x4.5_pth</field>
+        <field name="Rated Voltage [V]">vv</field>
+        <field name="Tolerance [%]">10</field>
+        <field name="Part Number">pppp</field>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Module">MM</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Micro-RESCUE-[GenericBoard]_standard_pcb-[GenericBoard]-standard-pcb-rescue</field>
+        <field name="Rated Voltage [V]">xx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Conn_2_thm-thmalmeida">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Conn_2_thm-thmalmeida</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Connector_2-thmalmeida">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Connector_2-thmalmeida</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="BiDi"/>
+        <pin num="2" name="S2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Diode-thmalmeida">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Diode-thmalmeida</field>
+        <field name="Reverse voltage [V]">350</field>
+        <field name="Rated Current [A]">10</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">MM</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Module">mmmm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Anode" type="passive"/>
+        <pin num="2" name="-Cathode" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Fuse-thmalmeida">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse-thmalmeida</field>
+        <field name="Footprint">Resistors_SMD:R_1812</field>
+        <field name="Rated Voltage [V]">6</field>
+        <field name="Rated Current [A]">0.5</field>
+        <field name="Part Number">MSMD0805-050</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="I_sens-thmalmeida">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">I_sens-thmalmeida</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</field>
+        <field name="Rated Current [A]">I</field>
+        <field name="Part Number">pppp</field>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Module">MMMM</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="JTAG_CONN-06_adapted-thmalmeida">
+      <fields>
+        <field name="Reference">JTAG</field>
+        <field name="Value">JTAG_CONN-06_adapted-thmalmeida</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref/3V3" type="power_in"/>
+        <pin num="2" name="nTRST" type="passive"/>
+        <pin num="3" name="TDI" type="passive"/>
+        <pin num="4" name="TMS" type="passive"/>
+        <pin num="5" name="TCK" type="passive"/>
+        <pin num="6" name="TDO" type="passive"/>
+        <pin num="7" name="+5V" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Jumper-thmalmeida">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jumper-thmalmeida</field>
+        <field name="Footprint">thmalmeida:J_0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="L78L05-thmalmeida">
+      <footprints>
+        <fp>SOT23</fp>
+        <fp>SOT23-5</fp>
+        <fp>SOT23-6</fp>
+        <fp>SOT223</fp>
+        <fp>SON8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">L78L05-thmalmeida</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Manufacturer">ST</field>
+        <field name="Module">power_source</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Voltage [V]">30</field>
+        <field name="Part Number">L78L05ACU</field>
+        <field name="Rated Current [A]">100 mA</field>
+        <field name="Dropout Voltage [V]">1.7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="LNK306-thmalmeida">
+      <footprints>
+        <fp>SOT23</fp>
+        <fp>SOT23-5</fp>
+        <fp>SOT23-6</fp>
+        <fp>SOT223</fp>
+        <fp>SON8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LNK306-thmalmeida</field>
+        <field name="Footprint">Package_DIP:PowerIntegrations_SMD-8B</field>
+        <field name="Rated Voltage [V]">600</field>
+        <field name="Partnumber">pppp</field>
+        <field name="Manufacturer">M</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="BP" type="passive"/>
+        <pin num="4" name="FB" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="7" name="S" type="passive"/>
+        <pin num="8" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="L_Micro-thmalmeida">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Micro-thmalmeida</field>
+        <field name="Footprint">Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P</field>
+        <field name="Rated Voltage [V]">xx</field>
+        <field name="Tolerance [%]">xx</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacture">yyyy</field>
+        <field name="Module">xxx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Led_Micro-thmalmeida">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Micro-thmalmeida</field>
+        <field name="Footprint">LEDs:LED-5MM</field>
+        <field name="Manufacturer">MM</field>
+        <field name="Part Number">pppp</field>
+        <field name="Module">mmmm</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Rated Power  [W]">1 m</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Anode" type="passive"/>
+        <pin num="2" name="-Catode" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="NPN-thmalmeida">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">NPN-thmalmeida</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+        <field name="Part Number">pppp</field>
+        <field name="Manufacturer">mmmm</field>
+        <field name="Placed Onboard?">yes</field>
+        <field name="Module">MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="input"/>
+        <pin num="3" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="Optocoupler-thmalmeida">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+        <fp>SLP1006P2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Opto</field>
+        <field name="Value">Optocoupler-thmalmeida</field>
+        <field name="Footprint">Housings_DIP:DIP-6_W7.62mm</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode" type="passive"/>
+        <pin num="2" name="Cathode" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="6" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="R_Micro-thmalmeida">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Micro-thmalmeida</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Tolerance [%]">5</field>
+        <field name="Part Number">MCT08050F1001C</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="ScrewHole-thmalmeida">
+      <fields>
+        <field name="Reference">E</field>
+        <field name="Value">ScrewHole-thmalmeida</field>
+        <field name="Footprint">thmalmeida:ScrewHole_4.2mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="std_board-rescue" part="TRIAC_Micro-thmalmeida">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+        <fp>SLP1006P2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRIAC_Micro-thmalmeida</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Neutral123_Vertical</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">MMMM</field>
+        <field name="Placed Onboard?">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="std_board-rescue" part="VR_Micro-thmalmeida">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">VR_Micro-thmalmeida</field>
+        <field name="Footprint">Varistors:RV_Disc_D12_W3.9_P7.5</field>
+        <field name="Rated Power [W]">0.1</field>
+        <field name="Rated Voltage [V]">120</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Module">xx</field>
+        <field name="Placed Onboard?">no</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="thmalmeida" part="ADS1x15_module">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">ADS1x15_module</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="ADDR" type="input"/>
+        <pin num="6" name="ALERT/RDY" type="output"/>
+        <pin num="7" name="AIN0" type="input"/>
+        <pin num="8" name="AIN1" type="input"/>
+        <pin num="9" name="AIN2" type="input"/>
+        <pin num="10" name="AIN3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="thmalmeida" part="ESP32">
+      <description>ESP32</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32</field>
+        <field name="Footprint">thmalmeida:ESP32_DEVKIT</field>
+        <field name="Manufacturer">Espressif</field>
+        <field name="Partnumber">ESP-WROOM-32</field>
+        <field name="Technical Manual">https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="RST/JTAG_RST/CHIP-PU" type="input"/>
+        <pin num="3" name="GPIO36/ADC1_0/SensVP/ADC_PA/RTCIO_0" type="input"/>
+        <pin num="4" name="GPIO39/ADC1_3/SensVN/RTCIO-3/ADC-PA" type="input"/>
+        <pin num="5" name="GPIO34/ADC1_6/VDET-1/RTCIO4" type="input"/>
+        <pin num="6" name="GPIO35/ADC1_7" type="input"/>
+        <pin num="7" name="GPIO32/ADC1_4" type="BiDi"/>
+        <pin num="8" name="GPIO33/ADC1_5/TOUCH8/XTAL32" type="BiDi"/>
+        <pin num="9" name="GPIO25/ADC2_8/DAC_1" type="BiDi"/>
+        <pin num="10" name="GPIO26/ADC2_9/DAC_2" type="BiDi"/>
+        <pin num="11" name="GPIO27/ADC2_7" type="BiDi"/>
+        <pin num="12" name="GPIO14/ADC2_6/TMS" type="BiDi"/>
+        <pin num="13" name="GPIO12/ADC2_5/TDI" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO13/ADC2_4/TCK" type="BiDi"/>
+        <pin num="16" name="GPIO09/SD2/U1_RXD/FLASH-D2" type="NotConnected"/>
+        <pin num="17" name="GPIO10/SD3/U1_TXD/FLASH-D3" type="NotConnected"/>
+        <pin num="18" name="GPIO11/SPI_CS0/U1_RTS/HS1_CMD/SD_CMD/FLASH-CMD" type="NotConnected"/>
+        <pin num="19" name="5V5" type="power_in"/>
+        <pin num="20" name="FLASH-SCK/GPIO06" type="NotConnected"/>
+        <pin num="21" name="FLASH-D0/GPIO07" type="NotConnected"/>
+        <pin num="22" name="FLASH-D1/GPIO08" type="NotConnected"/>
+        <pin num="23" name="TDO/ADC2_3/GPIO15" type="BiDi"/>
+        <pin num="24" name="OnBoard_LED/ADC2_2/GPIO02" type="NotConnected"/>
+        <pin num="25" name="ADC2_1/GPIO00" type="BiDi"/>
+        <pin num="26" name="ADC2_0/GPIO04" type="BiDi"/>
+        <pin num="27" name="U2_RXD/GPIO16" type="BiDi"/>
+        <pin num="28" name="U2_TXD/GPIO17" type="BiDi"/>
+        <pin num="29" name="SPI_SS/GPIO05" type="BiDi"/>
+        <pin num="30" name="SPI_SCK/GPIO18_(32)" type="BiDi"/>
+        <pin num="31" name="SPI_MISO/GPIO19_(33)" type="BiDi"/>
+        <pin num="32" name="GND_(34)" type="power_in"/>
+        <pin num="33" name="Wire_SDA/GPIO21_(35)" type="BiDi"/>
+        <pin num="34" name="PROGRAM-PORT/U0_RXD/GPIO03_(36)" type="NotConnected"/>
+        <pin num="35" name="PROGRAM-PORT/U0_TXD/GPIO01_(37)" type="NotConnected"/>
+        <pin num="36" name="U0_RTS/WIRE-SDL/GPIO22" type="BiDi"/>
+        <pin num="37" name="SPI_MOSI/GPIO23" type="BiDi"/>
+        <pin num="38" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="thmalmeida" part="PNP_TO-92">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">PNP_TO-92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92</field>
+        <field name="Part Number">xxxx</field>
+        <field name="Manufacturer">yyyy</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="B" type="output"/>
+        <pin num="3" name="C" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="std_board-rescue">
+      <uri>/home/thmalmeida/Acervo/Dropbox/Circuits/ESP32/design/std_board/std_board-rescue.lib</uri>
+    </library>
+    <library logical="thmalmeida">
+      <uri>/home/thmalmeida/Acervo/Dropbox/Circuits/[KiCad] Libraries/lib/thmalmeida.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V">
+      <node ref="J37" pin="1"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="PRess1" pin="1"/>
+      <node ref="ACS712_1" pin="1"/>
+      <node ref="PRess2" pin="1"/>
+      <node ref="JTAG1" pin="7"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="IC1" pin="19"/>
+      <node ref="J16" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J35" pin="1"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="2" name="Net-(T8-Pad3)">
+      <node ref="T8" pin="3"/>
+      <node ref="currentSource_1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C27-Pad1)">
+      <node ref="Rectifier1" pin="1"/>
+      <node ref="J33" pin="1"/>
+      <node ref="J40" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="4" name="/PRess_1">
+      <node ref="C16" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R65" pin="1"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="5" name="Net-(R19-Pad1)">
+      <node ref="T9" pin="3"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R24-Pad1)">
+      <node ref="T8" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R40-Pad2)">
+      <node ref="R40" pin="2"/>
+      <node ref="T9" pin="1"/>
+    </net>
+    <net code="8" name="/DAC_1">
+      <node ref="R40" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="IC1" pin="32"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R50" pin="1"/>
+      <node ref="+5V_In2" pin="2"/>
+      <node ref="R61" pin="2"/>
+      <node ref="T9" pin="2"/>
+      <node ref="M1" pin="2"/>
+      <node ref="R66" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="Rectifier1" pin="2"/>
+      <node ref="DS3231_1" pin="1"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="ACS712_1" pin="3"/>
+      <node ref="PRess2" pin="3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="Temp1" pin="3"/>
+      <node ref="R59" pin="2"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="PRess1" pin="3"/>
+      <node ref="JTAG1" pin="8"/>
+      <node ref="Inputs1" pin="1"/>
+      <node ref="Opto3" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="Opto2" pin="2"/>
+      <node ref="T7" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="IC1" pin="38"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R75" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R60" pin="2"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R65" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Opto1" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R57" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="R43" pin="1"/>
+      <node ref="DHT11_1" pin="4"/>
+      <node ref="J10" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="J43" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="T4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="T5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R54" pin="1"/>
+      <node ref="T6" pin="2"/>
+      <node ref="R55" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="BMP280_1" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="10" name="/ADC_1">
+      <node ref="J24" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="currentSource_1" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="11" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+      <node ref="J42" pin="1"/>
+      <node ref="J35" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C25-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C29-Pad1)">
+      <node ref="L4" pin="2"/>
+      <node ref="J39" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R57" pin="1"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="16" name="/T1_in">
+      <node ref="R23" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="Inputs1" pin="5"/>
+    </net>
+    <net code="17" name="/K3_in">
+      <node ref="C10" pin="1"/>
+      <node ref="IC1" pin="33"/>
+      <node ref="R22" pin="2"/>
+      <node ref="Inputs1" pin="4"/>
+    </net>
+    <net code="18" name="P13">
+      <node ref="JTAG1" pin="3"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="J26" pin="1"/>
+    </net>
+    <net code="19" name="P12">
+      <node ref="J25" pin="1"/>
+      <node ref="IC1" pin="12"/>
+      <node ref="JTAG1" pin="4"/>
+    </net>
+    <net code="20" name="/L2_in">
+      <node ref="T5" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="21" name="/FLASH_D2">
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="22" name="/FLASH_D3">
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="23" name="/FLASH_CMD">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="24" name="/K3_out">
+      <node ref="R15" pin="1"/>
+      <node ref="IC1" pin="29"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="25" name="/K2_out">
+      <node ref="R8" pin="2"/>
+      <node ref="IC1" pin="30"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="26" name="/K1_out">
+      <node ref="R5" pin="1"/>
+      <node ref="IC1" pin="31"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="27" name="/K2_in">
+      <node ref="R21" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="Inputs1" pin="3"/>
+      <node ref="IC1" pin="36"/>
+    </net>
+    <net code="28" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="J17" pin="1"/>
+      <node ref="J18" pin="1"/>
+    </net>
+    <net code="29" name="Net-(IC2-Pad6)">
+      <node ref="J18" pin="2"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="30" name="/iSensor2">
+      <node ref="LS2" pin="1"/>
+      <node ref="J22" pin="2"/>
+      <node ref="ACS712_1" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R48" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J17" pin="2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="31" name="/L3_in">
+      <node ref="R31" pin="1"/>
+      <node ref="T6" pin="3"/>
+      <node ref="J25" pin="2"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="32" name="/L4_in">
+      <node ref="T7" pin="3"/>
+      <node ref="J26" pin="2"/>
+      <node ref="J12" pin="1"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="33" name="/PRess_2">
+      <node ref="R75" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C30" pin="1"/>
+      <node ref="R74" pin="2"/>
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="34" name="/IP-">
+      <node ref="iSensConn_0" pin="2"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="35" name="/IP+">
+      <node ref="iSensConn_0" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="36" name="/Load03">
+      <node ref="C6" pin="2"/>
+      <node ref="T3" pin="1"/>
+      <node ref="AC_Output1" pin="3"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="37" name="P15">
+      <node ref="IC1" pin="15"/>
+      <node ref="J19" pin="1"/>
+      <node ref="JTAG1" pin="5"/>
+    </net>
+    <net code="38" name="/Power_AC">
+      <node ref="F1" pin="2"/>
+      <node ref="J36" pin="2"/>
+      <node ref="AC_Output1" pin="4"/>
+    </net>
+    <net code="39" name="/Load02">
+      <node ref="AC_Output1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="T2" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="40" name="/Load01">
+      <node ref="C2" pin="2"/>
+      <node ref="AC_Output1" pin="1"/>
+      <node ref="J20" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="41" name="/Common">
+      <node ref="VR1" pin="2"/>
+      <node ref="R64" pin="1"/>
+      <node ref="J23" pin="2"/>
+      <node ref="AC_Output1" pin="5"/>
+    </net>
+    <net code="42" name="/1wire_Data">
+      <node ref="Temp1" pin="2"/>
+      <node ref="IC1" pin="28"/>
+      <node ref="R76" pin="1"/>
+    </net>
+    <net code="43" name="/SCL">
+      <node ref="IC1" pin="26"/>
+      <node ref="BMP280_1" pin="3"/>
+      <node ref="M1" pin="3"/>
+      <node ref="DS3231_1" pin="4"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="44" name="/SDA">
+      <node ref="R29" pin="2"/>
+      <node ref="BMP280_1" pin="4"/>
+      <node ref="DS3231_1" pin="3"/>
+      <node ref="M1" pin="4"/>
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="45" name="/iSensor1">
+      <node ref="IC1" pin="3"/>
+      <node ref="LS1" pin="1"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="46" name="/Debug_RX">
+      <node ref="R53" pin="1"/>
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="47" name="/FLASH_SCK">
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="48" name="/FLASH_D1">
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="49" name="/FLASH_D0">
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="50" name="P03">
+      <node ref="J24" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J22" pin="1"/>
+    </net>
+    <net code="51" name="/vSensorR">
+      <node ref="R58" pin="1"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="52" name="/Power_AC_2">
+      <node ref="R7" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="T3" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="T2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J36" pin="1"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="T1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="53" name="/Onboard_LED">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="54" name="/V_external">
+      <node ref="J21" pin="1"/>
+      <node ref="AC_Output1" pin="6"/>
+    </net>
+    <net code="55" name="Net-(J15-Pad2)">
+      <node ref="J21" pin="2"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J20" pin="2"/>
+      <node ref="J45" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="56" name="/V_input">
+      <node ref="J31" pin="2"/>
+      <node ref="F3" pin="2"/>
+      <node ref="24Vac_In1" pin="1"/>
+      <node ref="J45" pin="1"/>
+    </net>
+    <net code="57" name="/K1_in">
+      <node ref="IC1" pin="37"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="Inputs1" pin="2"/>
+    </net>
+    <net code="58" name="/USB_RX">
+      <node ref="IC1" pin="34"/>
+    </net>
+    <net code="59" name="/USB_TX">
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="60" name="Net-(C24-Pad1)">
+      <node ref="R59" pin="1"/>
+      <node ref="R45" pin="2"/>
+      <node ref="J23" pin="1"/>
+      <node ref="R64" pin="2"/>
+      <node ref="R58" pin="2"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="61" name="Net-(J34-Pad2)">
+      <node ref="T8" pin="1"/>
+      <node ref="J34" pin="2"/>
+      <node ref="J37" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="62" name="Net-(PRess2-Pad2)">
+      <node ref="PRess2" pin="2"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="63" name="Net-(PRess1-Pad2)">
+      <node ref="R33" pin="1"/>
+      <node ref="PRess1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(M1-Pad7)">
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="65" name="Net-(M1-Pad9)">
+      <node ref="M1" pin="9"/>
+    </net>
+    <net code="66" name="Net-(M1-Pad8)">
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="67" name="Net-(M1-Pad6)">
+      <node ref="M1" pin="6"/>
+    </net>
+    <net code="68" name="Net-(M1-Pad5)">
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="69" name="Net-(M1-Pad10)">
+      <node ref="M1" pin="10"/>
+    </net>
+    <net code="70" name="/C">
+      <node ref="J42" pin="2"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="J44" pin="1"/>
+      <node ref="J39" pin="1"/>
+      <node ref="J34" pin="1"/>
+    </net>
+    <net code="71" name="/B">
+      <node ref="J41" pin="1"/>
+      <node ref="J44" pin="2"/>
+    </net>
+    <net code="72" name="Net-(J38-Pad1)">
+      <node ref="J38" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="73" name="Net-(C25-Pad2)">
+      <node ref="L4" pin="1"/>
+      <node ref="R56" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="74" name="/NRST">
+      <node ref="IC1" pin="2"/>
+      <node ref="JTAG1" pin="2"/>
+    </net>
+    <net code="75" name="/+3.3V">
+      <node ref="Temp1" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="DHT11_1" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="BMP280_1" pin="1"/>
+      <node ref="R76" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R73" pin="1"/>
+      <node ref="DS3231_1" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="R62" pin="1"/>
+      <node ref="JTAG1" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="76" name="/A">
+      <node ref="C7" pin="1"/>
+      <node ref="J41" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="J40" pin="1"/>
+      <node ref="J38" pin="2"/>
+    </net>
+    <net code="77" name="Net-(J32-Pad1)">
+      <node ref="Rectifier1" pin="4"/>
+      <node ref="L1" pin="1"/>
+      <node ref="J32" pin="1"/>
+      <node ref="J33" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="LevelSens_1" pin="1"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="79" name="Net-(J2-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Opto2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D2-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="81" name="/DHT11_data">
+      <node ref="DHT11_1" pin="2"/>
+      <node ref="J19" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="82" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+      <node ref="J31" pin="1"/>
+      <node ref="VR3" pin="1"/>
+      <node ref="J32" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D7-Pad1)">
+      <node ref="J9" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="84" name="/TDO">
+      <node ref="IC1" pin="23"/>
+      <node ref="JTAG1" pin="6"/>
+    </net>
+    <net code="85" name="/32K">
+      <node ref="R62" pin="2"/>
+      <node ref="DS3231_1" pin="6"/>
+    </net>
+    <net code="86" name="/SQW">
+      <node ref="R63" pin="2"/>
+      <node ref="DS3231_1" pin="5"/>
+    </net>
+    <net code="87" name="/L3_probe">
+      <node ref="C14" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="R34" pin="1"/>
+      <node ref="LevelSens_1" pin="4"/>
+    </net>
+    <net code="88" name="Net-(R34-Pad2)">
+      <node ref="T6" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="89" name="/L4_probe">
+      <node ref="LevelSens_1" pin="5"/>
+      <node ref="J12" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="90" name="Net-(R26-Pad2)">
+      <node ref="T5" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="91" name="/L1_in">
+      <node ref="J4" pin="1"/>
+      <node ref="T4" pin="3"/>
+      <node ref="R17" pin="2"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="92" name="/L2_probe">
+      <node ref="J5" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="LevelSens_1" pin="3"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="93" name="/L1_probe">
+      <node ref="C12" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="LevelSens_1" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R25-Pad2)">
+      <node ref="T4" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="95" name="Net-(Opto2-Pad6)">
+      <node ref="R6" pin="1"/>
+      <node ref="Opto2" pin="6"/>
+    </net>
+    <net code="96" name="Net-(Opto2-Pad4)">
+      <node ref="T2" pin="3"/>
+      <node ref="Opto2" pin="4"/>
+    </net>
+    <net code="97" name="Net-(D3-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="98" name="Net-(C5-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="99" name="Net-(J3-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Opto3" pin="1"/>
+    </net>
+    <net code="100" name="Net-(R35-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="T7" pin="1"/>
+    </net>
+    <net code="101" name="Net-(IC2-Pad7)">
+      <node ref="R39" pin="1"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="102" name="Net-(Opto1-Pad4)">
+      <node ref="Opto1" pin="4"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="103" name="Net-(24Vac_In1-Pad2)">
+      <node ref="J43" pin="2"/>
+      <node ref="Rectifier1" pin="3"/>
+      <node ref="24Vac_In1" pin="2"/>
+      <node ref="VR3" pin="2"/>
+    </net>
+    <net code="104" name="Net-(C19-Pad1)">
+      <node ref="LS1" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R60" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="106" name="Net-(Opto3-Pad4)">
+      <node ref="T3" pin="3"/>
+      <node ref="Opto3" pin="4"/>
+    </net>
+    <net code="107" name="Net-(Opto3-Pad6)">
+      <node ref="R11" pin="1"/>
+      <node ref="Opto3" pin="6"/>
+    </net>
+    <net code="108" name="Net-(C6-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="109" name="Net-(Opto1-Pad6)">
+      <node ref="Opto1" pin="6"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="110" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="LS2" pin="2"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R61" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="111" name="Net-(+5V_In2-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="+5V_In2" pin="1"/>
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="112" name="Net-(C1-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="113" name="Net-(C3-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C2-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="115" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D1-Pad1)">
+      <node ref="J1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="117" name="Net-(DHT11_1-Pad3)">
+      <node ref="DHT11_1" pin="3"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="118" name="Net-(J1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Opto1" pin="1"/>
+    </net>
+  </nets>
+</export>

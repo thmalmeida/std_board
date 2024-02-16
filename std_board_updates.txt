@@ -1,5 +1,12 @@
 Logs update changes
 
+# 20240201 - Suggeded connectos
+
+Terminal socket borne - (2EDG)
+Terminal socket borne - 2EDGRKC 5.08MM
+Micro JST 2.0 PH
+XH2.54-2P (3D printer uses this)
+
 # 20210822
 
 Schematic
@@ -14,3 +21,5 @@ Schematic
 Board
 
 - deleted Voltimeter_DSO1 connector
+
+
